@@ -1,2 +1,3 @@
 PING_MESSAGE: 'Ваш пинг: §d{0}'
 PLAYTIME_MESSAGE: 'Вы провели на сервере §a{0}'
+KICK_MESSAGE: 'KICK'
