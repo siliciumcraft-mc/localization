@@ -1,12 +1,12 @@
 PING_MESSAGE: 'Ваш пинг: §d{0}'
 PLAYTIME_MESSAGE: 'Вы провели на сервере §a{0}'
-KICK_MESSAGE: |-
+KICK_MESSAGE: |
   §cВы были кикнуты
   
   §fМодератор: §9{0}
   §fПричина: §a{1}
 
-BAN_MESSAGE: |-
+BAN_MESSAGE: |
   §cВы были забанены
   
   §fМодератор: §9{0}
