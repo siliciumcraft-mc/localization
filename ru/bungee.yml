@@ -12,3 +12,11 @@ BAN_MESSAGE: |-
   §fМодератор: §9{0}
   §fПричина: §a{1}
   §fВремя разбана: §e{2}
+  
+TAB_HEADER: |-
+   §6§lSiliciumCraft
+   §fСайт
+   §eshop.siliciumcraft.com
+TAB_FOOTER: |-
+   §fВы находитесь на сервере
+   §e{0}
