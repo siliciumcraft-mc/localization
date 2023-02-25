@@ -1,0 +1,34 @@
+
+DAMAGE_CAUSE_SUCIDE: '{0}§f решил покончить жизнь самоубийством'
+
+DAMAGE_CAUSE_EXPLOSION: '{0}§f взорвался'
+DAMAGE_CAUSE_EXPLOSION_TO: '{0}§f был взорван игроком {1}'
+
+DAMAGE_CAUSE_CACTUS: '{0}§f исколот до смерти'
+DAMAGE_CAUSE_CACTUS_TO: '{0}§f наткнулся на кактус, спасаясь от {1}'
+
+DAMAGE_CAUSE_SWIM: '{0}§f утонул'
+DAMAGE_CAUSE_SWIM_TO: '{0}§f утонул, спасаясь от {1}'
+
+DAMAGE_CAUSE_DROP: '{0}§f разбился насмерть'
+DAMAGE_CAUSE_DROP_TO: '{0]§f был скинут игроком {1}'
+
+DAMAGE_CAUSE_BURN: '{0}§f сгорел заживо'
+DAMAGE_CAUSE_BURN_TO: '{0}§f был сожжён дотла, пока боролся с {1}'
+
+DAMAGE_CAUSE_SWIM2: '{0]§f решил поплавать в лаве'
+DAMAGE_CAUSE_SWIM2_TO: '{0}§f упал в лаву, убегая от {1}'
+
+DAMAGE_CAUSE_MAGIC: '{0}§f был убит с помощью магии'
+DAMAGE_CAUSE_MAGIC_TO: '{0}§f был убит с помощью магии игроком {1}'
+
+DAMAGE_CAUSE_BOW: '{0}§f застрелен'
+DAMAGE_CAUSE_BOW_TO: '{0}§f застрелен игроком {1}'
+
+DAMAGE_CAUSE_OUT: '{0}§f выпал из мира'
+DAMAGE_CAUSE_OUT_TO: '{0}§f выпал из мира, пока боролся с {1}'
+
+DAMAGE_CAUSE_KILLED: '{0}§f решил покинуть наш мир'
+DAMAGE_CAUSE_KILLED_TO: '{0}§f был убит игроком {1}'
+
+
