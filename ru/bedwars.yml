@@ -16,7 +16,7 @@ DAMAGE_CAUSE_DROP_TO: '{0]§f был скинут игроком {1}'
 DAMAGE_CAUSE_BURN: '{0}§f сгорел заживо'
 DAMAGE_CAUSE_BURN_TO: '{0}§f был сожжён дотла, пока боролся с {1}'
 
-DAMAGE_CAUSE_SWIM2: '{0]§f решил поплавать в лаве'
+DAMAGE_CAUSE_SWIM2: '{0}§f решил поплавать в лаве'
 DAMAGE_CAUSE_SWIM2_TO: '{0}§f упал в лаву, убегая от {1}'
 
 DAMAGE_CAUSE_MAGIC: '{0}§f был убит с помощью магии'
