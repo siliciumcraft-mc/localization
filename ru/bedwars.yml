@@ -1,5 +1,3 @@
-# {prefix} - Game chat messages prefix (i.e. "BedWars ->")
-
 # {deathColor} - Killed player's team color
 # {deathPrefix} - Killed player's prefix
 # {deathName} - Killed player's name
@@ -7,45 +5,46 @@
 # {killerPrefix} - Killer's prefix
 # {killerName} - Killer's name
 
-PREFIX: '§6§lBedWars §r§8▸ '
+# Can be used as {prefix}
+PREFIX: '§6§lBedWars §r§8▸'
 
-DAMAGE_CAUSE_SUCIDE: '{deathColor} L {deathPrefix} {deathName}§f решил покончить жизнь самоубийством'
+DAMAGE_CAUSE_SUCIDE: '{prefix} {deathColor}{deathName}§f решил покончить жизнь самоубийством'
 
-DAMAGE_CAUSE_EXPLOSION: '{0}§f взорвался'
-DAMAGE_CAUSE_EXPLOSION_TO: '{0}§f был взорван игроком {1}'
+DAMAGE_CAUSE_EXPLOSION: '{prefix} {deathColor}{deathName}§f взорвался'
+DAMAGE_CAUSE_EXPLOSION_TO: '{prefix} {deathColor}{deathName}§f был взорван игроком {killerColor}{killerName}'
 
-DAMAGE_CAUSE_CACTUS: '{0}§f исколот до смерти'
-DAMAGE_CAUSE_CACTUS_TO: '{0}§f наткнулся на кактус, спасаясь от {1}'
+DAMAGE_CAUSE_CACTUS: '{prefix} {deathColor}{deathName}§f исколот до смерти'
+DAMAGE_CAUSE_CACTUS_TO: '{prefix} {deathColor}{deathName}§f наткнулся на кактус, спасаясь от {killerColor}{killerName}'
 
-DAMAGE_CAUSE_SWIM: '{0}§f утонул'
-DAMAGE_CAUSE_SWIM_TO: '{0}§f утонул, спасаясь от {1}'
+DAMAGE_CAUSE_SWIM: '{prefix} {deathColor}{deathName}§f утонул'
+DAMAGE_CAUSE_SWIM_TO: '{prefix} {deathColor}{deathName}§f утонул, спасаясь от {killerColor}{killerName}'
 
-DAMAGE_CAUSE_DROP: '{0}§f разбился насмерть'
-DAMAGE_CAUSE_DROP_TO: '{0]§f был скинут игроком {1}'
+DAMAGE_CAUSE_DROP: '{prefix} {deathColor}{deathName}§f разбился насмерть'
+DAMAGE_CAUSE_DROP_TO: '{prefix} {deathColor}{deathName}§f был скинут игроком {killerColor}{killerName}'
 
-DAMAGE_CAUSE_BURN: '{0}§f сгорел заживо'
-DAMAGE_CAUSE_BURN_TO: '{0}§f был сожжён дотла, пока боролся с {1}'
+DAMAGE_CAUSE_BURN: '{prefix} {deathColor}{deathName}§f сгорел заживо'
+DAMAGE_CAUSE_BURN_TO: '{prefix} {deathColor}{deathName}§f был сожжён дотла, пока боролся с {killerColor}{killerName}'
 
-DAMAGE_CAUSE_SWIM2: '{0}§f решил поплавать в лаве'
-DAMAGE_CAUSE_SWIM2_TO: '{0}§f упал в лаву, убегая от {1}'
+DAMAGE_CAUSE_SWIM2: '{prefix} {deathColor}{deathName}§f решил поплавать в лаве'
+DAMAGE_CAUSE_SWIM2_TO: '{prefix} {deathColor}{deathName}§f упал в лаву, убегая от {killerColor}{killerName}'
 
-DAMAGE_CAUSE_MAGIC: '{0}§f был убит с помощью магии'
-DAMAGE_CAUSE_MAGIC_TO: '{0}§f был убит с помощью магии игроком {1}'
+DAMAGE_CAUSE_MAGIC: '{prefix} {deathColor}{deathName}§f был убит с помощью магии'
+DAMAGE_CAUSE_MAGIC_TO: '{prefix} {deathColor}{deathName}§f был убит с помощью магии игрока {killerColor}{killerName}'
 
-DAMAGE_CAUSE_BOW: '{0}§f застрелен'
-DAMAGE_CAUSE_BOW_TO: '{0}§f застрелен игроком {1}'
+DAMAGE_CAUSE_BOW: '{prefix} {deathColor}{deathName}§f застрелен'
+DAMAGE_CAUSE_BOW_TO: '{prefix} {deathColor}{deathName}§f застрелен игроком {killerColor}{killerName}'
 
-DAMAGE_CAUSE_OUT: '{deathColor} L {deathPrefix} {deathName}§f выпал из мира'
-DAMAGE_CAUSE_OUT_TO: '{0}§f выпал из мира, пока боролся с {1}'
+DAMAGE_CAUSE_OUT: '{prefix} {deathColor}{deathName}§f выпал из мира'
+DAMAGE_CAUSE_OUT_TO: '{prefix} {deathColor}{deathName}§f выпал из мира, пока боролся с {killerColor}{killerName}'
 
-DAMAGE_CAUSE_KILLED: '{0}§f решил покинуть наш мир'
-DAMAGE_CAUSE_KILLED_TO: '{0}§f был убит игроком {1}'
+DAMAGE_CAUSE_KILLED: '{prefix} {deathColor}{deathName}§f решил покинуть наш мир'
+DAMAGE_CAUSE_KILLED_TO: '{prefix} {deathColor}{deathName}§f был убит игроком {killerColor}{killerName}'
 
 BED_DESTROY_CHAT: |2
 
-  {prefix} §f§lУНИЧТОЖЕНИЕ КРОВАТИ > {teamColor}{teamName} Кровать §7разушена игроком {playerColor}{playerName}!
+  {prefix} §f§lУНИЧТОЖЕНИЕ КРОВАТИ > Кровать команды {teamColor}{teamName} §7разушена игроком {playerColor}{playerName}!
 
-TEAM_DESTROY_CHAT: '§6§lBedWars §r§8▸ §rКоманда {teamColor}{teamName} уничтожена!'
+TEAM_DESTROY_CHAT: '{prefix} §rКоманда {teamColor}{teamName} уничтожена!'
 
 GAME_START_MESSAGE: |
   §8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -58,4 +57,4 @@ GAME_START_MESSAGE: |
                      §6§lplay.siliciumcraft.com
   §8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
-CANT_DESTROY_BED: §cВы не можете сломать кровать своей команды
+CANT_DESTROY_BED: {prefix} §cВы не можете сломать кровать своей команды
