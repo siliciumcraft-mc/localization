@@ -33,9 +33,9 @@ DAMAGE_CAUSE_KILLED_TO: '{0}§f был убит игроком {1}'
 
 BED_DESTROY_CHAT: |2
 
-  §6§lBedWars §r§8▸ §f§lУНИЧТОЖЕНИЕ КРОВАТИ > {TeamColor}{TeamName} Кровать §7разушена игроком {PlayerColor}{PlayerName}!
+  §6§lBedWars §r§8▸ §f§lУНИЧТОЖЕНИЕ КРОВАТИ > {teamColor}{teamName} Кровать §7разушена игроком {playerColor}{playerName}!
 
-TEAM_DESTROY_CHAT: '§6§lBedWars §r§8▸ §rКоманда {TeamColor}{TeamName} уничтожена!'
+TEAM_DESTROY_CHAT: '§6§lBedWars §r§8▸ §rКоманда {teamColor}{teamName} уничтожена!'
 
 GAME_START_MESSAGE: |
   §8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
