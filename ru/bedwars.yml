@@ -37,7 +37,7 @@ BED_DESTROY_CHAT: |2
 
 TEAM_DESTROY_CHAT: '§6§lBedWars §r§8▸ §rКоманда {TeamColor}{TeamName} уничтожена!'
 
-GAME_START_MESSAGE: |-
+GAME_START_MESSAGE: |
   &8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
                             &6&lBEDWARS                           
                             
