@@ -1,3 +1,11 @@
+# {prefix} - Game chat messages prefix (i.e. "BedWars ->")
+
+# {deathColor} - Killed player's team color
+# {deathPrefix} - Killed player's prefix
+# {deathName} - Killed player's name
+# {killerColor} - Killer's team color
+# {killerPrefix} - Killer's prefix
+# {killerName} - Killer's name
 
 DAMAGE_CAUSE_SUCIDE: '{deathColor} L {deathPrefix} {deathName}§f решил покончить жизнь самоубийством'
 
