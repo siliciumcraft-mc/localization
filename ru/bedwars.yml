@@ -7,6 +7,8 @@
 # {killerPrefix} - Killer's prefix
 # {killerName} - Killer's name
 
+PREFIX: '§6§lBedWars §r§8▸ '
+
 DAMAGE_CAUSE_SUCIDE: '{deathColor} L {deathPrefix} {deathName}§f решил покончить жизнь самоубийством'
 
 DAMAGE_CAUSE_EXPLOSION: '{0}§f взорвался'
@@ -41,7 +43,7 @@ DAMAGE_CAUSE_KILLED_TO: '{0}§f был убит игроком {1}'
 
 BED_DESTROY_CHAT: |2
 
-  §6§lBedWars §r§8▸ §f§lУНИЧТОЖЕНИЕ КРОВАТИ > {teamColor}{teamName} Кровать §7разушена игроком {playerColor}{playerName}!
+  {prefix} §f§lУНИЧТОЖЕНИЕ КРОВАТИ > {teamColor}{teamName} Кровать §7разушена игроком {playerColor}{playerName}!
 
 TEAM_DESTROY_CHAT: '§6§lBedWars §r§8▸ §rКоманда {teamColor}{teamName} уничтожена!'
 
