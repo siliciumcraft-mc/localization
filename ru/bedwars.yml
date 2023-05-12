@@ -57,4 +57,4 @@ GAME_START_MESSAGE: |
                      §6§lplay.siliciumcraft.com
   §8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
-CANT_DESTROY_BED: {prefix} §cВы не можете сломать кровать своей команды
+CANT_DESTROY_BED: '{prefix} §cВы не можете сломать кровать своей команды'
