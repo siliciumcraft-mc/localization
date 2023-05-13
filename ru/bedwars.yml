@@ -44,6 +44,10 @@ BED_DESTROY_CHAT: |2
 
   {prefix} §f§lУНИЧТОЖЕНИЕ КРОВАТИ > Кровать команды {teamColor}{teamName} §7разушена игроком {playerColor}{playerName}!
 
+BED_DESTROY_TITLE:
+  - &cВаша кровать разрушена!
+  - &7Вы больше не сможете возрождаться ;(
+
 TEAM_DESTROY_CHAT: '{prefix} §rКоманда {teamColor}{teamName} уничтожена!'
 
 # Сообщение сразу после начала игры
