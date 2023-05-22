@@ -1,12 +1,28 @@
+# Can be used as {prefix}
+PREFIX: '§6§lBedWars §r§8▸'
+
+# Лобби ожидания
+PLAYER_JOINED: {prefix} {playerPrefix}{playerName} §fподключился к игре §a{playersCount}/{maxPlayers}
+PLAYER_QUIT: {prefix} {playerPrefix}{playerName} §fпокинул игру §c{playersCount}/{maxPlayers}
+
+# Сообщение сразу после начала игры
+GAME_START_MESSAGE: |-
+  §8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+                            §6§lBEDWARS                           
+                            
+  §e     Защити свою кровать и сломай кровати противников.
+  §e       Покупай предметы и улучшения для своей команды
+  §e   за §lЖелезо§e, §lЗолото§e, §lАлмазы§e и §lИзумруды§e, чтобы выиграть!
+  §e          Победит только одна, сильнейшая команда!
+                     §6§lplay.siliciumcraft.com
+  §8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
+
 # {deathColor} - Killed player's team color
 # {deathPrefix} - Killed player's prefix
 # {deathName} - Killed player's name
 # {killerColor} - Killer's team color
 # {killerPrefix} - Killer's prefix
 # {killerName} - Killer's name
-
-# Can be used as {prefix}
-PREFIX: '§6§lBedWars §r§8▸'
 
 DAMAGE_CAUSE_SUCIDE: '{prefix} {deathColor}{deathName}§f решил покончить жизнь самоубийством'
 
@@ -50,18 +66,15 @@ BED_DESTROY_TITLE:
 
 TEAM_DESTROY_CHAT: '{prefix} §rКоманда {teamColor}{teamName} уничтожена!'
 
-# Сообщение сразу после начала игры
-GAME_START_MESSAGE: |-
-  §8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-                            §6§lBEDWARS                           
-                            
-  §e     Защити свою кровать и сломай кровати противников.
-  §e       Покупай предметы и улучшения для своей команды
-  §e   за §lЖелезо§e, §lЗолото§e, §lАлмазы§e и §lИзумруды§e, чтобы выиграть!
-  §e          Победит только одна, сильнейшая команда!
-                     §6§lplay.siliciumcraft.com
-  §8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
- 
+CANT_DESTROY_BED: {prefix} §cВы не можете сломать кровать своей команды
+
+STORE_BUY_OK: {prefix} §7Вы купили §a{itemName}
+NOT_ENOUGH_RESOURCES: {prefix} §cНедостаточно ресурсов
+
+# Улучшения (если есит уровни или если их нет)
+TEAM_UPGRADE_LEVEL: {prefix} §fИгрок {playerPrefix}{playerName} §fпрокачал улучшение §b{upgradeName} §fдо уровня {level}!
+TEAM_UPGRADE: {prefix} §fИгрок {playerPrefix}{playerName} §fпрокачал улучшение §b{upgradeName}!
+
 # Сообщение по окончании игры
 GAME_END_MESSAGE: |-
   §8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -82,5 +95,3 @@ GAME_END_DRAW: "                           §7Ничья!"
 GAME_END_TOP_1_KILLER: "\n                   §e#1 §7- {prefix}{name} §7({kills})"  # Пустая строка, если name == null
 GAME_END_TOP_2_KILLER: "\n                   §6#2 §7- {prefix}{name} §7({kills})"  # Пустая строка, если name == null
 GAME_END_TOP_3_KILLER: "\n                   §c#3 §7- {prefix}{name} §7({kills})"  # Пустая строка, если name == null
-
-CANT_DESTROY_BED: '{prefix} §cВы не можете сломать кровать своей команды'
