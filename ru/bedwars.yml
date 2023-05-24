@@ -71,9 +71,14 @@ CANT_DESTROY_BED: {prefix} §cВы не можете сломать кроват
 STORE_BUY_OK: {prefix} §7Вы купили §a{itemName}
 NOT_ENOUGH_RESOURCES: {prefix} §cНедостаточно ресурсов
 
-# Улучшения (если есит уровни или если их нет)
+# Улучшения (если у улучшения есть уровни или если их нет)
 TEAM_UPGRADE_LEVEL: {prefix} §fИгрок {playerPrefix}{playerName} §fпрокачал улучшение §b{upgradeName} §fдо уровня {level}!
 TEAM_UPGRADE: {prefix} §fИгрок {playerPrefix}{playerName} §fпрокачал улучшение §b{upgradeName}!
+
+# Улучшение генераторов
+GENERATOR_UPGRADE:
+  DIAMOND: {prefix} §fГенераторы §bалмазов §fпрокачаны до уровня §a{level}
+  EMERALD: {prefix} §fГенераторы §aизумрудов §fпрокачаны до уровня §a{level}
 
 # Сообщение по окончании игры
 GAME_END_MESSAGE: |-
