@@ -56,15 +56,25 @@ DAMAGE_CAUSE_OUT_TO: '{prefix} {deathColor}{deathName}§f выпал из мир
 DAMAGE_CAUSE_KILLED: '{prefix} {deathColor}{deathName}§f решил покинуть наш мир'
 DAMAGE_CAUSE_KILLED_TO: '{prefix} {deathColor}{deathName}§f был убит игроком {killerColor}{killerName}'
 
+# Сообщение на экране после смерти
+TIME_TO_RESPAWN_TITLE: §eДо респавна §c{seconds} §eсек.
+
+# Сообщения на экране после возрождения
+RESPAWN_TITLE: §aВы возрождены!
+
+# Сообщение в чате при уничтожении кровати
 BED_DESTROY_CHAT: |2
 
   {prefix} §f§lУНИЧТОЖЕНИЕ КРОВАТИ > Кровать команды {teamColor}{teamName} §7разушена игроком {playerColor}{playerName}!
 
+# Сообщения на экране при разрушении кровати
 BED_DESTROY_TITLE:
-  - &cВаша кровать разрушена!
-  - &7Вы больше не сможете возрождаться ;(
+  - §cВаша кровать разрушена!
+  - §7Вы больше не сможете возрождаться ;(
 
-TEAM_DESTROY_CHAT: '{prefix} §rКоманда {teamColor}{teamName} уничтожена!'
+# Сообщение в чате, когда команда без кровати умирает или выходит из игры
+TEAM_DESTROY_CHAT: {prefix} §rКоманда {teamColor}{teamName} уничтожена!
+
 
 CANT_DESTROY_BED: {prefix} §cВы не можете сломать кровать своей команды
 
