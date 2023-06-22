@@ -17,44 +17,44 @@ GAME_START_MESSAGE: |-
                      §6§lplay.siliciumcraft.com
   §8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
 
-# {deathColor} - Killed player's team color
+# {player_color} - Killed player's team color
 # {deathPrefix} - Killed player's prefix
-# {deathName} - Killed player's name
-# {killerColor} - Killer's team color
+# {player_name} - Killed player's name
+# {killer_color} - Killer's team color
 # {killerPrefix} - Killer's prefix
-# {killerName} - Killer's name
+# {killer_name} - Killer's name
 
-DAMAGE_CAUSE_SUCIDE: '{prefix} {deathColor}{deathName}§f решил покончить жизнь самоубийством'
+DAMAGE_CAUSE_SUCIDE: '{prefix} {player_color}{player_name}§f решил покончить жизнь самоубийством'
 
-DAMAGE_CAUSE_EXPLOSION: '{prefix} {deathColor}{deathName}§f взорвался'
-DAMAGE_CAUSE_EXPLOSION_TO: '{prefix} {deathColor}{deathName}§f был взорван игроком {killerColor}{killerName}'
+DAMAGE_CAUSE_EXPLOSION: '{prefix} {player_color}{player_name}§f взорвался'
+DAMAGE_CAUSE_EXPLOSION_TO: '{prefix} {player_color}{player_name}§f был взорван игроком {killer_color}{killer_name}'
 
-DAMAGE_CAUSE_CACTUS: '{prefix} {deathColor}{deathName}§f исколот до смерти'
-DAMAGE_CAUSE_CACTUS_TO: '{prefix} {deathColor}{deathName}§f наткнулся на кактус, спасаясь от {killerColor}{killerName}'
+DAMAGE_CAUSE_CACTUS: '{prefix} {player_color}{player_name}§f исколот до смерти'
+DAMAGE_CAUSE_CACTUS_TO: '{prefix} {player_color}{player_name}§f наткнулся на кактус, спасаясь от {killer_color}{killer_name}'
 
-DAMAGE_CAUSE_SWIM: '{prefix} {deathColor}{deathName}§f утонул'
-DAMAGE_CAUSE_SWIM_TO: '{prefix} {deathColor}{deathName}§f утонул, спасаясь от {killerColor}{killerName}'
+DAMAGE_CAUSE_SWIM: '{prefix} {player_color}{player_name}§f утонул'
+DAMAGE_CAUSE_SWIM_TO: '{prefix} {player_color}{player_name}§f утонул, спасаясь от {killer_color}{killer_name}'
 
-DAMAGE_CAUSE_DROP: '{prefix} {deathColor}{deathName}§f разбился насмерть'
-DAMAGE_CAUSE_DROP_TO: '{prefix} {deathColor}{deathName}§f был скинут игроком {killerColor}{killerName}'
+DAMAGE_CAUSE_DROP: '{prefix} {player_color}{player_name}§f разбился насмерть'
+DAMAGE_CAUSE_DROP_TO: '{prefix} {player_color}{player_name}§f был скинут игроком {killer_color}{killer_name}'
 
-DAMAGE_CAUSE_BURN: '{prefix} {deathColor}{deathName}§f сгорел заживо'
-DAMAGE_CAUSE_BURN_TO: '{prefix} {deathColor}{deathName}§f был сожжён дотла, пока боролся с {killerColor}{killerName}'
+DAMAGE_CAUSE_BURN: '{prefix} {player_color}{player_name}§f сгорел заживо'
+DAMAGE_CAUSE_BURN_TO: '{prefix} {player_color}{player_name}§f был сожжён дотла, пока боролся с {killer_color}{killer_name}'
 
-DAMAGE_CAUSE_SWIM2: '{prefix} {deathColor}{deathName}§f решил поплавать в лаве'
-DAMAGE_CAUSE_SWIM2_TO: '{prefix} {deathColor}{deathName}§f упал в лаву, убегая от {killerColor}{killerName}'
+DAMAGE_CAUSE_SWIM2: '{prefix} {player_color}{player_name}§f решил поплавать в лаве'
+DAMAGE_CAUSE_SWIM2_TO: '{prefix} {player_color}{player_name}§f упал в лаву, убегая от {killer_color}{killer_name}'
 
-DAMAGE_CAUSE_MAGIC: '{prefix} {deathColor}{deathName}§f был убит с помощью магии'
-DAMAGE_CAUSE_MAGIC_TO: '{prefix} {deathColor}{deathName}§f был убит с помощью магии игрока {killerColor}{killerName}'
+DAMAGE_CAUSE_MAGIC: '{prefix} {player_color}{player_name}§f был убит с помощью магии'
+DAMAGE_CAUSE_MAGIC_TO: '{prefix} {player_color}{player_name}§f был убит с помощью магии игрока {killer_color}{killer_name}'
 
-DAMAGE_CAUSE_BOW: '{prefix} {deathColor}{deathName}§f застрелен'
-DAMAGE_CAUSE_BOW_TO: '{prefix} {deathColor}{deathName}§f застрелен игроком {killerColor}{killerName}'
+DAMAGE_CAUSE_BOW: '{prefix} {player_color}{player_name}§f застрелен'
+DAMAGE_CAUSE_BOW_TO: '{prefix} {player_color}{player_name}§f застрелен игроком {killer_color}{killer_name}'
 
-DAMAGE_CAUSE_OUT: '{prefix} {deathColor}{deathName}§f выпал из мира'
-DAMAGE_CAUSE_OUT_TO: '{prefix} {deathColor}{deathName}§f выпал из мира, пока боролся с {killerColor}{killerName}'
+DAMAGE_CAUSE_OUT: '{prefix} {player_color}{player_name}§f выпал из мира'
+DAMAGE_CAUSE_OUT_TO: '{prefix} {player_color}{player_name}§f выпал из мира, пока боролся с {killer_color}{killer_name}'
 
-DAMAGE_CAUSE_KILLED: '{prefix} {deathColor}{deathName}§f решил покинуть наш мир'
-DAMAGE_CAUSE_KILLED_TO: '{prefix} {deathColor}{deathName}§f был убит игроком {killerColor}{killerName}'
+DAMAGE_CAUSE_KILLED: '{prefix} {player_color}{player_name}§f решил покинуть наш мир'
+DAMAGE_CAUSE_KILLED_TO: '{prefix} {player_color}{player_name}§f был убит игроком {killer_color}{killer_name}'
 
 # Сообщение на экране после смерти
 TIME_TO_RESPAWN_TITLE: §eДо респавна §c{seconds} §eсек.
