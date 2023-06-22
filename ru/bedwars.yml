@@ -73,7 +73,7 @@ BED_DESTROY_TITLE:
   - §7Вы больше не сможете возрождаться ;(
 
 # Сообщение в чате, когда команда без кровати умирает или выходит из игры
-TEAM_DESTROY_CHAT: {prefix} §rКоманда {teamColor}{teamName} уничтожена!
+TEAM_DESTROY_CHAT: '{prefix} §rКоманда {teamColor}{teamName} уничтожена!'
 
 
 CANT_DESTROY_BED: {prefix} §cВы не можете сломать кровать своей команды
