@@ -76,19 +76,19 @@ BED_DESTROY_TITLE:
 TEAM_DESTROY_CHAT: '{prefix} §rКоманда {teamColor}{teamName} уничтожена!'
 
 
-CANT_DESTROY_BED: {prefix} §cВы не можете сломать кровать своей команды
+CANT_DESTROY_BED: '{prefix} §cВы не можете сломать кровать своей команды'
 
-STORE_BUY_OK: {prefix} §7Вы купили §a{itemName}
-NOT_ENOUGH_RESOURCES: {prefix} §cНедостаточно ресурсов
+STORE_BUY_OK: '{prefix} §7Вы купили §a{itemName}'
+NOT_ENOUGH_RESOURCES: '{prefix} §cНедостаточно ресурсов'
 
 # Улучшения (если у улучшения есть уровни или если их нет)
-TEAM_UPGRADE_LEVEL: {prefix} §fИгрок {playerPrefix}{playerName} §fпрокачал улучшение §b{upgradeName} §fдо уровня {level}!
-TEAM_UPGRADE: {prefix} §fИгрок {playerPrefix}{playerName} §fпрокачал улучшение §b{upgradeName}!
+TEAM_UPGRADE_LEVEL: '{prefix} §fИгрок {playerPrefix}{playerName} §fпрокачал улучшение §b{upgradeName} §fдо уровня {level}!'
+TEAM_UPGRADE: '{prefix} §fИгрок {playerPrefix}{playerName} §fпрокачал улучшение §b{upgradeName}!'
 
 # Улучшение генераторов
 GENERATOR_UPGRADE:
-  DIAMOND: {prefix} §fГенераторы §bалмазов §fпрокачаны до уровня §a{level}
-  EMERALD: {prefix} §fГенераторы §aизумрудов §fпрокачаны до уровня §a{level}
+  DIAMOND: '{prefix} §fГенераторы §bалмазов §fпрокачаны до уровня §a{level}'
+  EMERALD: '{prefix} §fГенераторы §aизумрудов §fпрокачаны до уровня §a{level}'
 
 # Сообщение по окончании игры
 GAME_END_MESSAGE: |-
