@@ -2,8 +2,8 @@
 PREFIX: '§6§lBedWars §r§8▸'
 
 # Лобби ожидания
-PLAYER_JOINED: {prefix} {playerPrefix}{playerName} §fподключился к игре §a{playersCount}/{maxPlayers}
-PLAYER_QUIT: {prefix} {playerPrefix}{playerName} §fпокинул игру §c{playersCount}/{maxPlayers}
+PLAYER_JOINED: '{prefix} {playerPrefix}{playerName} §fподключился к игре §a{playersCount}/{maxPlayers}'
+PLAYER_QUIT: '{prefix} {playerPrefix}{playerName} §fпокинул игру §c{playersCount}/{maxPlayers}'
 
 # Сообщение сразу после начала игры
 GAME_START_MESSAGE: |-
