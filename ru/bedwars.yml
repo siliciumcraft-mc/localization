@@ -65,7 +65,7 @@ RESPAWN_TITLE: §aВы возрождены!
 # Сообщение в чате при уничтожении кровати
 BED_DESTROY_CHAT: |2
 
-  {prefix} §f§lУНИЧТОЖЕНИЕ КРОВАТИ > Кровать команды {teamColor}{teamName} §7разушена игроком {playerColor}{playerName}!
+  {prefix} §f§lУНИЧТОЖЕНИЕ КРОВАТИ > Кровать команды {teamColor}{teamName} §7разушена игроком {player_color}{player_name}!
 
 # Сообщения на экране при разрушении кровати
 BED_DESTROY_TITLE:
