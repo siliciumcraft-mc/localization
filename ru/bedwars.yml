@@ -82,6 +82,7 @@ CANT_DESTROY_BED: '{prefix} §cВы не можете сломать крова�
 
 STORE_BUY_OK: '{prefix} §7Вы купили §a{itemName}'
 NOT_ENOUGH_RESOURCES: '{prefix} §cНедостаточно ресурсов'
+INVENTORY_OVERFLOW: '{prefix} §cИнвентарь переполнен'
 
 # Улучшения (если у улучшения есть уровни или если их нет)
 TEAM_UPGRADE_LEVEL: '{prefix} §fИгрок {playerPrefix}{playerName} §fпрокачал улучшение §b{upgradeName} §fдо уровня {level}!'
