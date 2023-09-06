@@ -8,7 +8,7 @@ PLAYER_QUIT: '{prefix} {player_prefix} {player_name} §fпокинул игру 
 # Сообщение сразу после начала игры
 GAME_START_MESSAGE: |-
   §8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-                            §6§lBEDWARS                           
+                              §6§lBEDWARS                           
                             
   §e     Защити свою кровать и сломай кровати противников.
   §e       Покупай предметы и улучшения для своей команды
@@ -108,6 +108,6 @@ GAME_END_WITH_WINNERS: "                 §7Победила команда - {t
 GAME_END_DRAW: "                           §7Ничья!"
 
 # Сообщения для {top1killer}, {top2killer}, {top3killer}. Если {name} отсутствует (некого записывать в топ) - вместо {topNkiller} просто пустая строка.
-GAME_END_TOP_1_KILLER: "\n                   §e#1 §7- {player_prefix} {player_name} §7({player_kills})"  # Пустая строка, если name == null
-GAME_END_TOP_2_KILLER: "\n                   §6#2 §7- {player_prefix} {player_name} §7({player_kills})"  # Пустая строка, если name == null
-GAME_END_TOP_3_KILLER: "\n                   §c#3 §7- {player_prefix} {player_name} §7({player_kills})"  # Пустая строка, если name == null
+GAME_END_TOP_1_KILLER: "\n               §e#1 §7- {player_prefix} {player_name} §7({player_kills})"  # Пустая строка, если name == null
+GAME_END_TOP_2_KILLER: "\n               §6#2 §7- {player_prefix} {player_name} §7({player_kills})"  # Пустая строка, если name == null
+GAME_END_TOP_3_KILLER: "\n               §c#3 §7- {player_prefix} {player_name} §7({player_kills})"  # Пустая строка, если name == null
