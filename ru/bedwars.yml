@@ -1,6 +1,62 @@
 # Can be used as {prefix}
 PREFIX: '§6§lBedWars §r§8▸'
 
+# ARENA_FULL: '{prefix} §cАрена переполнена.'
+
+# Скорборды
+SCOREBOARD:
+
+  # Ожидание игроков
+  WAITING:
+    - '§6§lBEDWARS'
+    - ''
+    - '§fИгроков: §e{current_players_count}§f/§e{max_players_count}'
+    - ''
+    - '§fЖдём игроков...'
+    - ''
+    - '§fКарта: §e{map_name}'
+    - '§fСервер: §e{server_name}'
+    - ''
+    - '§e{current_domain}'
+    
+  # Отсчёт времени в лобби ожидания
+  STARTING:
+    - '§6§lBEDWARS'
+    - ''
+    - '§fИгроков: §e{current_players_count}§f/§e{max_players_count}'
+    - ''
+    - '§fСтарт через §e{time_before_game_starts}§f сек.'
+    - ''
+    - '§fКарта: §e{map_name}'
+    - '§fСервер: §e{server_name}'
+    - ''
+    - '§e{current_domain}'
+    
+  # Скорборд во время игры
+  PLAYING:
+    - '§6§lBEDWARS'
+    - ''
+    - '{scoreboard_teams}'  # См. ключ SCOREBOARD_TEAMS
+    - ''
+    - '§e⚔ §fУбийств: §e{kills_count}'
+    - '§a⚔ §fФинальных убийств: §e{final_kills_count}'
+    - '§c✗ §fКроватей уничтожено: §c{beds_destroyed_count}'
+    - ''
+    - '§e{current_domain}'
+
+  # {scoreboard_teams}
+  TEAM_ALIVE_HAS_BED: ' {team_color}⚑ §f{team_name}: §a✔'
+  TEAM_DEAD_HAS_BED: ' {team_color}⚑ §f{team_name}: §7✔'  # Например, если все игроки вышли (если игроков не было в команде с начала игры - у них не должно быть кровати и отображаться должно TEAM_DEAD_NO_BED
+  TEAM_ALIVE_NO_BED: ' {team_color}⚑ §f{team_name}: §c{players_left}'
+  TEAM_DEAD_NO_BED: ' {team_color}⚑ §f{team_name}: §c✗'  # ✘
+  YOUR_TEAM: ' §7(Вы)'  # Добавляется в конец к одной из четырёх предыдущих строк
+
+# Пока не нужно
+TAB_PLAYER_NAME:
+  WAITING: '{player_prefix}{player_name}'
+  PLAYING: '{team_color}{player_name}'
+  SPECTATOR: '§7[✗§7] {player_prefix}{player_name}'
+    
 # Лобби ожидания
 PLAYER_JOINED: '{prefix} {player_prefix} {player_name} §fподключился к игре §a{playersCount}/{maxPlayers}'
 PLAYER_QUIT: '{prefix} {player_prefix} {player_name} §fпокинул игру §c{playersCount}/{maxPlayers}'
@@ -16,6 +72,23 @@ GAME_START_MESSAGE: |-
   §e          Победит только одна, сильнейшая команда!
                      §6§lplay.siliciumcraft.com
   §8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
+
+# Префикс перед каждым сообщением в чат от пользователя
+CHAT_FORMAT_PREFIX:
+  GLOBAL: {team_color}[Всем]
+  TEAM: {team_color}[⚑]
+
+# Информация над головой игрока
+PLAYER_HEAD_BAR:
+
+  # Во время игры
+  PLAYING:
+    - '{team_color}⚑ §7{player_name}'
+    - '§f{health} §c❤'
+
+# Заголовки магазинов
+SHOP_UPGRADES_TITLE: '§bКОМАНДНЫЕ УЛУЧШЕНИЯ'
+SHOP_ITEMS_TITLE: '§aМАГАЗИН ПРЕДМЕТОВ'
 
 # {player_color} - Killed player's team color
 # {deathPrefix} - Killed player's prefix
@@ -65,7 +138,7 @@ RESPAWN_TITLE: §aВы возрождены!
 # Сообщение в чате при уничтожении кровати
 BED_DESTROY_CHAT: |2
 
-  {prefix} §f§lУНИЧТОЖЕНИЕ КРОВАТИ > Кровать команды {teamColor}{teamName} §7разушена игроком {player_color}{player_name}!
+  {prefix} §f§lУНИЧТОЖЕНИЕ КРОВАТИ > Кровать команды {teamColor}{teamName} §7разрушена игроком {player_color}{player_name}!
 
 # Сообщения на экране при разрушении кровати
 BED_DESTROY_TITLE:
@@ -75,7 +148,7 @@ BED_DESTROY_TITLE:
 # Сообщение в чате, когда команда без кровати умирает или выходит из игры
 TEAM_DESTROY_CHAT: '{prefix} §rКоманда {teamColor}{teamName} уничтожена!'
 
-
+# Сообщение в чате при попытке сломать свою кровать
 CANT_DESTROY_BED: '{prefix} §cВы не можете сломать кровать своей команды'
 
 STORE_BUY_OK: '{prefix} §7Вы купили §a{itemName}'
@@ -86,6 +159,7 @@ INVENTORY_OVERFLOW: '{prefix} §cИнвентарь переполнен'
 TEAM_UPGRADE_LEVEL: '{prefix} §fИгрок {player_prefix}{player_name} §fпрокачал улучшение §b{upgradeName} §fдо уровня {level}!'
 TEAM_UPGRADE: '{prefix} §fИгрок {player_prefix}{player_name} §fпрокачал улучшение §b{upgradeName}!'
 MAX_LEVEL_UPGRADE: '{prefix} §cМаксимальный уровень прокачки!'
+TRAP_QUEUE_OVERFLOW: '{prefix} §cОчередь ловушек переполнена!'
 
 # Улучшение генераторов
 GENERATOR_UPGRADE:
@@ -109,6 +183,6 @@ GAME_END_WITH_WINNERS: "                 §7Победила команда - {t
 GAME_END_DRAW: "                           §7Ничья!"
 
 # Сообщения для {top1killer}, {top2killer}, {top3killer}. Если {name} отсутствует (некого записывать в топ) - вместо {topNkiller} просто пустая строка.
-GAME_END_TOP_1_KILLER: "\n               §e#1 §7- {player_prefix} {player_name} §7({player_kills})"  # Пустая строка, если name == null
-GAME_END_TOP_2_KILLER: "\n               §6#2 §7- {player_prefix} {player_name} §7({player_kills})"  # Пустая строка, если name == null
-GAME_END_TOP_3_KILLER: "\n               §c#3 §7- {player_prefix} {player_name} §7({player_kills})"  # Пустая строка, если name == null
+GAME_END_TOP_1_KILLER: "\n               §e#1 §7- {player_prefix}{player_name} §7({player_kills})"  # Пустая строка, если name == null
+GAME_END_TOP_2_KILLER: "\n               §6#2 §7- {player_prefix}{player_name} §7({player_kills})"  # Пустая строка, если name == null
+GAME_END_TOP_3_KILLER: "\n               §c#3 §7- {player_prefix}{player_name} §7({player_kills})"  # Пустая строка, если name == null
