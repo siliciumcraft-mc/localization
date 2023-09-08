@@ -85,6 +85,7 @@ INVENTORY_OVERFLOW: '{prefix} §cИнвентарь переполнен'
 # Улучшения (если у улучшения есть уровни или если их нет)
 TEAM_UPGRADE_LEVEL: '{prefix} §fИгрок {player_prefix}{player_name} §fпрокачал улучшение §b{upgradeName} §fдо уровня {level}!'
 TEAM_UPGRADE: '{prefix} §fИгрок {player_prefix}{player_name} §fпрокачал улучшение §b{upgradeName}!'
+MAX_LEVEL: '{prefix} §cМаксимальный уровень прокачки!'
 
 # Улучшение генераторов
 GENERATOR_UPGRADE:
