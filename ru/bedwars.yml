@@ -75,8 +75,8 @@ GAME_START_MESSAGE: |-
 
 # Префикс перед каждым сообщением в чат от пользователя
 CHAT_FORMAT_PREFIX:
-  GLOBAL: {team_color}[Всем]
-  TEAM: {team_color}[⚑]
+  GLOBAL: '{team_color}[Всем]'
+  TEAM: '{team_color}[⚑]'
 
 # Информация над головой игрока
 PLAYER_HEAD_BAR:
