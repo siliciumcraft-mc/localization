@@ -58,8 +58,8 @@ TAB_PLAYER_NAME:
   SPECTATOR: '§7[✗§7] {player_prefix}{player_name}'
     
 # Лобби ожидания
-PLAYER_JOINED: '{prefix} {player_prefix} {player_name} §fподключился к игре §a{playersCount}/{maxPlayers}'
-PLAYER_QUIT: '{prefix} {player_prefix} {player_name} §fпокинул игру §c{playersCount}/{maxPlayers}'
+PLAYER_JOINED: '{prefix} {player_prefix}{player_name} §fподключился к игре §a{playersCount}/{maxPlayers}'
+PLAYER_QUIT: '{prefix} {player_prefix}{player_name} §fпокинул игру §c{playersCount}/{maxPlayers}'
 
 # Сообщение сразу после начала игры
 GAME_START_MESSAGE: |-
@@ -130,7 +130,7 @@ DAMAGE_CAUSE_KILLED: '{prefix} {player_color}{player_name}§f решил пок�
 DAMAGE_CAUSE_KILLED_TO: '{prefix} {player_color}{player_name}§f был убит игроком {killer_color}{killer_name}'
 
 # Сообщение на экране после смерти
-TIME_TO_RESPAWN_TITLE: §eДо респавна §c{seconds} §eсек.
+TIME_TO_RESPAWN_TITLE: §eДо возрождения §c{seconds} §eсек.
 
 # Сообщения на экране после возрождения
 RESPAWN_TITLE: §aВы возрождены!
@@ -138,7 +138,7 @@ RESPAWN_TITLE: §aВы возрождены!
 # Сообщение в чате при уничтожении кровати
 BED_DESTROY_CHAT: |2
 
-  {prefix} §f§lУНИЧТОЖЕНИЕ КРОВАТИ > Кровать команды {teamColor}{teamName} §7разрушена игроком {player_color}{player_name}!
+  {prefix} §7Кровать команды {teamColor}{teamName} §7разрушена игроком {player_color}{player_name}§7!
 
 # Сообщения на экране при разрушении кровати
 BED_DESTROY_TITLE:
