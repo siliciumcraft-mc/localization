@@ -58,8 +58,8 @@ TAB_PLAYER_NAME:
   SPECTATOR: '§7[✗§7] {player_prefix}{player_name}'
     
 # Лобби ожидания
-PLAYER_JOINED: '{prefix} {player_prefix}{player_name} §fподключился к игре §a{players_count}/{max_players}'
-PLAYER_QUIT: '{prefix} {player_prefix}{player_name} §fпокинул игру §c{players_count}/{max_players}'
+PLAYER_JOINED: '{prefix} {player_prefix} {player_name} §fподключился к игре §a{players_count}/{max_players}'
+PLAYER_QUIT: '{prefix} {player_prefix} {player_name} §fпокинул игру §c{players_count}/{max_players}'
 
 # Сообщение сразу после начала игры
 GAME_START_MESSAGE: |-
