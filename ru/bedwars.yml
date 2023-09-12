@@ -177,7 +177,7 @@ GAME_END_MESSAGE: |-
   §8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 # Сообщение для {gameResult}, если есть победители
-GAME_END_WITH_WINNERS: "             §7Победила команда - {teamColor}{teamName}"
+GAME_END_WITH_WINNERS: "             §7Победила команда - {team_color}{team_name}"
 
 # Сообщение для {gameResult}, если ничья
 GAME_END_DRAW: "                       §7Ничья!"
