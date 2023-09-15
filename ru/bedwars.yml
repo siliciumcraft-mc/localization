@@ -163,8 +163,8 @@ TRAP_QUEUE_OVERFLOW: '{prefix} §cОчередь ловушек переполн
 
 # Улучшение генераторов
 GENERATOR_UPGRADE:
-  DIAMOND: '{prefix} §fГенераторы §bалмазов §fпрокачаны до уровня §a{generator_level}'
-  EMERALD: '{prefix} §fГенераторы §aизумрудов §fпрокачаны до уровня §a{generator_level}'
+  DIAMOND: '{prefix} §fГенераторы §bалмазов §fпрокачаны до уровня §a{generator_level}!'
+  EMERALD: '{prefix} §fГенераторы §aизумрудов §fпрокачаны до уровня §a{generator_level}!'
 
 # Сообщение по окончании игры
 GAME_END_MESSAGE: |-
