@@ -133,6 +133,8 @@ DAMAGE_CAUSE_OUT_TO: '{prefix} {player_color}{player_name}§f выпал из м
 DAMAGE_CAUSE_KILLED: '{prefix} {player_color}{player_name}§f решил покинуть наш мир'
 DAMAGE_CAUSE_KILLED_TO: '{prefix} {player_color}{player_name}§f был убит игроком {killer_color}{killer_name}'
 
+EXIT_OBSERVER_MODE: '§cЧтобы выйти из режима наблюдателя нажмите SHIFT'
+
 # Сообщение на экране после смерти
 TIME_TO_RESPAWN_TITLE: §eДо возрождения §c{seconds} §eсек.
 
