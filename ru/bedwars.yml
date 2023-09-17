@@ -33,17 +33,17 @@ SCOREBOARD:
     - '§e{current_domain}'
     
   # Скорборд во время игры
-  PLAYING:
-    - '§6§lBEDWARS'
-    - ''
-    - '{scoreboard_teams}'  # См. ключ SCOREBOARD_TEAMS
-    - ''
-    - '§e⚔ §fУбийств: §e{kills}'
-    - '§a⚔ §fФинальных убийств: §e{final_kills}'
-    - '§c✗ §fКроватей уничтожено: §c{beds_destroyed}'
-    - ''
-    - '§e{current_domain}'
-
+  PLAYING: |
+    §6§lBEDWARS
+    
+    {scoreboard_teams}
+    
+    §e⚔ §fУбийств: §e{kills}
+    §a⚔ §fФинальных убийств: §e{final_kills}
+    §c✗ §fКроватей уничтожено: §c{beds_destroyed}
+    
+    §e{current_domain}
+    
   # {scoreboard_teams}
   TEAM_ALIVE_HAS_BED: ' {team_color}⚑ §f{team_name}: §a✔'
   TEAM_DEAD_HAS_BED: ' {team_color}⚑ §f{team_name}: §7✔'  # Например, если все игроки вышли (если игроков не было в команде с начала игры - у них не должно быть кровати и отображаться должно TEAM_DEAD_NO_BED
