@@ -7,30 +7,30 @@ PREFIX: '§6§lBedWars §r§8▸'
 SCOREBOARD:
 
   # Ожидание игроков
-  WAITING:
-    - '§6§lBEDWARS'
-    - ''
-    - '§fИгроков: §e{current_players_count}§f/§e{max_players_count}'
-    - ''
-    - '§fЖдём игроков...'
-    - ''
-    - '§fКарта: §e{map_name}'
-    - '§fСервер: §e{server_name}'
-    - ''
-    - '§e{current_domain}'
+  WAITING: |
+    §6§lBEDWARS
+    
+    §fИгроков: §e{current_players_count}§f/§e{max_players_count}
+    
+    §fЖдём игроков...
+    
+    §fКарта: §e{map_name}
+    §fСервер: §e{server_name}
+    
+    §e{current_domain}
     
   # Отсчёт времени в лобби ожидания
-  STARTING:
-    - '§6§lBEDWARS'
-    - ''
-    - '§fИгроков: §e{current_players_count}§f/§e{max_players_count}'
-    - ''
-    - '§fСтарт через §e{time_before_game_starts}§f сек.'
-    - ''
-    - '§fКарта: §e{map_name}'
-    - '§fСервер: §e{server_name}'
-    - ''
-    - '§e{current_domain}'
+  STARTING: |
+    §6§lBEDWARS
+    
+    §fИгроков: §e{current_players_count}§f/§e{max_players_count}
+    
+    §fСтарт через §e{time_before_game_starts}§f сек.
+    
+    §fКарта: §e{map_name}
+    §fСервер: §e{server_name}
+    
+    §e{current_domain}
     
   # Скорборд во время игры
   PLAYING: |
@@ -53,17 +53,17 @@ SCOREBOARD:
 
 # Префиксы игроков в табе
 TAB_PLAYER_NAME:
-  WAITING: '{player_prefix} '
-  PLAYING: '{team_color} '
-  SPECTATOR: '§7[✗§7] {player_prefix} '
+  WAITING: '{player_prefix}'
+  PLAYING: '{team_color}'
+  SPECTATOR: '§7[✘§7] {player_prefix}'
     
 # Лобби ожидания
-PLAYER_JOINED_WAITING: '{prefix} {player_prefix} {player_name} §fподключился к игре §a{players_count}/{max_players}'
-PLAYER_QUIT_WAITING: '{prefix} {player_prefix} {player_name} §fпокинул игру §c{players_count}/{max_players}'
+PLAYER_JOINED_WAITING: '{prefix} {player_prefix}{player_name} §fподключился к игре §a{players_count}/{max_players}'
+PLAYER_QUIT_WAITING: '{prefix} {player_prefix}{player_name} §fпокинул игру §c{players_count}/{max_players}'
 
 # Арена
-PLAYER_JOINED: '{player_prefix} {player_name} §fподключился к игре'
-PLAYER_QUIT: '{player_prefix} {player_name} §fпокинул игру'
+PLAYER_JOINED: '{player_prefix}{player_name} §fподключился к игре'
+PLAYER_QUIT: '{player_prefix}{player_name} §fпокинул игру'
 
 # Сообщение сразу после начала игры
 GAME_START_MESSAGE: |-
@@ -78,11 +78,16 @@ GAME_START_MESSAGE: |-
   §8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
 
 # Префикс перед каждым сообщением в чат от пользователя
+# CHAT_FORMAT_PREFIX:
+#   GLOBAL: '{team_color}[Всем] {player_name}: §f'
+#   TEAM: '{team_color}[⚑] {player_name}: §f'
+#   SPECTATOR: '§7[✗§7] {player_prefix} {player_name}: §f'
+#   DEFAULT: '{player_prefix} {player_name}: §f'
 CHAT_FORMAT_PREFIX:
-  GLOBAL: '{team_color}[Всем] {player_name}: §f'
-  TEAM: '{team_color}[⚑] {player_name}: §f'
-  SPECTATOR: '§7[✗§7] {player_prefix} {player_name}: §f'
-  DEFAULT: '{player_prefix} {player_name}: §f'
+  GLOBAL: '{team_color}[Всем] '
+  TEAM: '{team_color}[⚑] '
+  SPECTATOR: '§7[✘§7] '
+  DEFAULT: '' # /del
 
 # Информация над головой игрока
 PLAYER_HEAD_BAR:
@@ -135,7 +140,8 @@ DAMAGE_CAUSE_OUT_TO: '{prefix} {player_color}{player_name}§f выпал из м
 DAMAGE_CAUSE_KILLED: '{prefix} {player_color}{player_name}§f решил покинуть наш мир'
 DAMAGE_CAUSE_KILLED_TO: '{prefix} {player_color}{player_name}§f был убит игроком {killer_color}{killer_name}'
 
-EXIT_OBSERVER_MODE: '§cНажмите §f[SHIFT]§c, чтобы выйти из режима наблюдателя'
+# Выйти из режима наблюдателя
+EXIT_OBSERVER_MODE: '§7Нажмите §c§lSHIFT§r§7, чтобы выйти из режима наблюдателя'
 
 # Сообщение на экране после смерти
 TIME_TO_RESPAWN_TITLE: §eДо возрождения §c{seconds} §eсек.
