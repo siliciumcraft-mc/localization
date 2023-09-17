@@ -35,13 +35,13 @@ SCOREBOARD:
   # Скорборд во время игры
   PLAYING: |
     §6§lBEDWARS
-    
+    §7
     {scoreboard_teams}
-    
+    §e
     §e⚔ §fУбийств: §e{player_kills}
     §a⚔ §fФинальных убийств: §e{player_final_kills}
     §c✗ §fКроватей уничтожено: §c{player_beds_destroyed}
-    
+    §c
     §e{current_domain}
     
   # {scoreboard_teams}
