@@ -81,6 +81,8 @@ GAME_START_MESSAGE: |-
 CHAT_FORMAT_PREFIX:
   GLOBAL: '{team_color}[Всем]'
   TEAM: '{team_color}[⚑]'
+  SPECTATOR: '§7[✗§7] {player_prefix} '
+  DEFAULT: '{player_prefix} '
 
 # Информация над головой игрока
 PLAYER_HEAD_BAR:
