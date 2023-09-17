@@ -79,10 +79,10 @@ GAME_START_MESSAGE: |-
 
 # Префикс перед каждым сообщением в чат от пользователя
 CHAT_FORMAT_PREFIX:
-  GLOBAL: '{team_color}[Всем]'
-  TEAM: '{team_color}[⚑]'
-  SPECTATOR: '§7[✗§7] {player_prefix} '
-  DEFAULT: '{player_prefix} '
+  GLOBAL: '{team_color}[Всем] {player_name}: §f'
+  TEAM: '{team_color}[⚑] {player_name}: §f'
+  SPECTATOR: '§7[✗§7] {player_prefix} {player_name}: §f'
+  DEFAULT: '{player_prefix} {player_name}: §f'
 
 # Информация над головой игрока
 PLAYER_HEAD_BAR:
