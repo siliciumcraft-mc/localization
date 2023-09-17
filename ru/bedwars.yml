@@ -53,9 +53,9 @@ SCOREBOARD:
 
 # Префиксы игроков в табе
 TAB_PLAYER_NAME:
-  WAITING: '{player_prefix}{player_name}'
-  PLAYING: '{team_color}{player_name}'
-  SPECTATOR: '§7[✗§7] {player_prefix}{player_name}'
+  WAITING: '{player_prefix} '
+  PLAYING: '{team_color} '
+  SPECTATOR: '§7[✗§7] {player_prefix} '
     
 # Лобби ожидания
 PLAYER_JOINED_WAITING: '{prefix} {player_prefix} {player_name} §fподключился к игре §a{players_count}/{max_players}'
@@ -87,7 +87,7 @@ PLAYER_HEAD_BAR:
 
   # Во время игры
   PLAYING:
-    - '{team_color}⚑ §7{player_name}'
+    - '{team_color}⚑ §7'
     - '§f{health} §c❤'
 
 # Заголовки магазинов
