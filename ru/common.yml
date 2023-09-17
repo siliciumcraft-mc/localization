@@ -3,6 +3,8 @@ CHAT_MUTE: '§cВ связи с ограничениями, мы информи�
 
 NO_PERMISSION: '§cУ вас нет прав ;('
 
+DOMAIN: 'mc.siliciumcraft.net'
+
 DONATE_MENU:
     - name: §a§lATOMIC
       type: LIME_STAINED_GLASS_PANE
