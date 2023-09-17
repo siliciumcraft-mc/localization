@@ -38,9 +38,9 @@ SCOREBOARD:
     
     {scoreboard_teams}
     
-    §e⚔ §fУбийств: §e{kills}
-    §a⚔ §fФинальных убийств: §e{final_kills}
-    §c✗ §fКроватей уничтожено: §c{beds_destroyed}
+    §e⚔ §fУбийств: §e{player_kills}
+    §a⚔ §fФинальных убийств: §e{player_final_kills}
+    §c✗ §fКроватей уничтожено: §c{player_beds_destroyed}
     
     §e{current_domain}
     
