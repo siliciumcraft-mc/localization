@@ -28,7 +28,7 @@ PARTY_INVITE_REQUEST: |
   
   §fИгрок §a{0}§f приглашает Вас в пати!
    
-PARTY_INVITE_NOTIFE: '§fИгрок §a{0} §fприсоединился к пати'
+PARTY_INVITE_NOTIFY: '§fИгрок §a{0} §fприсоединился к пати'
 PARTY_HELP: |
 
   §eПодкоманды для party:
