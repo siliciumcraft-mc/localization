@@ -24,10 +24,11 @@ TAB_FOOTER: |
 
    §fВы находитесь на сервере:
    §e{0}
-PARTY_INVITE_NOTIFY: |
+PARTY_INVITE_REQUEST: |
   
-  §7Игрок {0} приглашает Вас в пати!
+  §fИгрок §a{0}§f приглашает Вас в пати!
    
+PARTY_INVITE_NOTIFE: '§fИгрок §a{0} §fприсоединился к пати'
 PARTY_HELP: |
 
   §eПодкоманды для party:
