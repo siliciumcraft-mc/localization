@@ -10,7 +10,7 @@ SCOREBOARD:
   WAITING: |
     §6§lBEDWARS
     
-    §fИгроков: §e{current_players_count}§f/§e{max_players_count}
+    §fИгроков: §e{players_count}§f/§e{max_players}
     
     §fЖдём игроков...
     
@@ -23,7 +23,7 @@ SCOREBOARD:
   STARTING: |
     §6§lBEDWARS
     
-    §fИгроков: §e{current_players_count}§f/§e{max_players_count}
+    §fИгроков: §e{players_count}§f/§e{max_players}
     
     §fСтарт через §e{time_before_game_starts}§f сек.
     
