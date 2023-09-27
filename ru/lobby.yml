@@ -1,0 +1,33 @@
+EXP_REWARD_LOCALE: '§7+ §a%s §fопыта'
+REWARD_GUI_NAME: 'Награды'
+
+PROFILE_MAIN_ITEM_PLAYER_NAME: '§bОбщая информация'
+PROFILE_MAIN_ITEM_PLAYER_LORE: |
+  §7Статус: {group}
+  
+  §7Монет: §6{coins}
+  §7Кристаллов: §e{gems}
+      
+  §7Скин: §f{skin}
+      
+  §7Проведено времени на сервере:
+  §f{time_played}
+PROFILE_MAIN_ITEM_LEVEL_NAME:  '§bУровень'
+PROFILE_MAIN_ITEM_LEVEL_LORE: |
+  §7Играя на сервере, вы получаете
+  §7игровой опыт, который необходим
+  §7для поднятия вашего уровня
+  §7и получения особых наград.
+      
+  §7Уровень: §d{level} {level_progress_bar} §6{progress_percentage}
+      
+  §7До следующего уровня: §a{next_lvl_exp} XP
+      
+  §e▸ Открыть меню наград
+PROFILE_MAIN_ITEM_DONATE_NAME: '§bПривилегии'
+PROFILE_MAIN_ITEM_DONATE_LORE: |
+  
+  §7Подробная информация о возможностях
+  §7привилегий и их покупки
+
+  §e▸ Открыть меню привилегий
