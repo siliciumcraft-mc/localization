@@ -166,7 +166,7 @@ STORE_BUY_OK: '{prefix} §7Вы купили §a{item_name}'
 NOT_ENOUGH_RESOURCES: '{prefix} §cНедостаточно ресурсов'
 INVENTORY_OVERFLOW: '{prefix} §cИнвентарь переполнен'
 
-REWARD_COINS: '§fВы получили §a{coins}§f монет и §6{exp}§f опыта'
+REWARD: '§fВы получили §a{coins}§f монет и §6{exp}§f опыта'
 
 # Улучшения (если у улучшения есть уровни или если их нет)
 TEAM_UPGRADE_LEVEL: '{prefix} §fИгрок {player_prefix} {player_name} §fпрокачал улучшение §b{trade_name} §fдо уровня {trade_level}!'
