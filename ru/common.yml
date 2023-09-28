@@ -6,6 +6,7 @@ NO_PERMISSION: '§cУ вас нет прав ;('
 DOMAIN: 'mc.siliciumcraft.net'
 
 DONATE_MENU:
+    item_name: '§aДонат'
     title: Донат
     - name: §a§lATOMIC
       type: LIME_STAINED_GLASS_PANE
