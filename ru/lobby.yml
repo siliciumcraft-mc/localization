@@ -2,6 +2,7 @@ EXP_REWARD_LOCALE: '§7+ §a%s §fопыта'
 REWARD_GUI_NAME: 'Награды'
 
 PROFILE_MAIN_ITEM_PLAYER_NAME: '§bОбщая информация'
+PROFILE_MAIN_ITEM_PLAYER_SLOT: 19
 PROFILE_MAIN_ITEM_PLAYER_LORE: |
   §7Статус: {group}
   
@@ -12,7 +13,8 @@ PROFILE_MAIN_ITEM_PLAYER_LORE: |
       
   §7Проведено времени на сервере:
   §f{time_played}
-PROFILE_MAIN_ITEM_LEVEL_NAME:  '§bУровень'
+PROFILE_MAIN_ITEM_LEVEL_NAME: '§bУровень'
+PROFILE_MAIN_ITEM_LEVEL_SLOT: 11
 PROFILE_MAIN_ITEM_LEVEL_LORE: |
   §7Играя на сервере, вы получаете
   §7игровой опыт, который необходим
@@ -25,6 +27,7 @@ PROFILE_MAIN_ITEM_LEVEL_LORE: |
       
   §e▸ Открыть меню наград
 PROFILE_MAIN_ITEM_DONATE_NAME: '§bПривилегии'
+PROFILE_MAIN_ITEM_DONATE_SLOT: 21
 PROFILE_MAIN_ITEM_DONATE_LORE: |
   
   §7Подробная информация о возможностях
