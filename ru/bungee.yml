@@ -29,9 +29,9 @@ PARTY_INVITE_REQUEST: |
   §fИгрок §a{0}§f приглашает Вас в пати!
    
 PARTY_PREFIX: '§6§lParty §r§8▸'
-PARTY_INVITE_NOTIFY: '{party_prefix} §fИгрок {player_prefix}{player_name} §fприсоединился к пати'
-PARTY_KICK_NOTIFY: '{party_prefix} §fИгрок {player_prefix}{player_name} §fисключен из пати'
-PARTY_LEAVE_NOTIFY: '{party_prefix} §fИгрок {player_prefix}{player_name} §fпокинул пати'
+PARTY_INVITE_NOTIFY: '{party_prefix} §fИгрок §a{player_name} §fприсоединился к пати'
+PARTY_KICK_NOTIFY: '{party_prefix} §fИгрок §a{player_name} §fисключен из пати'
+PARTY_LEAVE_NOTIFY: '{party_prefix} §fИгрок §a{player_name} §fпокинул пати'
 
 PARTY_NO_PERMISSION: '{party_prefix} §cУ вас недостаточно прав!'
 PARTY_INVAILD: '{party_prefix} §cПати не существует'
