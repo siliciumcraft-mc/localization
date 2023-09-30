@@ -26,17 +26,17 @@ TAB_FOOTER: |
    §e{0}
 PARTY_INVITE_REQUEST: |
   
-  §fИгрок §a{player_name} §fприглашает Вас в пати!
+  §fИгрок §a{player_prefix}{player_name} §fприглашает Вас в пати!
    
 PARTY_PREFIX: '§6§lParty §r§8▸'
-PARTY_INVITE_NOTIFY: '{party_prefix} §fИгрок §a{player_name} §fприсоединился к пати'
-PARTY_KICK_NOTIFY: '{party_prefix} §fИгрок §a{player_name} §fисключен из пати'
-PARTY_LEAVE_NOTIFY: '{party_prefix} §fИгрок §a{player_name} §fпокинул пати'
+PARTY_INVITE_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fприсоединился к пати'
+PARTY_KICK_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fисключен из пати'
+PARTY_LEAVE_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fпокинул пати'
 
 PARTY_NO_PERMISSION: '{party_prefix} §cУ вас недостаточно прав!'
 PARTY_INVAILD: '{party_prefix} §cПати не существует'
 PARTY_MEMBER_NOT_FOUND: '{party_prefix} §cУчастник не найден'
-PARTY_CHAT: '§dЧат группы §8| {player_name} §8» §7{message}'
+PARTY_CHAT: '§dЧат группы §8| {player_prefix}{player_name} §8» §7{message}'
 PARTY_HELP: |
 
   §eПодкоманды для party:
