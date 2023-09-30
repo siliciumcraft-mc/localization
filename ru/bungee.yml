@@ -24,19 +24,23 @@ TAB_FOOTER: |
 
    §fВы находитесь на сервере:
    §e{0}
-PARTY_INVITE_REQUEST: |
-  
-  §fИгрок §a{player_prefix}{player_name} §fприглашает Вас в пати!
    
 PARTY_PREFIX: '§6§lParty §r§8▸'
-PARTY_INVITE_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fприсоединился к пати'
-PARTY_KICK_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fисключен из пати'
-PARTY_LEAVE_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fпокинул пати'
 
 PARTY_NO_PERMISSION: '{party_prefix} §cУ вас недостаточно прав!'
 PARTY_INVAILD: '{party_prefix} §cПати не существует'
+PARTY_INVITE_ALREADY_SENT: '{party_prefix} §cВы уже отправили запрос этому игроку'
+PARTY_CANT_INVITE_YOURSELF: "{party_prefix} §cОшибка, Вы не можете пригласить в группу самого себя" 
 PARTY_MEMBER_NOT_FOUND: '{party_prefix} §cУчастник не найден'
+
+PARTY_INVITE_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fприсоединился к пати'
+PARTY_KICK_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fисключен из пати'
+PARTY_LEAVE_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fпокинул пати'
 PARTY_CHAT: '§dЧат группы §8| {player_prefix}{player_name} §8» §7{message}'
+PARTY_INVITE_REQUEST: |
+  §8§l             -| §6PARTY §8|-
+  {player_prefix}{player_name} §fПригласил вас в пати
+
 PARTY_HELP: |
 
   §eПодкоманды для party:
