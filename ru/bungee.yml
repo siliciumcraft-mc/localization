@@ -36,7 +36,7 @@ PARTY_LEAVE_NOTIFY: '{party_prefix} §fИгрок §a{player_name} §fпокин
 PARTY_NO_PERMISSION: '{party_prefix} §cУ вас недостаточно прав!'
 PARTY_INVAILD: '{party_prefix} §cПати не существует'
 PARTY_MEMBER_NOT_FOUND: '{party_prefix} §cУчастник не найден'
-PARTY_CHAT: '§dЧат группы §8| '
+PARTY_CHAT: '§dЧат группы §8| {player_name} §8» §7{message}'
 PARTY_HELP: |
 
   §eПодкоманды для party:
