@@ -38,7 +38,7 @@ PARTY_KICK_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name}
 PARTY_LEAVE_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fпокинул пати'
 PARTY_CHAT: '§dЧат группы §8| {player_prefix}{player_name} §8» §7{message}'
 PARTY_INVITE_REQUEST: |
-  §8§l             -| §6PARTY §8|-
+  §8§l             -| §6§lPARTY §8§l|-
   {player_prefix}{player_name} §fПригласил вас в пати
 
 PARTY_HELP: |
