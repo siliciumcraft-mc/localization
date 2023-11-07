@@ -3,7 +3,12 @@ CHAT_MUTE: '§cВ связи с ограничениями, мы информи�
 PRE_CHAT_FORMAT: '{player_prefix}{player_name} §8» §7{message}'
 
 NO_PERMISSION: '§cУ вас нет прав ;('
+ARENA_INFO: |-
 
+    §7Сервер: §a{server_name}
+    §7Состояние: {arena_state}
+    §7Кол-во игроков: {arena_players}/{arena_max_players}
+    
 DOMAIN: 'mc.siliciumcraft.net'
 
 DONATE_MENU_TITLE: 'Донат'
