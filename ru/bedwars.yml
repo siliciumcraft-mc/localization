@@ -53,6 +53,10 @@ TAB_PLAYER_NAME:
   WAITING: '{player_prefix}'
   PLAYING: '{team_color}'
   SPECTATOR: '§7[✘§7] {player_prefix}'
+
+TEAMS:
+  RED: 'Красные'
+  BLUE: 'Голубые'
     
 # Лобби ожидания
 PLAYER_JOINED_WAITING: '{prefix} {player_prefix}{player_name} §fподключился к игре §a{players_count}/{max_players}'
