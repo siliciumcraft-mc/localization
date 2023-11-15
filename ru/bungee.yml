@@ -36,7 +36,11 @@ PARTY_MEMBER_NOT_FOUND: '{party_prefix} §cУчастник не найден'
 PARTY_INVITE_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fприсоединился к пати'
 PARTY_KICK_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fисключен из пати'
 PARTY_LEAVE_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fпокинул пати'
+PARTY_CANT_KICK_YOURSELF: '§cВы не можете исключить самого себя!'
+PARTY_CANT_INVITE: '§cВы не можете добавить этого участника в группу, возможно, он уже в группе'
 PARTY_CHAT: '§dЧат группы §8| {player_prefix}{player_name} §8» §7{message}'
+PARTY_CHAT: '§dЧат группы §8| {player_prefix}{player_name} §8» §7{message}'
+
 PARTY_INVITE_REQUEST: |
 
     §8§l           -| §6§lPARTY §8§l|-
