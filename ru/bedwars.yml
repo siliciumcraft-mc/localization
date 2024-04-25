@@ -63,8 +63,8 @@ PLAYER_JOINED_WAITING: '{prefix} {player_prefix}{player_name} §fподключ�
 PLAYER_QUIT_WAITING: '{prefix} {player_prefix}{player_name} §fпокинул игру §c{players_count}/{max_players}'
 
 # Арена
-PLAYER_JOINED: '{player_prefix}{player_name} §fподключился к игре'
-PLAYER_QUIT: '{player_prefix}{player_name} §fпокинул игру'
+PLAYER_JOINED: '{prefix} {player_prefix}{player_name} §fподключился к игре'
+PLAYER_QUIT: '{prefix} {player_prefix}{player_name} §fпокинул игру'
 
 # Сообщение сразу после начала игры
 GAME_START_MESSAGE: |-
@@ -99,8 +99,8 @@ PLAYER_HEAD_BAR:
     - '§f{health} §c❤'
 
 # Заголовки магазинов
-SHOP_UPGRADES_TITLE: '§bКОМАНДНЫЕ УЛУЧШЕНИЯ'
-SHOP_ITEMS_TITLE: '§aМАГАЗИН ПРЕДМЕТОВ'
+SHOP_UPGRADES_TITLE: '§b§lКОМАНДНЫЕ УЛУЧШЕНИЯ'
+SHOP_ITEMS_TITLE: '§a§lМАГАЗИН ПРЕДМЕТОВ'
 
 # {player_color} - Killed player's team color
 # {deathPrefix} - Killed player's prefix
@@ -186,11 +186,12 @@ GENERATOR_UPGRADE:
 # Сообщение по окончании игры
 GAME_END_MESSAGE: |-
   §8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+  §f
                             §6§lBEDWARS
   {gameResult}
-
+  §f
   {top1killer}{top2killer}{top3killer}
-
+  §f
   §8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 # Сообщение для {gameResult}, если есть победители
