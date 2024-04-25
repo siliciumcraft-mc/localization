@@ -145,7 +145,7 @@ DAMAGE_CAUSE_KILLED_TO: '{prefix} {player_color}{player_name}§f был убит
 EXIT_OBSERVER_MODE: '§7Нажмите §c§lSHIFT§r§7, чтобы выйти из режима наблюдателя'
 
 # Сообщение на экране после смерти
-TIME_TO_RESPAWN_TITLE: §eДо возрождения §c{seconds} §eсек.
+# TIME_TO_RESPAWN_TITLE: §eДо возрождения §c{seconds} §eсек.
 
 # Возрождение
 RESPAWN_TITLE:
