@@ -148,7 +148,7 @@ EXIT_OBSERVER_MODE: '§7Нажмите §c§lSHIFT§r§7, чтобы выйти 
 # TIME_TO_RESPAWN_TITLE: §eДо возрождения §c{seconds} §eсек.
 
 # Возрождение
-RESPAWN_TITLE:
+DIED_TITLE:
   - '§cВы погибли'
   - '§7Возрождение через: §c{respawn_time}'
 
