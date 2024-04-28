@@ -148,9 +148,9 @@ EXIT_OBSERVER_MODE: '§7Нажмите §c§lSHIFT§r§7, чтобы выйти 
 # TIME_TO_RESPAWN_TITLE: §eДо возрождения §c{seconds} §eсек.
 
 # Возрождение
-DIED_TITLE:
-  - '§cВы погибли'
-  - '§7Возрождение через: §c{respawn_time}'
+DIED_TITLE: |
+  §cВы погибли
+  §7Возрождение через: §c{respawn_time}
 
 # Сообщения на экране после возрождения
 RESPAWN_TITLE: §aВы возрождены!
@@ -161,9 +161,9 @@ BED_DESTROY_CHAT: |2
   {prefix} §7Кровать команды {team_color}{team_name} §7разрушена игроком {player_color}{player_name}§7!
 
 # Сообщения на экране при разрушении кровати
-BED_DESTROY_TITLE:
-  - '§cВаша кровать разрушена!'
-  - '§7Вы больше не сможете возрождаться ;('
+BED_DESTROY_TITLE: |
+  §cВаша кровать разрушена!
+  §7Вы больше не сможете возрождаться ;(
 
 # Сообщение в чате, когда команда без кровати умирает или выходит из игры
 TEAM_DESTROY_CHAT: '{prefix} §rКоманда {team_color}{team_name} уничтожена!'
