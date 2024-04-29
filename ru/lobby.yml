@@ -6,7 +6,7 @@ PROFILE_MAIN_GUI_NAME: 'Профиль'
 PROFILE_MAIN_ITEM_PLAYER_NAME: '§bОбщая информация'
 PROFILE_MAIN_ITEM_PLAYER_SLOT: 19
 PROFILE_MAIN_ITEM_PLAYER_LORE: |
-  §7Статус: {group_prefix}
+  §7Статус: {player_prefix}
   
   §7Монет: §6{coins}
   §7Кристаллов: §e{gems}
