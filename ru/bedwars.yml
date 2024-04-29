@@ -191,14 +191,14 @@ GENERATOR_UPGRADE:
   EMERALD: '{prefix} §fГенераторы §aизумрудов §fпрокачаны до уровня §a{generator_level}!'
 
 # Сообщение по окончании игры
-GAME_END_MESSAGE: |+
+GAME_END_MESSAGE: |-
   §8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-  
+                            
                             §6§lBEDWARS
   {gameResult}
-  
+                            
   {top1killer}{top2killer}{top3killer}
-  
+                            
   §8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
   
 # Сообщение для {gameResult}, если есть победители
