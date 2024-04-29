@@ -166,7 +166,7 @@ BED_DESTROY_TITLE: |
   §7Вы больше не сможете возрождаться ;(
 
 # Сообщение в чате, когда команда без кровати умирает или выходит из игры
-TEAM_DESTROY_CHAT: '{prefix} §rКоманда {team_color}{team_name} уничтожена!'
+TEAM_DESTROY_CHAT: '{prefix} §rКоманда {team_color}{team_name} §rуничтожена!'
 
 # Сообщение в чате при попытке сломать свою кровать
 CANT_DESTROY_BED: '{prefix} §cВы не можете сломать кровать своей команды'
@@ -191,7 +191,7 @@ GENERATOR_UPGRADE:
   EMERALD: '{prefix} §fГенераторы §aизумрудов §fпрокачаны до уровня §a{generator_level}!'
 
 # Сообщение по окончании игры
-GAME_END_MESSAGE: |
+GAME_END_MESSAGE: >
   §8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
   §7
                             §6§lBEDWARS
@@ -200,7 +200,7 @@ GAME_END_MESSAGE: |
   {top1killer}{top2killer}{top3killer}
   §7
   §8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-
+  
 # Сообщение для {gameResult}, если есть победители
 GAME_END_WITH_WINNERS: "             §7Победила команда - {team_color}{team_name}"
 
