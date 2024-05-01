@@ -18,12 +18,12 @@ TAB_HEADER: |
    §6§lSiliciumCraft
    
    §fОнлайн-магазин:
-   §estore.siliciumcraft.com
+   §e{current_domain}
 
 TAB_FOOTER: |
 
    §fВы находитесь на сервере:
-   §e{0}
+   §e{server}
    
 PARTY_PREFIX: '§6§lParty §r§8▸'
 
