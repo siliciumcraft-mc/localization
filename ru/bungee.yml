@@ -9,9 +9,9 @@ KICK_MESSAGE: |
 BAN_MESSAGE: |
   §cВы были забанены
   
-  §fМодератор: §7{0}
-  §fПричина: §c{1}
-  §fВремя разбана: §e{2}
+  §fМодератор: §7{moder}
+  §fПричина: §c{reason}
+  §fВремя разбана: §e{duration}
   
 TAB_HEADER: |
 
