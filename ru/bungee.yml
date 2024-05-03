@@ -1,5 +1,5 @@
-PING_MESSAGE: 'Ваш пинг: §e{0}'
-PLAYTIME_MESSAGE: 'Вы провели на сервере §e{0}'
+PING_MESSAGE: 'Ваш пинг: §e{ping}'
+PLAYTIME_MESSAGE: 'Вы провели на сервере §e{played_time}'
 KICK_MESSAGE: |
   §cВы были кикнуты
   
