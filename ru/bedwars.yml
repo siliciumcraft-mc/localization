@@ -58,6 +58,7 @@ TEAMS:
   RED: 'Красные'
   BLUE: 'Голубые'
 TEAM_IS_FULL: '{prefix} §cВ данной команде нет места'
+TEAM_SELECTION_GUI: 'Выбор команды'
 GOLEM_TEAM: 'Голем команды: {team_color}{team_name}' 
 # Лобби ожидания
 PLAYER_JOINED_WAITING: '{prefix} {player_prefix}{player_name} §fподключился к игре §a{players_count}/{max_players}'
