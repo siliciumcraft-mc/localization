@@ -8,6 +8,7 @@ SCOREBOARD:
 
   # Ожидание игроков
   WAITING: |
+    §8{current_date}
     §7
     §fИгроков: §e{players_count}§f/§e{max_players}
     §4
@@ -20,6 +21,7 @@ SCOREBOARD:
     
   # Отсчёт времени в лобби ожидания
   STARTING: |
+    §8{current_date}
     §7
     §fИгроков: §e{players_count}§f/§e{max_players}
     §6
@@ -32,6 +34,7 @@ SCOREBOARD:
     
   # Скорборд во время игры
   PLAYING: |
+    §8{current_date}
     §7
     {scoreboard_teams}
     §e
