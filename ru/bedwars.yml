@@ -114,7 +114,7 @@ SHOP_ITEMS_TITLE: '§a§lМАГАЗИН ПРЕДМЕТОВ'
 # {killer_color} - Killer's team color
 # {killerPrefix} - Killer's prefix
 # {killer_name} - Killer's name
-FINAL_KILL: '§aФИНАЛЬНОЕ УБИЙСТВО'
+FINAL_KILL: '§bФИНАЛЬНОЕ УБИЙСТВО'
 
 DAMAGE_CAUSE_SUCIDE: '{prefix} {player_color}{player_name}§f решил покончить жизнь самоубийством'
 
