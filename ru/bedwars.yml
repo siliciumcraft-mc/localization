@@ -177,7 +177,7 @@ TEAM_DESTROY_CHAT: '{prefix} §rКоманда {team_color}{team_name} §rуни
 # Сообщение в чате при попытке сломать свою кровать
 CANT_DESTROY_BED: '{prefix} §cВы не можете сломать кровать своей команды'
 
-STORE_BUY_OK: '{prefix} §7Вы купили §a{item_name}'
+STORE_BUY_OK: '{prefix} §7Вы купили §a{item_name} {item_amount}x'
 NOT_ENOUGH_RESOURCES: '{prefix} §cНедостаточно ресурсов'
 INVENTORY_OVERFLOW: '{prefix} §cИнвентарь переполнен'
 
