@@ -59,7 +59,13 @@ TAB_PLAYER_NAME:
 
 TEAMS:
   RED: 'Красные'
-  BLUE: 'Голубые'
+  BLUE: 'Синии'
+  AQUA: 'Голубые'
+  LIGHT_PURPLE: 'Розовые'
+  GRAY: 'Серые'
+  GOLD: 'Оранжевые'
+  YELLOW: 'Желтые'
+  GREEN: 'Зеленые'
 TEAM_IS_FULL: '{prefix} §cВ данной команде нет места'
 TEAM_SELECTION_GUI: 'Выбор команды'
 GOLEM_TEAM: 'Голем команды: {team_color}{team_name}' 
