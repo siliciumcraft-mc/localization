@@ -7,24 +7,24 @@ PREFIX: '§6§lBedWars §r§8▸'
 SCOREBOARD:
 
   TITLE: §6§lBEDWARS
-
+lobby
   # Лобби
   LOBBY: |
     
-    Ваш статус: {silicium_player_prefix}
+    Ваш статус: %silicium_player_prefix%
     
-    Монет: §6{silicium_coins}
-    Кристаллов: §2{silicium_gems}
+    Монет: §6%silicium_coins%
+    Кристаллов: §2%silicium_gems%
     
-    Убийств: §e{bedwars_kills}
-    Смертей: §e{bedwars_deaths}
-    FKDR: §e{bedwars_fkdr}
-    Игр сыграно: §e{bedwars_games_played}
-    Побед: §e{bedwars_wins}
-    Процент побед: §e{bedwars_winrate}%
-    Слом. кроватей: §e{bedwars_beds_destroyed}
+    Убийств: §e%bedwars_kills%
+    Смертей: §e%bedwars_deaths%
+    FKDR: §e%bedwars_fkdr%
+    Игр сыграно: §e%bedwars_games_played%
+    Побед: §e%bedwars_wins%
+    Процент побед: §e%bedwars_winrate%
+    Слом. кроватей: §e%bedwars_beds_destroyed%
     
-    §e{silicium_current_domain}
+    §e%silicium_current_domain%
 
   # Ожидание игроков
   WAITING: |
