@@ -23,7 +23,7 @@ SCOREBOARD:
     Процент побед: §e%bedwars_winrate%%
     Слом. кроватей: §e%bedwars_bedsDestroyed%%
     §7
-    §e%silicium_current_domain%
+    §e %silicium_current_domain%
 
   # Ожидание игроков
   WAITING: |
