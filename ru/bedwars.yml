@@ -18,10 +18,10 @@ SCOREBOARD:
     Убийств: §e%bedwars_kills%
     Смертей: §e%bedwars_deaths%
     FKDR: §e%bedwars_fkdr%
-    Игр сыграно: §e%bedwars_games_played%
+    Игр сыграно: §e%bedwars_gamesPlayed%
     Побед: §e%bedwars_wins%
     Процент побед: §e%bedwars_winrate%
-    Слом. кроватей: §e%bedwars_beds_destroyed%
+    Слом. кроватей: §e%bedwars_bedsDestroyed%
     
     §e%silicium_current_domain%
 
