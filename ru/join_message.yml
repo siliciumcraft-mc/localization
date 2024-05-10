@@ -1,4 +1,5 @@
-JOIN_MESSAGES: 
+JOIN_MESSAGES:
+  '0': '{player_prefix}{player_name} §aЗашел на сервер'
   '1': '{player_prefix}{player_name} §aНаконец-то с нами'
   '2': '{player_prefix}{player_name} §aВернулся с тайланда'
   '3': '{player_prefix}{player_name} §aУпал с инвалидно коляски'
