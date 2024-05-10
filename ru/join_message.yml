@@ -1,11 +1,11 @@
 JOIN_MESSAGES: 
-  1: "{player_prefix}{player_name} §aНаконец-то с нами"
-  2: "{player_prefix}{player_name} §aВернулся с тайланда"
-  3: "{player_prefix}{player_name} §aУпал с инвалидно коляски"
-  4: "{player_prefix}{player_name} §bВернулся из тюрьмы"
-  5: "{player_prefix}{player_name} §b33й выход за линию фронта"
-  6: "{player_prefix}{player_name} §2Чуваки, это поколение отстой, я - футбольный мячик"
-  7: "{player_prefix}{player_name} §2Денег нет, но вы держитесь"
-  8: "{player_prefix}{player_name} §6Вот бы сейчас зашел какой-нибудь папик и купил мне модерку"
-  9: "{player_prefix}{player_name} §6Засмотрелся на снегурочку и упал в сугроб"
-  10: "{player_prefix}{player_name} §6Перекинул меч через плечо и пошел убивать"
+  '1': '{player_prefix}{player_name} §aНаконец-то с нами'
+  '2': '{player_prefix}{player_name} §aВернулся с тайланда'
+  '3': '{player_prefix}{player_name} §aУпал с инвалидно коляски'
+  '4': '{player_prefix}{player_name} §bВернулся из тюрьмы'
+  '5': '{player_prefix}{player_name} §b33й выход за линию фронта"
+  '6': '{player_prefix}{player_name} §2Чуваки, это поколение отстой, я - футбольный мячик'
+  '7': '{player_prefix}{player_name} §2Денег нет, но вы держитесь'
+  '8': '{player_prefix}{player_name} §6Вот бы сейчас зашел какой-нибудь папик и купил мне модерку'
+  '9': '{player_prefix}{player_name} §6Засмотрелся на снегурочку и упал в сугроб'
+  '10': '{player_prefix}{player_name} §6Перекинул меч через плечо и пошел убивать'
