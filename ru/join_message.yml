@@ -1,0 +1,7 @@
+JOIN_MESSAGE_1: '{player_prefix}{player_name} §aНаконец-то с нами'
+JOIN_MESSAGE_2: '{player_prefix}{player_name} §aВернулся с тайланда'
+JOIN_MESSAGE_3: '{player_prefix}{player_name} §aУпал с инвалидно коляски'
+JOIN_MESSAGE_4: '{player_prefix}{player_name} §bВернулся из тюрьмы'
+JOIN_MESSAGE_5: '{player_prefix}{player_name} §b33й выход за линию фронта'
+JOIN_MESSAGE_6: '{player_prefix}{player_name} §2Чуваки, это поколение отстой, я - футбольный мячик'
+JOIN_MESSAGE_7: '{player_prefix}{player_name} §2Денег нет, но вы держитесь'
