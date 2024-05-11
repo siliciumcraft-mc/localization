@@ -10,10 +10,10 @@ SCOREBOARD:
   # Лобби
   LOBBY: |
     §1
-    Ваш статус: %silicium_player_prefix%
+    Ваш статус: %si_player_prefix%
     §r
-    Монет: §6%silicium_coins%
-    Кристаллов: §2%silicium_gems%
+    Монет: §6%si_coins%
+    Кристаллов: §2%si_gems%
     §9
     Убийств: §e%bedwars_kills%
     Смертей: §e%bedwars_deaths%
@@ -23,7 +23,7 @@ SCOREBOARD:
     Процент побед: §e%bedwars_winrate%%
     Слом. кроватей: §e%bedwars_bedsDestroyed%%
     §7
-    §e%silicium_domain%
+    §e%si_domain%
 
   # Ожидание игроков
   WAITING: |
