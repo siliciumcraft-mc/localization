@@ -1,5 +1,6 @@
 PING_MESSAGE: 'Ваш пинг: §e{ping}'
 PLAYTIME_MESSAGE: 'Вы провели на сервере §e{played_time}'
+DONATE_CHAT: '§6Донат-Чат §8(/dc): {player_prefix} {player_name} §f{message}'
 KICK_MESSAGE: |
   §cВы были кикнуты
   
