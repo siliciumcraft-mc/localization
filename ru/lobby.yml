@@ -37,8 +37,8 @@ PROFILE_MAIN_ITEM_LANGUAGE_LORE: |
   §cполностью или не переведены вовсе
 
   §e▸ Открыть меню языков
-PROFILE_MAIN_ITEM_SETTINS_NAME: '§aПерсональные настройки'
-PROFILE_MAIN_ITEM_SETTINS_LORE: |
+PROFILE_MAIN_ITEM_SETTINGS_NAME: '§aПерсональные настройки'
+PROFILE_MAIN_ITEM_SETTINGS_LORE: |
   §7Персональные настройки
 
   §e▸ Открыть меню настроек
