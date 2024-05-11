@@ -36,8 +36,12 @@ PROFILE_MAIN_ITEM_LANGUAGE_LORE: |
   §cсервере могут быть переведены не
   §cполностью или не переведены вовсе
 
-  §e▸ Открыть меню
+  §e▸ Открыть меню языков
+PROFILE_MAIN_ITEM_SETTINS_NAME: '§aПерсональные настройки'
+PROFILE_MAIN_ITEM_SETTINS_LORE: |
+  §7Персональные настройки
 
+  §e▸ Открыть меню настроек
 PROFILE_MAIN_ITEM_DONATE_NAME: '§bПривилегии'
 PROFILE_MAIN_ITEM_DONATE_LORE: |
   
