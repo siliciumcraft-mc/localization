@@ -28,8 +28,8 @@ PROFILE_MAIN_ITEM_LEVEL_LORE: |
       
   §e▸ Открыть меню наград
 
-PROFILE_MAIN_LANGUAGE_NAME: '§aВыбор языка'
-PROFILE_MAIN_LANGUAGE_LORE: |
+PROFILE_MAIN_ITEM_LANGUAGE_NAME: '§aВыбор языка'
+PROFILE_MAIN_ITEM_LANGUAGE_LORE: |
     
   §7Наш проект поддерживает несколько языков
   
