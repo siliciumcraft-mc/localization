@@ -86,7 +86,6 @@ TEAMS:
   YELLOW: 'Желтые'
   GREEN: 'Зеленые'
   WHITE: 'Белые'
-CANT_PLACE_BLOCK: '{prefix} §cВы не можете ставить блоки в этом месте'
 TEAM_IS_FULL: '{prefix} §cВ данной команде нет места'
 TEAM_SELECTION_GUI: 'Выбор команды'
 GOLEM_TEAM: 'Голем команды: {team_color}{team_name}' 
@@ -98,6 +97,7 @@ GAME_START_IN: '{prefix} §rИгра начнется через: §c{time} се
 # Арена
 PLAYER_JOINED: '{prefix} {player_prefix}{player_name} §fподключился к игре'
 PLAYER_QUIT: '{prefix} {player_prefix}{player_name} §fпокинул игру'
+CANT_PLACE_BLOCK: '{prefix} §cВы не можете ставить блоки в этом месте'
 
 # Сообщение сразу после начала игры
 GAME_START_MESSAGE: |-
