@@ -5,7 +5,6 @@ PROFILE_MAIN_GUI_NAME: 'Профиль'
 PROFILE_ITEM_NAME: '§eПрофиль игрока {player_prefix}{player_name}'
 
 PROFILE_MAIN_ITEM_PLAYER_NAME: '§bОбщая информация'
-PROFILE_MAIN_ITEM_PLAYER_SLOT: 19
 PROFILE_MAIN_ITEM_PLAYER_LORE: |
   §7Статус: {player_prefix}
   
@@ -17,7 +16,6 @@ PROFILE_MAIN_ITEM_PLAYER_LORE: |
   §7Проведено времени на сервере:
   §f{time_played}
 PROFILE_MAIN_ITEM_LEVEL_NAME: '§bУровень'
-PROFILE_MAIN_ITEM_LEVEL_SLOT: 11
 PROFILE_MAIN_ITEM_LEVEL_LORE: |
   §7Играя на сервере, вы получаете
   §7игровой опыт, который необходим
@@ -29,8 +27,19 @@ PROFILE_MAIN_ITEM_LEVEL_LORE: |
   §7До следующего уровня: §a{next_lvl_exp} XP
       
   §e▸ Открыть меню наград
+
+PROFILE_MAIN_LANGUAGE_NAME: '§aВыбор языка'
+PROFILE_MAIN_LANGUAGE_LORE: |
+    
+  §7Наш проект поддерживает несколько языков
+  
+  §cВнимание! Некоторые элементы на
+  §cсервере могут быть переведены не
+  §cполностью или не переведены вовсе
+
+  §e▸ Открыть меню
+
 PROFILE_MAIN_ITEM_DONATE_NAME: '§bПривилегии'
-PROFILE_MAIN_ITEM_DONATE_SLOT: 21
 PROFILE_MAIN_ITEM_DONATE_LORE: |
   
   §7Подробная информация о возможностях
