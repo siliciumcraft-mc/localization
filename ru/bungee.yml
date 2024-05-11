@@ -19,7 +19,7 @@ TAB_HEADER: |
    §6§lSiliciumCraft
    
    §fОнлайн-магазин:
-   §e{current_domain}
+   §e{store_domain}
 
 TAB_FOOTER: |
 
