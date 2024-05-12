@@ -4,8 +4,9 @@ REWARD_GUI_NAME: 'Награды'
 PROFILE_MAIN_GUI_NAME: 'Профиль'
 PROFILE_ITEM_NAME: '§eПрофиль игрока {player_prefix}{player_name}'
 
-PROFILE_MAIN_ITEM_PLAYER_NAME: '§bОбщая информация'
-PROFILE_MAIN_ITEM_PLAYER_LORE: |
+PROFILE_MAIN_ITEM_PLAYER: |
+  §bОбщая информация
+  
   §7Статус: {player_prefix}
   
   §7Монет: §6{coins}
@@ -15,8 +16,8 @@ PROFILE_MAIN_ITEM_PLAYER_LORE: |
       
   §7Проведено времени на сервере:
   §f{time_played}
-PROFILE_MAIN_ITEM_LEVEL_NAME: '§bУровень'
-PROFILE_MAIN_ITEM_LEVEL_LORE: |
+PROFILE_MAIN_ITEM_LEVEL: |
+  §bУровень
   §7Играя на сервере, вы получаете
   §7игровой опыт, который необходим
   §7для поднятия вашего уровня
@@ -28,8 +29,8 @@ PROFILE_MAIN_ITEM_LEVEL_LORE: |
       
   §e▸ Открыть меню наград
 
-PROFILE_MAIN_ITEM_LANGUAGE_NAME: '§aВыбор языка'
 PROFILE_MAIN_ITEM_LANGUAGE_LORE: |
+  §aВыбор языка
   §7Наш проект поддерживает несколько языков
   
   §cВнимание! Некоторые элементы на
@@ -37,14 +38,15 @@ PROFILE_MAIN_ITEM_LANGUAGE_LORE: |
   §cполностью или не переведены вовсе
 
   §e▸ Открыть меню языков
-PROFILE_MAIN_ITEM_SETTINGS_NAME: '§aПерсональные настройки'
-PROFILE_MAIN_ITEM_SETTINGS_LORE: |
+PROFILE_MAIN_ITEM_SETTINGS: |
+  §aПерсональные настройки
+
   §7Персональные настройки
 
   §e▸ Открыть меню настроек
-PROFILE_MAIN_ITEM_DONATE_NAME: '§bПривилегии'
-PROFILE_MAIN_ITEM_DONATE_LORE: |
-  
+PROFILE_MAIN_ITEM_DONATE: |
+  §bПривилегии
+
   §7Подробная информация о возможностях
   §7привилегий и их покупки
 
