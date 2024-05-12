@@ -18,6 +18,7 @@ PROFILE_MAIN_ITEM_PLAYER: |
   §f{time_played}
 PROFILE_MAIN_ITEM_LEVEL: |
   §bУровень
+
   §7Играя на сервере, вы получаете
   §7игровой опыт, который необходим
   §7для поднятия вашего уровня
@@ -29,8 +30,9 @@ PROFILE_MAIN_ITEM_LEVEL: |
       
   §e▸ Открыть меню наград
 
-PROFILE_MAIN_ITEM_LANGUAGE_LORE: |
+PROFILE_MAIN_ITEM_LANGUAGE: |
   §aВыбор языка
+
   §7Наш проект поддерживает несколько языков
   
   §cВнимание! Некоторые элементы на
