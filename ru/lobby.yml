@@ -1,6 +1,3 @@
-EXP_REWARD_LOCALE: '§7+ §a%s §fопыта'
-REWARD_GUI_NAME: 'Награды'
-
 PROFILE_MAIN_GUI_NAME: 'Профиль'
 PROFILE_ITEM_NAME: '§eПрофиль игрока {player_prefix}{player_name}'
 
