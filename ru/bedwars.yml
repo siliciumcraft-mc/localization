@@ -15,13 +15,13 @@ SCOREBOARD:
     Монет: §6{si_coins}
     Кристаллов: §2{si_gems}
     §9
-    Убийств: §e{bedwars_kills}
-    Смертей: §e{bedwars_deaths}
-    FKDR: §e{bedwars_fkdr}
-    Игр сыграно: §e{bedwars_gamesPlayed}
-    Побед: §e{bedwars_wins}
-    Процент побед: §e{bedwars_winrate}%
-    Слом. кроватей: §e{bedwars_bedsDestroyed}%
+    Убийств: §e{bw_kills}
+    Смертей: §e{bw_deaths}
+    FKDR: §e{bw_fkdr}
+    Игр сыграно: §e{bw_gamesPlayed}
+    Побед: §e{bw_wins}
+    Процент побед: §e{bw_winrate}%
+    Слом. кроватей: §e{bw_bedsDestroyed}%
     §7
     §e{si_domain}
 
