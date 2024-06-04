@@ -92,7 +92,7 @@ GOLEM_TEAM: 'Голем команды: {team_color}{team_name}'
 # Лобби ожидания
 PLAYER_JOINED_WAITING: '{prefix} {player_prefix}{player_name} §fподключился к игре §a{players_count}/{max_players}'
 PLAYER_QUIT_WAITING: '{prefix} {player_prefix}{player_name} §fпокинул игру §c{players_count}/{max_players}'
-GAME_START_IN: '{prefix} §rИгра начнется через §a{time} секунд(ы)'
+GAME_START_IN: '{prefix} §rИгра начнется через §a§l{time}§r сек.'
 
 # Арена
 PLAYER_JOINED: '{prefix} {player_prefix}{player_name} §fподключился к игре'
