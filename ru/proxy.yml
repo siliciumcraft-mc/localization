@@ -10,9 +10,14 @@ KICK_MESSAGE: |
 BAN_MESSAGE: |
   §cВы были забанены
   
-  §fМодератор: §7{moder}
+  §fМодератор: §7{moder_prefix}{moder}
   §fПричина: §c{reason}
   §fВремя разбана: §e{duration}
+
+BAN_COMMAND: |
+  §eПодкоманды для ban:
+  §7/ban <ник игрока> [время] [причина]§f - забанить игрока
+  §7/unban <ник игрока>§f - разбанить игрока
   
 TAB_HEADER: |
 
@@ -39,7 +44,6 @@ PARTY_KICK_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name}
 PARTY_LEAVE_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fпокинул пати'
 PARTY_CANT_KICK_YOURSELF: '§cВы не можете исключить самого себя!'
 PARTY_CANT_INVITE: '§cВы не можете добавить этого участника в группу, возможно, он уже в группе'
-PARTY_CHAT: '§dЧат группы §8| {player_prefix}{player_name} §8» §7{message}'
 PARTY_CHAT: '§dЧат группы §8| {player_prefix}{player_name} §8» §7{message}'
 
 PARTY_INVITE_REQUEST: |
