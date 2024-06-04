@@ -73,7 +73,7 @@ SCOREBOARD:
 # Префиксы игроков в табе
 TAB_PLAYER_NAME:
   WAITING: '{player_prefix}'
-  PLAYING: '⚑ {team_color}'
+  PLAYING: '{team_color} ⚑'
   SPECTATOR: '§7[✘§7] {player_prefix}'
 
 TEAMS:
