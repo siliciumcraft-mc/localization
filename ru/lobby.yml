@@ -7,7 +7,7 @@ PROFILE_MAIN_ITEM_PLAYER: |
   §7Статус: {player_prefix}
   
   §7Монет: §6{coins}
-  §7Кристаллов: §e{gems}
+  §7Кристаллов: §a{gems}
       
   §7Скин: §f{skin}
       
