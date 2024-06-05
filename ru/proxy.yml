@@ -4,13 +4,13 @@ DONATE_CHAT: '§6§lДонат-Чат §7(/dc) §8» {player_prefix}{player_name
 KICK_MESSAGE: |
   §cВы были кикнуты
   
-  §fМодератор: §7{moder}
+  §fМодератор: §7{moder_prefix}{moder_name}
   §fПричина: §c{reason}
 
 BAN_MESSAGE: |
   §cВы были забанены
   
-  §fМодератор: §7{moder_prefix}{moder}
+  §fМодератор: §7{moder_prefix}{moder_name}
   §fПричина: §c{reason}
   §fВремя разбана: §e{duration}
 
