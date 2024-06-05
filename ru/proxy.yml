@@ -24,6 +24,7 @@ SKIN_COMMAND: |
   §7/skin set <ник игрока> §f - установить скин игрока
   §7/skin reset§f - сбросить скин
 
+SKIN_COMPLETED: '§eСкин обновлен'
 TAB_HEADER: |
 
    §6§lSiliciumCraft
