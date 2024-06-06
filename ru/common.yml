@@ -3,3 +3,5 @@ CHAT_MUTE: '§cВ связи с ограничениями, мы информи�
 PRE_CHAT_FORMAT: '{player_prefix}{player_name} §8» §7{message}'
 
 NO_PERMISSION: '§cУ вас нет прав ;('
+
+PLAYER_OFFLINE: '§cИгрок оффлайн'
