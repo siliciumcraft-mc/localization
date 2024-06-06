@@ -45,7 +45,7 @@ PARTY_INVITE_ALREADY_SENT: '{party_prefix} §cВы уже отправили з�
 PARTY_CANT_INVITE_YOURSELF: "{party_prefix} §cОшибка, Вы не можете пригласить в группу самого себя"
 PARTY_MEMBER_NOT_FOUND: '{party_prefix} §cУчастник не найден'
 PARTY_NO_INVITES: '{party_prefix} §cУ вас нет приглашения в эту группу или оно истекло'
-
+PARTY_WARP: '{party_prefix} §fЛидер группы {player_prefix}{player_name} §fтелепортировал всех игроков на свой сервер'
 PARTY_INVITE_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fприсоединился к пати'
 PARTY_KICK_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fисключен из пати'
 PARTY_LEAVE_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fпокинул пати'
