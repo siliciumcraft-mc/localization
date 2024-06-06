@@ -26,24 +26,25 @@ SKIN_COMMAND: |
 
 SKIN_COMPLETED: '§eСкин обновлен'
 TAB_HEADER: |
-
-   §6§lSiliciumCraft
-   
-   §fОнлайн-магазин:
-   §e{store_domain}
+  
+  §6§lSiliciumCraft
+  
+  §fОнлайн-магазин:
+  §e{store_domain}
 
 TAB_FOOTER: |
+  
+  §fВы находитесь на сервере:
+  §e{server}
 
-   §fВы находитесь на сервере:
-   §e{server}
-   
 PARTY_PREFIX: '§6§lParty §r§8▸'
 
 PARTY_NO_PERMISSION: '{party_prefix} §cУ вас недостаточно прав!'
 PARTY_INVAILD: '{party_prefix} §cПати не существует'
 PARTY_INVITE_ALREADY_SENT: '{party_prefix} §cВы уже отправили запрос этому игроку'
-PARTY_CANT_INVITE_YOURSELF: "{party_prefix} §cОшибка, Вы не можете пригласить в группу самого себя" 
+PARTY_CANT_INVITE_YOURSELF: "{party_prefix} §cОшибка, Вы не можете пригласить в группу самого себя"
 PARTY_MEMBER_NOT_FOUND: '{party_prefix} §cУчастник не найден'
+PARTY_NO_INVITES: '{party_prefix} §cУ вас нет приглашения в эту группу или оно истекло'
 
 PARTY_INVITE_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fприсоединился к пати'
 PARTY_KICK_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fисключен из пати'
@@ -53,8 +54,8 @@ PARTY_CANT_INVITE: '§cВы не можете добавить этого уча
 PARTY_CHAT: '§dЧат группы (/pc) §8| {player_prefix}{player_name} §8» §7{message}'
 
 PARTY_INVITE_REQUEST: |
-
-    {party_prefix} {player_prefix}{player_name} §fПригласил вас в пати
+  
+  {party_prefix} {player_prefix}{player_name} §fПригласил вас в пати
 #    §8§l-| §6§lPARTY §8§l|-
 
 PARTY_HELP: |
@@ -65,4 +66,3 @@ PARTY_HELP: |
   §7/party requests§f - список приглашений в группу
   §7/party leave§f - покинуть группу
   §7/party kick <ник игрока>§f - исключить игрока из пати
-
