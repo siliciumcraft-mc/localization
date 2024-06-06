@@ -40,6 +40,7 @@ TAB_FOOTER: |
 PARTY_PREFIX: '§6§lParty §r§8▸'
 
 PARTY_NO_PERMISSION: '{party_prefix} §cУ вас недостаточно прав!'
+PARTY_DISBANDED: '§fВаша группа была расформирована'
 PARTY_INVAILD: '{party_prefix} §cПати не существует'
 PARTY_INVITE_ALREADY_SENT: '{party_prefix} §cВы уже отправили запрос этому игроку'
 PARTY_CANT_INVITE_YOURSELF: "{party_prefix} §cОшибка, Вы не можете пригласить в группу самого себя"
