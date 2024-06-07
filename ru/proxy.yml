@@ -52,8 +52,9 @@ PARTY_KICK_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name}
 PARTY_LEAVE_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fпокинул пати'
 PARTY_CANT_KICK_YOURSELF: '§cВы не можете исключить самого себя!'
 PARTY_CANT_INVITE: '§cВы не можете добавить этого участника в группу, возможно, он уже в группе'
-PARTY_CHAT: '§dЧат группы (/pc) §8| {player_prefix}{player_name} §8» §7{message}'
 
+PARTY_PLAYER_SET_LEADER: '{party_prefix} §cВы передали права лидера игроку {player_prefix}{player_name}'
+PARTY_CHAT: '§dЧат группы (/pc) §8| {player_prefix}{player_name} §8» §7{message}'
 PARTY_INVITE_REQUEST: |
   
   {party_prefix} {player_prefix}{player_name} §fПригласил вас в пати
