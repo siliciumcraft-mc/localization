@@ -57,10 +57,9 @@ PARTY_CHAT: '§dЧат группы (/pc) §8| {player_prefix}{player_name} §8�
 PARTY_INVITE_REQUEST: |
   
   {party_prefix} {player_prefix}{player_name} §fПригласил вас в пати
-  {party_accept} {party_reject}
 #    §8§l-| §6§lPARTY §8§l|-
 
-PARTY_ACCEPT: '§a§lПРИНЯТЬ'
+PARTY_ACCEPT: '§a§lПРИНЯТЬ '
 PARTY_REJECT: '§a§lОТКЛОНИТЬ'
 PARTY_HELP: |
 
