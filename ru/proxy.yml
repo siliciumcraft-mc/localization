@@ -64,18 +64,15 @@ PARTY:
   INVITE_REQUEST: |
   
     {party_prefix} {player_prefix}{player_name} §fПригласил вас в пати
-  #  {party_accept} {party_reject}
-  #    §8§l-| §6§lPARTY §8§l|-
+  ACCEPT_BUTTON: '§a[ПРИНЯТЬ] '
+  REJECT_BUTTON: ' §c[ОТКЛОНИТЬ]'
+  COMMAND_HELP: |
 
-ACCEPT_BUTTON: '§a[ПРИНЯТЬ] '
-REJECT_BUTTON: ' §c[ОТКЛОНИТЬ]'
-COMMAND_HELP: |
-
-  §eПодкоманды для party:
-  §7/party <ник игрока>§f - создать новую группу или пригласить игрока
-  §7/party accept <ник игрока>§f - присоединиться к группе игрока
-  §7/party reject <ник игрока>§f - отклонить запрос игрока
-  §7/party setleader <ник игрока>§f - передать управление пати игроку
-  §7/party warp§f - телепортировать игроков на текущий сервер
-  §7/party leave§f - покинуть группу
-  §7/party kick <ник игрока>§f - исключить игрока из пати
+    §eПодкоманды для /party:
+    §7/party <ник игрока>§f - создать новую группу или пригласить игрока
+    §7/party accept <ник игрока>§f - присоединиться к группе игрока
+    §7/party reject <ник игрока>§f - отклонить запрос игрока
+    §7/party setleader <ник игрока>§f - передать управление пати игроку
+    §7/party warp§f - телепортировать игроков на текущий сервер
+    §7/party leave§f - покинуть группу
+    §7/party kick <ник игрока>§f - исключить игрока из пати
