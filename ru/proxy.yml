@@ -56,8 +56,9 @@ PARTY:
   INVITE_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fприсоединился к группе'
   KICK_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fисключен из группы'
   LEAVE_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fпокинул группу'
-  CANT_KICK_YOURSELF: '{party_prefix} §cВы не можете исключить самого себя!'
-  CANT_INVITE: '{party_prefix} §cВы не можете добавить этого участника в группу, возможно, он уже в группе'
+  CANT_KICK_YOURSELF: '{party_prefix} §cВы не можете исключить самого себя'
+  CANT_INVITE_ALREADY_IN_GROUP: '{party_prefix} §cИгрок уже состоит в группе'
+  CANT_INVITE_OFFLINE: '{party_prefix} §cИгрок не в сети'
 
   SET_LEADER: '{party_prefix} §fВы передали права лидера группы игроку {player_prefix}{player_name}'
   CHAT: '§d§lЧат группы (/pc) §8| {player_prefix}{player_name} §8» §7{message}'
@@ -72,9 +73,9 @@ PARTY:
     §7/party <ник игрока>§f - создать новую группу или пригласить игрока
     §7/party accept <ник игрока>§f - присоединиться к группе игрока
     §7/party reject <ник игрока>§f - отклонить запрос игрока
-    §7/party setleader <ник игрока>§f - передать управление группой игроку
+    §7/party setleader <ник игрока>§f - передать управление группой игроку   # TODO + promote + setowner (алиасы)
     §7/party warp§f - телепортировать игроков на текущий сервер
-    §7/party info§f - информация о группе
-    §7/party chat§f - чат группы
+    §7/party info§f - информация о группе  # TODO
+    §7/party chat§f - чат группы  # TODO
     §7/party leave§f - покинуть группу
     §7/party kick <ник игрока>§f - исключить игрока из пати
