@@ -47,7 +47,7 @@ PARTY:
 
   NO_PERMISSION: '{party_prefix} §cУ вас недостаточно прав!'
   DISBANDED: '{party_prefix} §fГруппа была расформирована'
-  INVALID_PARTY: '{party_prefix} §cПати не существует'
+  INVALID_PARTY: '{party_prefix} §cГруппы не существует'  # TODO
   INVITE_ALREADY_SENT: '{party_prefix} §cВы уже отправили запрос этому игроку'
   CANT_INVITE_YOURSELF: "{party_prefix} §cОшибка, вы не можете пригласить в группу самого себя"
   MEMBER_NOT_FOUND: '{party_prefix} §cУчастник не найден'
@@ -57,10 +57,10 @@ PARTY:
   KICK_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fисключен из группы'
   LEAVE_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fпокинул группу'
   CANT_KICK_YOURSELF: '{party_prefix} §cВы не можете исключить самого себя'
-  CANT_INVITE_ALREADY_IN_GROUP: '{party_prefix} §cИгрок уже состоит в группе'
-  CANT_INVITE_OFFLINE: '{party_prefix} §cИгрок не в сети'
+  CANT_INVITE_ALREADY_IN_GROUP: '{party_prefix} §cИгрок уже состоит в группе'  # TODO
+  CANT_INVITE_OFFLINE: '{party_prefix} §cИгрок не в сети'  # TODO
 
-  SET_LEADER: '{party_prefix} §fВы передали права лидера группы игроку {player_prefix}{player_name}'
+  SET_LEADER: '{party_prefix} §fВы передали права лидера группы игроку {player_prefix}{player_name}'  # TODO
   CHAT: '§d§lЧат группы (/pc) §8| {player_prefix}{player_name} §8» §7{message}'
   INVITE_REQUEST: |
   
