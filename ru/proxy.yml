@@ -80,7 +80,7 @@ PARTY:
     {party_prefix} §fИнформация о группе:
      §fСоздатель: {owner_prefix}{owner_name}
      §fУчастники: {members}
-  INFO_MEMBER: {player_prefix}{player_name} {status}  # разделитель - запятая
+  INFO_MEMBER: '{player_prefix}{player_name} {status}'  # разделитель - запятая
   INFO_MEMBER_STATUS:
     ONLINE: §a§l•
     OFFLINE: §c§l•
