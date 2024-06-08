@@ -74,6 +74,17 @@ PARTY:
   
   INCOMING_INVITE_EXPIRED: '{party_prefix} §cПриглашение в группу от игрока {player_prefix}{player_name} истекло'  # TODO
   OUTGOING_INVITE_EXPIRED: '{party_prefix} §cВаше приглашение в группу игрока {player_prefix}{player_name} истекло'  # TODO
+
+  # <TODO
+  INFO: |
+    {party_prefix} §fИнформация о группе:
+     §fСоздатель: {owner_prefix}{owner_name}
+     §fУчастники: {members}
+  INFO_MEMBER: {player_prefix}{player_name} {status}  # разделитель - запятая
+  INFO_MEMBER_STATUS:
+    ONLINE: §a§l•
+    OFFLINE: §c§l•
+  # />
   
   COMMAND_HELP: |
 
