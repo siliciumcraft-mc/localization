@@ -47,7 +47,7 @@ PARTY:
 
   NO_PERMISSION: '{party_prefix} §cУ вас недостаточно прав!'
   DISBANDED: '§fГруппа была расформирована'
-  INVALID: '{party_prefix} §cПати не существует'
+  INVALID_PARTY: '{party_prefix} §cПати не существует'
   INVITE_ALREADY_SENT: '{party_prefix} §cВы уже отправили запрос этому игроку'
   CANT_INVITE_YOURSELF: "{party_prefix} §cОшибка, вы не можете пригласить в группу самого себя"
   MEMBER_NOT_FOUND: '{party_prefix} §cУчастник не найден'
@@ -59,7 +59,7 @@ PARTY:
   CANT_KICK_YOURSELF: '§cВы не можете исключить самого себя!'
   CANT_INVITE: '§cВы не можете добавить этого участника в группу, возможно, он уже в группе'
 
-  PLAYER_SET_LEADER: '{party_prefix} §fВы передали права лидера группы игроку {player_prefix}{player_name}'
+  SET_LEADER: '{party_prefix} §fВы передали права лидера группы игроку {player_prefix}{player_name}'
   CHAT: '§dЧат группы (/pc) §8| {player_prefix}{player_name} §8» §7{message}'
   INVITE_REQUEST: |
   
