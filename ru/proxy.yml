@@ -46,7 +46,7 @@ PARTY:
   PREFIX: '§6§lParty §r§8▸'
 
   NO_PERMISSION: '{party_prefix} §cУ вас недостаточно прав!'
-  DISBANDED: '§fГруппа была расформирована'
+  DISBANDED: '{party_prefix} §fГруппа была расформирована'
   INVALID_PARTY: '{party_prefix} §cПати не существует'
   INVITE_ALREADY_SENT: '{party_prefix} §cВы уже отправили запрос этому игроку'
   CANT_INVITE_YOURSELF: "{party_prefix} §cОшибка, вы не можете пригласить в группу самого себя"
@@ -56,11 +56,11 @@ PARTY:
   INVITE_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fприсоединился к группе'
   KICK_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fисключен из группы'
   LEAVE_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fпокинул группу'
-  CANT_KICK_YOURSELF: '§cВы не можете исключить самого себя!'
-  CANT_INVITE: '§cВы не можете добавить этого участника в группу, возможно, он уже в группе'
+  CANT_KICK_YOURSELF: '{party_prefix} §cВы не можете исключить самого себя!'
+  CANT_INVITE: '{party_prefix} §cВы не можете добавить этого участника в группу, возможно, он уже в группе'
 
   SET_LEADER: '{party_prefix} §fВы передали права лидера группы игроку {player_prefix}{player_name}'
-  CHAT: '§dЧат группы (/pc) §8| {player_prefix}{player_name} §8» §7{message}'
+  CHAT: '§d§lЧат группы (/pc) §8| {player_prefix}{player_name} §8» §7{message}'
   INVITE_REQUEST: |
   
     {party_prefix} {player_prefix}{player_name} §fПригласил вас в пати
@@ -72,7 +72,7 @@ PARTY:
     §7/party <ник игрока>§f - создать новую группу или пригласить игрока
     §7/party accept <ник игрока>§f - присоединиться к группе игрока
     §7/party reject <ник игрока>§f - отклонить запрос игрока
-    §7/party setleader <ник игрока>§f - передать управление пати игроку
+    §7/party setleader <ник игрока>§f - передать управление группой игроку
     §7/party warp§f - телепортировать игроков на текущий сервер
     §7/party leave§f - покинуть группу
     §7/party kick <ник игрока>§f - исключить игрока из пати
