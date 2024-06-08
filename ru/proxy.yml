@@ -42,33 +42,34 @@ TAB_FOOTER: |
   §fВы находитесь на сервере:
   §e{server}
 
-PARTY_PREFIX: '§6§lParty §r§8▸'
+PARTY:
+  PREFIX: '§6§lParty §r§8▸'
 
-PARTY_NO_PERMISSION: '{party_prefix} §cУ вас недостаточно прав!'
-PARTY_DISBANDED: '§fВаша группа была расформирована'
-PARTY_INVAILD: '{party_prefix} §cПати не существует'
-PARTY_INVITE_ALREADY_SENT: '{party_prefix} §cВы уже отправили запрос этому игроку'
-PARTY_CANT_INVITE_YOURSELF: "{party_prefix} §cОшибка, вы не можете пригласить в группу самого себя"
-PARTY_MEMBER_NOT_FOUND: '{party_prefix} §cУчастник не найден'
-PARTY_NO_INVITES: '{party_prefix} §cУ вас нет приглашения в эту группу или оно истекло'
-PARTY_WARP: '{party_prefix} §fЛидер группы {player_prefix}{player_name} §fтелепортировал всех игроков на свой сервер'
-PARTY_INVITE_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fприсоединился к группе'
-PARTY_KICK_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fисключен из группы'
-PARTY_LEAVE_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fпокинул группу'
-PARTY_CANT_KICK_YOURSELF: '§cВы не можете исключить самого себя!'
-PARTY_CANT_INVITE: '§cВы не можете добавить этого участника в группу, возможно, он уже в группе'
+  NO_PERMISSION: '{party_prefix} §cУ вас недостаточно прав!'
+  DISBANDED: '§fГруппа была расформирована'
+  INVALID: '{party_prefix} §cПати не существует'
+  INVITE_ALREADY_SENT: '{party_prefix} §cВы уже отправили запрос этому игроку'
+  CANT_INVITE_YOURSELF: "{party_prefix} §cОшибка, вы не можете пригласить в группу самого себя"
+  MEMBER_NOT_FOUND: '{party_prefix} §cУчастник не найден'
+  NO_INVITES: '{party_prefix} §cУ вас нет приглашения в эту группу или оно истекло'
+  WARP: '{party_prefix} §fЛидер группы {player_prefix}{player_name} §fтелепортировал всех игроков на свой сервер'
+  INVITE_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fприсоединился к группе'
+  KICK_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fисключен из группы'
+  LEAVE_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fпокинул группу'
+  CANT_KICK_YOURSELF: '§cВы не можете исключить самого себя!'
+  CANT_INVITE: '§cВы не можете добавить этого участника в группу, возможно, он уже в группе'
 
-PARTY_PLAYER_SET_LEADER: '{party_prefix} §cВы передали права лидера группы игроку {player_prefix}{player_name}'
-PARTY_CHAT: '§dЧат группы (/pc) §8| {player_prefix}{player_name} §8» §7{message}'
-PARTY_INVITE_REQUEST: |
+  PLAYER_SET_LEADER: '{party_prefix} §fВы передали права лидера группы игроку {player_prefix}{player_name}'
+  CHAT: '§dЧат группы (/pc) §8| {player_prefix}{player_name} §8» §7{message}'
+  INVITE_REQUEST: |
   
-  {party_prefix} {player_prefix}{player_name} §fПригласил вас в пати
-#  {party_accept} {party_reject}
-#    §8§l-| §6§lPARTY §8§l|-
+    {party_prefix} {player_prefix}{player_name} §fПригласил вас в пати
+  #  {party_accept} {party_reject}
+  #    §8§l-| §6§lPARTY §8§l|-
 
-PARTY_ACCEPT: '§a[ПРИНЯТЬ] '
-PARTY_REJECT: ' §c[ОТКЛОНИТЬ]'
-PARTY_HELP: |
+ACCEPT_BUTTON: '§a[ПРИНЯТЬ] '
+REJECT_BUTTON: ' §c[ОТКЛОНИТЬ]'
+COMMAND_HELP: |
 
   §eПодкоманды для party:
   §7/party <ник игрока>§f - создать новую группу или пригласить игрока
