@@ -5,3 +5,5 @@ PRE_CHAT_FORMAT: '{player_prefix}{player_name} §8» §7{message}'
 NO_PERMISSION: '§cУ вас нет прав ;('
 
 PLAYER_OFFLINE: '§cИгрок оффлайн'
+
+COMMAND_NOT_FOUND: '§cКоманда не найдена ;('
