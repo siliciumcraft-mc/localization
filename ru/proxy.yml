@@ -59,23 +59,22 @@ PARTY:
   LEAVE_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fпокинул группу'
 
   CANT_KICK_YOURSELF: '{party_prefix} §cВы не можете исключить самого себя'
-  CANT_INVITE_ALREADY_IN_GROUP: '{party_prefix} §cИгрок уже состоит в группе'  # TODO
-  CANT_INVITE_OFFLINE: '{party_prefix} §fИгрок с таким ником не в сети'  # TODO
+  CANT_INVITE_ALREADY_IN_GROUP: '{party_prefix} §cИгрок уже состоит в группе' 
+  CANT_INVITE_OFFLINE: '{party_prefix} §fИгрок с таким ником не в сети'
 
-  SET_LEADER: '{party_prefix} §fВы передали права лидера группы игроку {player_prefix}{player_name}'  # TODO
+  SET_LEADER: '{party_prefix} §fВы передали права лидера группы игроку {player_prefix}{player_name}'
   CHAT: '§d§lЧат группы (/pc) §8| {player_prefix}{player_name} §8» §7{message}'
 
-  OUTGOING_INVITE: '{party_prefix} §fВы отправили приглашение игроку {player_prefix}{player_name}'  # TODO
-  INCOMING_INVITE: |  # TODO
+  OUTGOING_INVITE: '{party_prefix} §fВы отправили приглашение игроку {player_prefix}{player_name}'
+  INCOMING_INVITE: |
     {party_prefix} {player_prefix}{player_name} §fПригласил вас в пати
   
-  INCOMING_INVITE_ACCEPT_BUTTON: '§a[ПРИНЯТЬ] ' # TODO
-  INCOMING_INVITE_REJECT_BUTTON: ' §c[ОТКЛОНИТЬ]' # TODO
+  INCOMING_INVITE_ACCEPT_BUTTON: '§a[ПРИНЯТЬ] '
+  INCOMING_INVITE_REJECT_BUTTON: ' §c[ОТКЛОНИТЬ]'
   
-  INCOMING_INVITE_EXPIRED: '{party_prefix} §cПриглашение в группу от игрока {player_prefix}{player_name} истекло'  # TODO
-  OUTGOING_INVITE_EXPIRED: '{party_prefix} §cВаше приглашение в группу игрока {player_prefix}{player_name} истекло'  # TODO
+  INCOMING_INVITE_EXPIRED: '{party_prefix} §cПриглашение в группу от игрока {player_prefix}{player_name} истекло'
+  OUTGOING_INVITE_EXPIRED: '{party_prefix} §cВаше приглашение в группу игрока {player_prefix}{player_name} истекло'
 
-  # <TODO
   INFO: |
     {party_prefix} §fИнформация о группе:
      §fСоздатель: {owner_prefix}{owner_name}
@@ -84,7 +83,6 @@ PARTY:
   INFO_MEMBER_STATUS:
     ONLINE: §a§l•
     OFFLINE: §c§l•
-  # />
   
   COMMAND_HELP: |
 
