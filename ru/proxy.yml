@@ -46,6 +46,7 @@ PARTY:
   PREFIX: '§6§lParty §r§8▸'
 
   NO_PERMISSION: '{party_prefix} §cУ вас недостаточно прав!'
+  NOT_IN_PARTY: '{party_prefix} §cВы не состоите в группе'
   DISBANDED: '{party_prefix} §fГруппа была расформирована'
   INVALID_PARTY: '{party_prefix} §cГруппы не существует'  # TODO
   INVITE_ALREADY_SENT: '{party_prefix} §cВы уже отправили запрос этому игроку'
