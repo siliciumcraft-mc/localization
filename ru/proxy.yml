@@ -69,6 +69,7 @@ PARTY:
   WARP: '{party_prefix} §fЛидер группы {player_prefix}{player_name} §fтелепортировал всех игроков на свой сервер'
   INVITE_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fприсоединился к группе'
   KICK_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fисключен из группы'
+  KICK_FOR_AFK_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fисключен из группы (не в сети более 5 минут)'
   LEAVE_NOTIFY: '{party_prefix} §fИгрок §a{player_prefix}{player_name} §fпокинул группу'
 
   CANT_KICK_YOURSELF: '{party_prefix} §cВы не можете исключить самого себя'
