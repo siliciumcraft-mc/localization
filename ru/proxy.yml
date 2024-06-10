@@ -46,9 +46,8 @@ PARTY:
   PREFIX: '§6§lParty §r§8▸'
 
   NO_PERMISSION: '{party_prefix} §cУ вас недостаточно прав!'
-  NOT_IN_PARTY: '{party_prefix} §cВы не состоите в группе'
   DISBANDED: '{party_prefix} §fГруппа была расформирована'
-  INVALID_PARTY: '{party_prefix} §cГруппы не существует'  # TODO
+  INVALID_PARTY: '{party_prefix} §cВы не состоите в группе'
   INVITE_ALREADY_SENT: '{party_prefix} §cВы уже отправили запрос этому игроку'
   CANT_INVITE_YOURSELF: "{party_prefix} §cОшибка, вы не можете пригласить в группу самого себя"
   MEMBER_NOT_FOUND: '{party_prefix} §cУчастник не найден'
