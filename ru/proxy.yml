@@ -72,8 +72,8 @@ PARTY:
   INCOMING_INVITE_ACCEPT_BUTTON: '§a[ПРИНЯТЬ] '
   INCOMING_INVITE_REJECT_BUTTON: ' §c[ОТКЛОНИТЬ]'
   
-  INCOMING_INVITE_EXPIRED: '{party_prefix} §cПриглашение в группу от игрока {player_prefix}{player_name} истекло'
-  OUTGOING_INVITE_EXPIRED: '{party_prefix} §cВаше приглашение в группу игрока {player_prefix}{player_name} истекло'
+  INCOMING_INVITE_EXPIRED: '{party_prefix} §cПриглашение в группу от игрока {player_prefix}{player_name}§c истекло'
+  OUTGOING_INVITE_EXPIRED: '{party_prefix} §cВаше приглашение в группу игрока {player_prefix}{player_name}§c истекло'
 
   INFO: |
     {party_prefix} §fИнформация о группе:
