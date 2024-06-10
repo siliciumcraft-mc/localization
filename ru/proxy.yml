@@ -81,8 +81,8 @@ PARTY:
      §fУчастники: {members}
   INFO_MEMBER: '{player_prefix}{player_name} {status}'  # разделитель - запятая
   INFO_MEMBER_STATUS:
-    ONLINE: §a§l•
-    OFFLINE: §c§l•
+    ONLINE: §a§l•§7
+    OFFLINE: §c§l•§7
   
   COMMAND_HELP: |
 
