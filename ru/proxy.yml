@@ -63,7 +63,7 @@ PARTY:
   CANT_INVITE_OFFLINE: '{party_prefix} §fИгрок с таким ником не в сети'
 
   SET_LEADER: '{party_prefix} §fВы передали права лидера группы игроку {player_prefix}{player_name}'
-  CHAT: '§d§lЧат группы (/pc) §8| {player_prefix}{player_name} §8» §7{message}'
+  CHAT: '§d§lЧат группы §8| {player_prefix}{player_name} §8» §7{message}'
 
   OUTGOING_INVITE: '{party_prefix} §fВы отправили приглашение игроку {player_prefix}{player_name}'
   INCOMING_INVITE: |
@@ -73,7 +73,7 @@ PARTY:
   INCOMING_INVITE_REJECT_BUTTON: ' §c[ОТКЛОНИТЬ]'
   
   INCOMING_INVITE_EXPIRED: '{party_prefix} §cПриглашение в группу от игрока {player_prefix}{player_name}§c истекло'
-  OUTGOING_INVITE_EXPIRED: '{party_prefix} §cВаше приглашение в группу игрока {player_prefix}{player_name}§c истекло'
+  OUTGOING_INVITE_EXPIRED: '{party_prefix} §cВаше приглашение в группу игроку {player_prefix}{player_name}§c истекло'
 
   INFO: |
     {party_prefix} §fИнформация о группе:
