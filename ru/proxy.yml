@@ -42,11 +42,6 @@ MUTE_COMMAND: |
   §eПодкоманды для /mute:
    §7/mute <ник игрока> [30d24h60m15s] [причина]§f - заглушить игрока
    §7/unmute <ник игрока>§f - вернуть игроку возможность писать в чат
-SKIN_COMMAND: |
-  §eПодкоманды для /skin:
-   §7/skin set <ник игрока>§f - установить скин игрока
-   §7/skin reset§f - сбросить скин
-SKIN_COMPLETED: '§eСкин обновлен'
 TAB_HEADER: |
   
   §6§lSiliciumCraft
