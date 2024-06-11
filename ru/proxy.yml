@@ -117,8 +117,8 @@ PARTY:
 #     §7/p reject <ник игрока>§f - отклонить запрос игрока
 
 PRIVATE_MESSAGES:
-  INCOMING: §6PM §8| {player_prefix}{player_name} §8→ §6Я §8| {message}
-  OUTGOING: §6PM §8| §6Я §8→ {player_prefix}{player_name} §8| {message}
+  INCOMING: " §6PM §8| {player_prefix}{player_name} §8→ §6Я §8| §7{message}"
+  OUTGOING: " §6PM §8| §6Я §8→ {player_prefix}{player_name} §8| §7{message}"
   
   COMMAND_HELP: |
     §eПриватные сообщения
