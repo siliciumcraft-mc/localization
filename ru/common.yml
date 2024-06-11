@@ -9,7 +9,5 @@ PLAYER_OFFLINE: '§cИгрок оффлайн'
 COMMAND_NOT_FOUND: '§cЭтой команды не существует O_o'
 
 SKIN_COMMAND: |
-  §eПодкоманды для /skin:
-   §7/skin set <ник игрока>§f - установить скин игрока
-   §7/skin reset§f - сбросить скин
+   §7/skin <ник игрока>§f - установить скин игрока
 SKIN_COMPLETED: '§eСкин обновлен'
