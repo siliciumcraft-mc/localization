@@ -13,8 +13,8 @@ SKIN_COMMAND: |
 SKIN_COMPLETED: '§eСкин обновлен'
 RANKS:
    default: '§7Игрок'
-   premium: '§c§lS+ §r§c'
-   helper: '§2§lHELPER§2 §r§2'
-   moder: '§9§lMODER§9 §r§9'
-   admin: '§c§lADMIN§c §r§c'
-   owner: '§c§lADMIN§c §r§c'
+   premium: '§c§lS+'
+   helper: '§2§lHELPER'
+   moder: '§9§lMODER'
+   admin: '§c§lADMIN'
+   owner: '§c§lADMIN'
