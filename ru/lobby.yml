@@ -4,8 +4,10 @@ SCOREBOARD: |
     §r
     Монет: §6{si_coins}
     Кристаллов: §2{si_gems}
+    §e
+    Уровень: §b{si_level}
     §9
-    ОНлайн проекта §e{servers_online_/}
+    ОНлайн проекта §e{servers_online_root}
     §7
     §e{si_domain}
 PROFILE_MAIN_GUI_NAME: 'Профиль'
