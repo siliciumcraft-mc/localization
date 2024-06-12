@@ -11,3 +11,10 @@ COMMAND_NOT_FOUND: '§cЭтой команды не существует O_o'
 SKIN_COMMAND: |
    §7/skin <ник игрока>§f - установить скин игрока
 SKIN_COMPLETED: '§eСкин обновлен'
+RANKS:
+   default: '§7Игрок'
+   premium: '§c§lS+ §r§c'
+   helper: '§2§lHELPER§2 §r§2'
+   moder: '§9§lMODER§9 §r§9'
+   admin: '§c§lADMIN§c §r§c'
+   owner: '§c§lADMIN§c §r§c'
