@@ -7,7 +7,7 @@ SCOREBOARD: |
     §e
     Уровень: §b{si_level}
     §9
-    ОНлайн проекта §e{servers_online_root}
+    Общий онлайн §e{servers_online_root}
     §7
     §e{si_domain}
 PROFILE_MAIN_GUI_NAME: 'Профиль'
