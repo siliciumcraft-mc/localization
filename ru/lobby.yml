@@ -1,3 +1,11 @@
+SCOREBOARD: |
+    §1
+    Ваш статус: {si_player_prefix}
+    §r
+    Монет: §6{si_coins}
+    Кристаллов: §2{si_gems}
+    §7
+    §e{si_domain}
 PROFILE_MAIN_GUI_NAME: 'Профиль'
 PROFILE_ITEM_NAME: '§eПрофиль игрока {player_prefix}{player_name}'
 
