@@ -1,15 +1,17 @@
-SCOREBOARD: |
-    §1
-    Ваш статус: {si_rank}
-    §r
-    Монет: §6{si_coins}
-    Кристаллов: §2{si_gems}
-    §e
-    Уровень: §b{si_level}
-    §9
-    Общий онлайн §e{servers_online_root}
-    §7
-    §e{si_domain}
+SCOREBOARD:
+    TITLE: '§6§lSiliciumCraft'
+    LINES: |
+        §1
+        Ваш статус: {si_rank}
+        §r
+        Монет: §6{si_coins}
+        Кристаллов: §2{si_gems}
+        §e
+        Уровень: §b{si_level}
+        §9
+        Общий онлайн §e{servers_online_root}
+        §7
+        §e{si_domain}
 PROFILE_MAIN_GUI_NAME: 'Профиль'
 PROFILE_ITEM_NAME: '§eПрофиль игрока {player_prefix}{player_name}'
 
