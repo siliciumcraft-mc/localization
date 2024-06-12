@@ -10,7 +10,7 @@ SCOREBOARD:
   # Лобби
   LOBBY: |
     §1
-    Ваш статус: {si_player_prefix}
+    Ваш статус: {si_rank}
     §r
     Монет: §6{si_coins}
     Кристаллов: §2{si_gems}
