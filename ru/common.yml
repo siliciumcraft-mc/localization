@@ -20,6 +20,7 @@ RANKS:
    owner: '§4§lOWNER'
 
 PAGINATION:
-  GO_BACK: 'Назад'
-  GO_FORWARD: 'Вперёд'
-  # PAGE: 'Страница {page} из {max_pages}'
+  PREVIOUS_PAGE: '§aПредыдущая страница'
+  PREVIOUS_PAGE_HELP: '§7Нажмите для перехода на {previous_page} страницу'
+  NEXT_PAGE: '§aСледующая страница'
+  NEXT_PAGE_HELP: '§7Нажмите для перехода на {next_page} страницу'
