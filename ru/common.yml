@@ -13,8 +13,13 @@ SKIN_COMMAND: |
 SKIN_COMPLETED: '§eСкин обновлен'
 RANKS:
    default: '§7Игрок'
-   premium: '§c§lS+'
+   premium: '§6§lPREMIUM'
    helper: '§2§lHELPER'
    moder: '§9§lMODER'
    admin: '§c§lADMIN'
    owner: '§4§lOWNER'
+
+PAGINATION:
+  GO_BACK: 'Назад'
+  GO_FORWARD: 'Вперёд'
+  # PAGE: 'Страница {page} из {max_pages}'
