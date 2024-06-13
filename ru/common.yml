@@ -12,7 +12,7 @@ SKIN_COMMAND: |
    §7/skin <ник игрока>§f - установить скин игрока
 SKIN_COMPLETED: '§eСкин обновлен'
 RANKS:
-   default: '§7Игрок '
+   default: '§7Игрок'
    premium: '§6§lPREMIUM'
    helper: '§2§lHELPER'
    moder: '§9§lMODER'
