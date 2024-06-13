@@ -1,48 +1,46 @@
-ABSENT: 'Отсутствует'
+ABSENT: Отсутствует
 
 JANUARY: Январь
 FEBRUARY: Февраль
 MARCH: Март
-APRIL: 'Апрель'
+APRIL: Апрель
 MAY: Май
 JUNE: Июнь
 JULY: Июль
-AUGUST: 'Август'
+AUGUST: Август
 OCTOBER: Октябрь
 NOVEMBER: Ноябрь
 SEPTEMBER: Сентябрь
-DECEMBER: 'Декабрь'
+DECEMBER: Декабрь
 
-ANSWER_YES: 'Да'
-ANSWER_NO: 'Нет'
-
+ANSWER_YES: Да
+ANSWER_NO: Нет
 ACCEPT: Подтвердить
-AFK: §cНе стой на месте!
-BALANCE: §6Баланс §8| §fНа вашем аккаунте %s
-CAGE: клетка
 
-ANARCHY_PREFIX: '§6Anarchy §8| §f'
+AFK: §cНе стой на месте!
+
+PING_MESSAGE: 'Ваш пинг: §e{ping}'
+PLAYTIME_MESSAGE: 'Вы провели на сервере §e{played_time}'
+DONATE_CHAT: '§6§lДонат-Чат §7(/dc) §8» {player_prefix}{player_name} §8» §f{message}'
+
+NO_REASON: '§cне указана'  # TODO
+NO_EXPIRATION: '§cникогда'  # TODO
+
+SERVER_PREFIX: '§6Сервер §8| §f'
+ANARCHY_PREFIX: '§6AnarchyRPG §8| §f'
 SB_PREFIX: '§6SkyBlock §8| §f'
 CREATIVE_PREFIX: '§6Creative §8| §f'
 
-COMMON: Обычный
-
-CONVERT: §6Магазин §8| §fВы успешно обменяли §e%s §fзолота на §a%s §fмонет
-COOLDOWN: §cПодождите %s %s перед следующим использованием
+BALANCE: §6Баланс §8| §fНа вашем аккаунте §a{balance} §f{currency}
+COOLDOWN: §cПодождите {time} секунд(ы) перед следующим использованием
 
 DISABLE: Отключено
 DISABLED: Отключены
-DISPELL: Чары с предмета были удалены
 ENABLE: Включено
 ENABLED: Включены
-ENCHANTED: Зачарованное
-EPIC: Эпический
-ETERNITY: вечность
 
-FREE: Бесплатно
-FURNACE: Печка
 FW: §aСалют!
-GAMEMODE: $@MODE_PREFIX$Установлен режим - §c%s
+GAMEMODE: {game_prefix} Установлен режим - §c%s
 
 GROUP: Статус
 HIDE: Скрыт
