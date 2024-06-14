@@ -194,12 +194,12 @@ NO_EXPIRATION: §cникогда  # TODO
 
 # Автоматические сообщения
 AUTO_MESSAGES:
-  COMMAND_PREFORM_LORE: |-
+  COMMAND_PREFORM_ONHOVER: |-
     Нажмите сюда
-  EXECUTE_COMMAND_LORE: |-
+  EXECUTE_COMMAND_ONHOVER: |-
     Нажмите сюда,
     чтобы открыть меню
-  URL_LORE: |-
+  URL_ONHOVER: |-
     Нажмите сюда для
     перехода по ссылке
     
