@@ -192,6 +192,34 @@ LOADING: §cЗагрузка...
 NO_REASON: §cне указана  # TODO
 NO_EXPIRATION: §cникогда  # TODO
 
+# Автоматические сообщения
+AUTO_MESSAGES:
+  COMMAND_PREFORM_LORE: |-
+    Нажмите сюда
+  EXECUTE_COMMAND_LORE: |-
+    Нажмите сюда,
+    чтобы открыть меню
+  URL_LORE: |-
+    Нажмите сюда для
+    перехода по ссылке
+    
+  MESSAGES:
+    - TEXT: |-
+        §8 |§f Хотите сменить скин?
+        §8 |§f Для всех игроков доступна
+        §8 |§f команда §c/skin <ник игрока со скином>
+      COMMAND_PREFORM: '/skin '
+    - TEXT: |-
+        §8 |§f {premium_display_name}§f даёт доступ к уникальным §dбонусам
+        §8 |§f и §eвозможностям, недоступным обычным игрокам
+        §8 |§f Подробнее: §c/premium
+      EXECUTE_COMMAND: /premium
+    - TEXT: |-
+        §8 |§f Переходи в наш канал в §9Telegram§f,
+        §8 |§f чтобы всегда быть в курсе новостей и
+        §8 |§f актуальных акций на сервере!
+      URL: {telegram_channel_url}
+
 # Общие ключи для Survival-режимов
 GAMEMODE: {server_prefix} Установлен режим - §c{gamemode}
 NEAR: {server_prefix} Ближайшие игроки: {players}
