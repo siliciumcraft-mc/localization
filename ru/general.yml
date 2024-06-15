@@ -191,6 +191,9 @@ FW: §aСалют!  # TODO
 LOADING: §cЗагрузка...
 NO_REASON: §cне указана  # TODO
 NO_EXPIRATION: §cникогда  # TODO
+CHAT_COOL-DOWN: '§cЧастота отправки сообщений ограничена. Подождите {time} секунд(ы)'
+CHAT_MUTE: '§cВ связи с ограничениями, мы информируем вас, что доступность для отправки сообщений в чат будет ограничена до {date_time}'
+PRE_CHAT_FORMAT: '{player_prefix}{player_name} §8» §7{message}'
 
 # Автоматические сообщения
 AUTO_MESSAGES:
