@@ -21,7 +21,7 @@ SCOREBOARD:
     Игр сыграно: §e{bw_gamesPlayed}
     Побед: §e{bw_wins}
     Процент побед: §e{bw_winrate}%
-    Слом. кроватей: §e{bw_bedsDestroyed}%
+    Слом. кроватей: §e{bw_bedsDestroyed}
     §7
     §e{si_domain}
 
