@@ -93,12 +93,12 @@ PRIVATE_MESSAGES:  # TODO
   REPLY_SYNTAX: /reply <сообщение>
 
 RANKS:
-  default: '§7Игрок'
-  premium: '§6§lPREMIUM'
-  helper: '§2§lHELPER'
-  moder: '§9§lMODER'
-  admin: '§c§lADMIN'
-  owner: '§4§lOWNER'
+  default: '§7Игрок '
+  premium: '§6§lPREMIUM '
+  helper: '§2§lHELPER '
+  moder: '§9§lMODER '
+  admin: '§c§lADMIN '
+  owner: '§4§lOWNER '
 
 # Пагинация
 PAGINATION:  # TODO
