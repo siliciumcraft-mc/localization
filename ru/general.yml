@@ -42,7 +42,7 @@ BAN:
   USER_MESSAGE: |
     §cВы были заблокированы
     
-    §fМодератор: §7{moder_prefix} {moder_name}
+    §fМодератор: §7{moder_prefix}{moder_name}
     §fПричина: §c{reason}
     §fВремя окончания блокировки: §e{duration}
 
@@ -54,7 +54,7 @@ MUTE:
   USER_MESSAGE: |  # Присылаем сразу как только прилетает мут + когда человек пытается писать в чат
     §cВозможность писать в чат была ограничена
     §7
-    §7Модератор: §7{moder_prefix} {moder_name}
+    §7Модератор: §7{moder_prefix}{moder_name}
     §7Причина: §c{reason}
     §7Время снятия ограничения: §e{duration}
     
@@ -66,7 +66,7 @@ KICK:
   USER_MESSAGE: |
     §cВы были кикнуты
     
-    §fМодератор: §7{moder_prefix} {moder_name}
+    §fМодератор: §7{moder_prefix}{moder_name}
     §fПричина: §c{reason}
 
   COMMAND_SYNTAX: /kick <ник> [причина]
