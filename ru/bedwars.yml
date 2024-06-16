@@ -212,10 +212,16 @@ INVENTORY_OVERFLOW: '{prefix} §cИнвентарь переполнен'
 GAME_REWARD: '§fВы получили §a{coins}§f монет и §6{exp}§f опыта'
 
 # Улучшения (если у улучшения есть уровни или если их нет)
-TEAM_UPGRADE_LEVEL: '{prefix} §fИгрок {player_prefix}{player_name} §fпрокачал улучшение §b{trade_name} §fдо уровня {trade_level}!'
-TEAM_UPGRADE: '{prefix} §fИгрок {player_prefix}{player_name} §fпрокачал улучшение §b{trade_name}!'
+TEAM_UPGRADE_LEVEL: '{prefix} §fИгрок {player_prefix}{player_name} §fпрокачал улучшение §b{upgrade_name} §fдо уровня {upgrade_level}!'
+TEAM_UPGRADE: '{prefix} §fИгрок {player_prefix}{player_name} §fпрокачал улучшение §b{upgrade_name}!'
 MAX_LEVEL_UPGRADE: '{prefix} §cМаксимальный уровень прокачки!'
 TRAP_QUEUE_OVERFLOW: '{prefix} §cОчередь ловушек переполнена!'
+
+UPGRADES:
+  armor: '§eУкреплённая броня'
+  sharpness: '§bЗаострённые мечи'
+  fastminer: '§eБыстрый шахтёр'
+  healpool:  '§bПоле регенерации'
 
 CAUGHT_TRAP: '{prefix} §cЛовушка сработала, на вашей базе враг!'
 
