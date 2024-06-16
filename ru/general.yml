@@ -57,7 +57,7 @@ BAN:
     
     §fМодератор: §7{moder_prefix}{moder_name}
     §fПричина: §c{reason}
-    §fВремя окончания блокировки: §e{duration}
+    §fВремя окончания блокировки: §c{duration}
 
   BAN_COMMAND_SYNTAX: /ban <ник> [30d24h60m15s] [причина]  # TODO
   UNBAN_COMMAND_SYNTAX: /unban <ник>  # TODO
