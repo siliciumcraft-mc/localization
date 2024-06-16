@@ -37,6 +37,19 @@ DONATE_CHAT:  # TODO
   YOU_DISABLED_DONATECHAT: §cВы отключили чат донатеров. Чтобы писать туда, включите его в настройках.
   # TODO cooldown на сообщения 30 секунд
 
+# Ограничения игроков
+LIMITATIONS:
+  CANT_KICK: '§cВы не можете кикнуть данного игрока'
+  CANT_LIMIT: '§cВы не можете ограничить данного игрока'
+  PLAYER_HAS_BEEN_BANNED: '§cИгрок забанен'
+  PLAYER_HAS_BEEN_MUTED: '§cИгрок замучен'
+  PLAYER_NOT_LIMITED: '§cНа игрока не наложен данный вид ограничения'
+  PLAYER_ALREADY_LIMITED: '§cНа игрока уже наложен данный вид ограничения'
+  WRONG_DURATION: '§cИнтервал ограничения введён неверно'
+  CANT_ADD_LIMIT_THAT_LONG: '§cВы не можете накладывать ограничения со столь большим временным интервалом действия'
+  CANT_REMOVE_LIMIT_THAT_LONG: '§cВы не можете отменять ограничения со столь большим временным интервалом действия'
+  LIMIT_REMOVED_SUCCESSFULLY: '§cОграничение снято с игрока'
+
 # Бан
 BAN:
   USER_MESSAGE: |
