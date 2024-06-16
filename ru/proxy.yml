@@ -2,6 +2,8 @@ SUCCESS: '§aУспешно'
 
 ERROR:
   DEFAULT: '§cПроизошла ошибка'
+  INTERNAL_ERROR: '§cПроизошла внутренняя ошибка сервера. Пожалуйста, доложите об этом администрации.'
+  NO_PERMISSION: '§cУ вас недостаточно прав! ;('
   PLAYER_NOT_FOUND: '§cДанный игрок никогда не играл на нашем сервере'
   PLAYER_OFFLINE: '§cИгрок не в сети'
 
@@ -11,6 +13,18 @@ DONATE_CHAT: '§6§lДонат-Чат §7(/dc) §8» {player_prefix}{player_name
 
 NO_REASON: '§cне указана'  # TODO
 NO_EXPIRATION: '§cникогда'  # TODO
+
+LIMITATIONS:
+  CANT_KICK: '§cВы не можете кикнуть данного игрока'
+  CANT_LIMIT: '§cВы не можете ограничить данного игрока'
+  PLAYER_HAS_BEEN_BANNED: '§cИгрок забанен'
+  PLAYER_HAS_BEEN_MUTED: '§cИгрок замучен'
+  PLAYER_NOT_LIMITED: '§cНа игрока не наложен данный вид ограничения'
+  PLAYER_ALREADY_LIMITED: '§cНа игрока уже наложен данный вид ограничения'
+  WRONG_DURATION: '§cИнтервал ограничения введён неверно'
+  CANT_ADD_LIMIT_THAT_LONG: '§cВы не можете накладывать ограничения со столь большим временным интервалом действия'
+  CANT_REMOVE_LIMIT_THAT_LONG: '§cВы не можете отменять ограничения со столь большим временным интервалом действия'
+  LIMIT_REMOVED_SUCCESSFULLY: '§cОграничение снято с игрока'
 
 KICK_MESSAGE: |
   §cВы были кикнуты
