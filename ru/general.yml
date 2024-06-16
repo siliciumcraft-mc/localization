@@ -22,13 +22,13 @@ ERROR:
   SERVER_IS_NOT_ONLINE: §cСервер не найден!
 
 # Серверные сообщения 
-BALANCE: {server_prefix} §fНа вашем аккаунте §a{balance} §f{currency}  # TODO
-PING_MESSAGE: {server_prefix} Ваш пинг §a{ping} §fms  # TODO
-PLAYTIME_MESSAGE: {server_prefix} Вы провели на сервере §e{played_time}  # TODO
-YOU_HAVE_BEEN_SENT: {server_prefix} {player_prefix}{player_name} §fтелепортировал вас на сервер §a{server_name}
-ALREADY_ON_SERVER: {server_prefix} §cВы уже находитесь на этом сервере!
-SERVER_TELEPORTATION: §aВы были телепортированы на сервер §a{server_name}
-SERVER_TO: {server_prefix} Вы подключены к серверу §a{server_name}
+BALANCE: '{server_prefix} §fНа вашем аккаунте §a{balance} §f{currency}'  # TODO
+PING_MESSAGE: '{server_prefix} Ваш пинг §a{ping} §fms'  # TODO
+PLAYTIME_MESSAGE: '{server_prefix} Вы провели на сервере §e{played_time}'  # TODO
+YOU_HAVE_BEEN_SENT: '{server_prefix} {player_prefix}{player_name} §fтелепортировал вас на сервер §a{server_name}'
+ALREADY_ON_SERVER: '{server_prefix} §cВы уже находитесь на этом сервере!'
+SERVER_TELEPORTATION: '§aВы были телепортированы на сервер §a{server_name}'
+SERVER_TO: '{server_prefix} Вы подключены к серверу §a{server_name}'
 
 # Чат донатеров
 DONATE_CHAT:  # TODO
