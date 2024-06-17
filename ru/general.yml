@@ -105,6 +105,8 @@ PRIVATE_MESSAGES:  # TODO
   MSG_SYNTAX: /msg <ник> <сообщение>
   REPLY_SYNTAX: /reply <сообщение>
 
+  NO_ONE_MESSAGED_YOU: '§cВам еще никто не писал'
+
 RANKS:
   default: '§7Игрок '
   premium: '§6§lPREMIUM '
