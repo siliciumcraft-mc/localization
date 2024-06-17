@@ -106,6 +106,7 @@ PRIVATE_MESSAGES:  # TODO
   REPLY_SYNTAX: /reply <сообщение>
 
   NO_ONE_MESSAGED_YOU: '§cВам еще никто не писал'
+  CANNOT_SEND_MESSAGE_TO_SELF: '§cВы не можете отправить сообщение самому себе'
 
 RANKS:
   default: '§7Игрок '
