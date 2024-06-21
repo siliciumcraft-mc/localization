@@ -87,8 +87,8 @@ KICK:
 # Лучший игрок сервера
 BEST_PLAYER:
   HEADER_LINE: '§aСамый лучший игрок сервера:'
-  FOOTER_LINE: '§cНажмите, чтобы сменить!'
-  AUCTION_WINDOW_TITLE: 'Стать лучшим игроком'
+  FOOTER_LINE: '§7Нажмите, чтобы сменить!'
+  AUCTION_WINDOW_TITLE: 'Самый лучший игрок'
   BID_INFO_LORE: |
     §fДанный игрок заплатил §2{amount}§f кристалл(ов). 
     
