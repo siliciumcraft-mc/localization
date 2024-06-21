@@ -103,6 +103,7 @@ BEST_PLAYER:
     §7новым "лучшим игроком"
 
   BID_OPTION_LORE: '§e▸ Нажмите, чтобы перекупить'
+  SUCCESS: '{server_prefix} §fВы стали новым лучшим игроком!'
 
 # Tab
 TAB_HEADER: |
