@@ -18,7 +18,7 @@ PROFILE_ITEM_NAME: '§eПрофиль игрока {player_prefix}{player_name}'
 PROFILE_MAIN_ITEM_PLAYER: |
   §bОбщая информация
   
-  §7Статус: {player_prefix}
+  §7Статус: {si_rank}{rank_active_until}  # TODO если (group == tempGroup && tempGroupExpiresAt != null)
   
   §7Монет: §6{coins}
   §7Кристаллов: §a{gems}
@@ -26,7 +26,10 @@ PROFILE_MAIN_ITEM_PLAYER: |
   §7Скин: §f{skin}
       
   §7Проведено времени на сервере:
-  §f{time_played}
+  §e{time_played}  # TODO
+RANK_ACTIVE_UNTIL: |
+
+  §7Активен до: §e{active_until}  # TODO если (group == tempGroup && tempGroupExpiresAt != null)
 PROFILE_MAIN_ITEM_LEVEL: |
   §bУровень
 
@@ -39,7 +42,7 @@ PROFILE_MAIN_ITEM_LEVEL: |
       
   §7До следующего уровня: §a{next_lvl_exp} XP
       
-  §e▸ Открыть меню наград
+#  §e▸ Открыть меню наград
 
 PROFILE_MAIN_ITEM_LANGUAGE: |
   §aВыбор языка
@@ -54,7 +57,7 @@ PROFILE_MAIN_ITEM_LANGUAGE: |
 PROFILE_MAIN_ITEM_SETTINGS: |
   §aПерсональные настройки
 
-  §7Персональные настройки
+  §7Настройка игровых параметров
 
   §e▸ Открыть меню настроек
 PROFILE_MAIN_ITEM_DONATE: |
@@ -67,9 +70,9 @@ PROFILE_MAIN_ITEM_DONATE: |
 COMPASS: '§aГлавное меню'
 BED_WARS: |
   §eBedWars
-  §8Кроватный войны
+  §8Кроватные войны
 
-  §7Сраждения между командами за право
+  §7Сражения между командами за право
   §7на возрождение! Защитите
   §7свою кровать и уничтожьте противников!
 
@@ -77,8 +80,8 @@ BED_WARS: |
 
   §aНажмите, чтобы присоединиться!
 ANARCHY: |
-  §eАнархия
-  §8Выживание
+  §eAnarchy + McMMO (1.20)
+  §8Анархия с навыками
 
   §7Надоело жить по правилам?
   §7Хотите показать другим,
@@ -90,11 +93,11 @@ ANARCHY: |
   §7На этом режиме нет правил
   §7Ну или почти...
 
-  §cРаботают все блоки из 1.20
-
   §8На режиме играет {online} игроков
 
   §aНажмите, чтобы присоединиться!
 HUB: |
-  §bГлавное лобби
+  §eHub
+  §8Главное лобби
+  
   §aНажмите, чтобы присоединиться!
