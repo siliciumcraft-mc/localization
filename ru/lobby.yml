@@ -9,7 +9,7 @@ SCOREBOARD:
         §e
         Уровень: §b{si_level}
         §9
-        Общий онлайн §e{servers_online_root}
+        Общий онлайн: §e{servers_online_root}
         §7
         §e{si_domain}
 PROFILE_MAIN_GUI_NAME: 'Профиль'
@@ -18,7 +18,7 @@ PROFILE_ITEM_NAME: '§eПрофиль игрока {player_prefix}{player_name}'
 PROFILE_MAIN_ITEM_PLAYER: |
   §bОбщая информация
   
-  §7Статус: {si_rank}{rank_active_until}  # TODO если (group == tempGroup && tempGroupExpiresAt != null)
+  §7Статус: {rank}{rank_active_until}  # TODO если (group == tempGroup && tempGroupExpiresAt != null)
   
   §7Монет: §6{coins}
   §7Кристаллов: §a{gems}
