@@ -85,8 +85,9 @@ KICK:
   COMMAND_SYNTAX: /kick <ник> [причина]
 
 # Лучший игрок сервера
-# BEST_PLAYER:
-#   ...
+BEST_PLAYER:
+  HEADER_LINE: '§aСамый лучший игрок сервера:'
+  FOOTER_LINE: '§cНажмите, чтобы сменить!'
 
 # Tab
 TAB_HEADER: |
