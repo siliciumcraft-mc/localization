@@ -1,6 +1,6 @@
 # Префиксы серверов
 SERVER_PREFIX: '§6Сервер §8|§f'
-ANARCHY_PREFIX: '§6AnarchyRPG §8|§f'
+ANARCHY_PREFIX: '§6Anarchy §8|§f'
 
 # Ошибки
 ERROR:
@@ -33,7 +33,7 @@ SERVER_TO: '{server_prefix} Вы подключены к серверу §a{serv
 # Чат донатеров
 DONATE_CHAT:  # TODO
   COMMAND_SYNTAX: /dc <сообщение>
-  MESSAGE: §6§lЧат донатеров §8» {player_prefix}{player_name}§8 » §f{message}
+  MESSAGE: §6§lЧат донатеров §7(/dc) §8» {player_prefix}{player_name}§8 » §f{message}
   YOU_DISABLED_DONATECHAT: §cВы отключили чат донатеров. Чтобы писать туда, включите его в настройках.
   # TODO cooldown на сообщения 30 секунд
 
@@ -90,6 +90,7 @@ BEST_PLAYER:
   FOOTER_LINE: '§7Нажмите, чтобы сменить!'
   AUCTION_WINDOW_TITLE: 'Самый лучший игрок'
   BID_INFO_LORE: |
+  
     §fДанный игрок заплатил §2{amount}§f кристалл(ов). 
     
     §7Если до §f{reduces_at}§7 его никто
