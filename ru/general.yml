@@ -88,6 +88,11 @@ KICK:
 BEST_PLAYER:
   HEADER_LINE: '§aСамый лучший игрок сервера:'
   FOOTER_LINE: '§cНажмите, чтобы сменить!'
+  AUCTION_WINDOW_TITLE: 'Стать лучшим игроком'
+  BID_INFO_LORE: 'Текущая ставка составляет {amount} кристаллов. Она снизится в {reduces_at} на {reduction_rate} процентов.'
+  NO_CURRENT_BID: 'Нет ставок.'
+  INCREASE_BY: 'Увеличить на {amount}'
+  BID_OPTION_LORE: 'Вы отдадите {amount} кристаллов'
 
 # Tab
 TAB_HEADER: |
@@ -139,3 +144,7 @@ NO_EXPIRATION: §cникогда  # TODO
 CHAT_COOL-DOWN: '§cЧастота отправки сообщений ограничена. Подождите {time} секунд(ы)'
 CHAT_MUTE: '§cВ связи с ограничениями, мы информируем вас, что доступность для отправки сообщений в чат будет ограничена до {date_time}'
 PRE_CHAT_FORMAT: '{player_prefix}{player_name} §8» §7{message}'
+CONFIRMATION_WINDOW_TITLE: 'Вы уверены?'
+CONFIRM_ACTION: '§aПодтвердить.'
+DECLINE_ACTION: '§cОтменить.'
+NOT_ENOUGH_GEMS: '§cНедостаточно кристаллов!'
