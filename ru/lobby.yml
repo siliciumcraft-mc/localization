@@ -4,7 +4,7 @@ SCOREBOARD:
         §1
         Ваш статус: {si_rank}
         §r
-        Монет: §6{si_coins}
+        Золота: §e{si_coins}
         Кристаллов: §2{si_gems}
         §e
         Уровень: §b{si_level}
@@ -20,7 +20,7 @@ PROFILE_MAIN_ITEM_PLAYER: |
   
   §7Статус: {rank}{rank_active_until}  # TODO если (group == tempGroup && tempGroupExpiresAt != null)
   
-  §7Монет: §6{coins}
+  §7Золота: §e{coins}
   §7Кристаллов: §a{gems}
       
   §7Скин: §f{skin}
