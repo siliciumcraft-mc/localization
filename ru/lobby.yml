@@ -12,7 +12,7 @@ SCOREBOARD:
         §7
         §e{si_domain}
 PROFILE:
-    GUI_NAME:  'Профиль'
+    GUI_TITLE:  'Профиль'
     ITEM_NAME: '§eПрофиль игрока {player_prefix}{player_name}'
 
     ITEM_PLAYER: |
@@ -65,6 +65,7 @@ PROFILE:
       
       §e▸ Открыть меню привилегий
     SETTINGS:
+        GUI_TITLE: 'Личные настройки'
         DONATE_CHAT: |
             §aОтключить донат-чат
             §7Отключить возможность читать
