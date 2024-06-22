@@ -64,6 +64,12 @@ PROFILE:
       §7привилегий и их покупки
       
       §e▸ Открыть меню привилегий
+    SETTINGS:
+        DONATE_CHAT: |
+            §aОтключить донат-чат
+            §7Отключить возможность читать
+            §7сообщения в чат донатеров
+            §eНажмите, чтобы {pridicate}
 RANK_ACTIVE_UNTIL: |
 
   §7Активен до: §e{active_until}  # TODO если (group == tempGroup && tempGroupExpiresAt != null)
