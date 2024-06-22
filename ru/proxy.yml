@@ -58,7 +58,7 @@ MUTE_COMMAND: |
    §7/unmute <ник игрока>§f - вернуть игроку возможность писать в чат
 TAB_HEADER: |
   
-  §6§lSiliciumCraft
+  §c§lSCraft
   
   §fОнлайн-магазин:
   §e{store_domain}
@@ -139,4 +139,3 @@ AUTO_MESSAGES:
     §cЧто вершит судьбу человечества в этом мире?
   - |-
     §7See You Space Cowboy...
-  

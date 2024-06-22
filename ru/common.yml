@@ -1,6 +1,6 @@
 ERROR: 
    NOT_ENOUGH_GEMS: '§cНедостаточно кристаллов'
-   NOT_ENOUGH_COINS: '§cНедостаточно монет'
+   NOT_ENOUGH_COINS: '§cНедостаточно золота'
    NOT_ENOUGH_FREE_INVENTORY_SLOTS: '§cНедостаточно свободных слотов в инвентаре'
 
 CHAT_COOL-DOWN: '§cЧастота отправки сообщений ограничена. Подождите {time} секунд(ы)'
