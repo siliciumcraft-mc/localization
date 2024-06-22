@@ -12,7 +12,7 @@ SCOREBOARD:
         §7
         §e{si_domain}
 PROFILE:
-    MAIN_GUI_NAME:  'Профиль'
+    GUI_NAME:  'Профиль'
     ITEM_NAME: '§eПрофиль игрока {player_prefix}{player_name}'
 
     ITEM_PLAYER: |
