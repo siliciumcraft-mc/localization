@@ -1,5 +1,5 @@
 SCOREBOARD:
-    TITLE: '§c§lSCraft'
+    TITLE: '§6§lSiliciumCraft'
     LINES: |
         §1
         Ваш статус: {si_rank}

@@ -58,7 +58,7 @@ MUTE_COMMAND: |
    §7/unmute <ник игрока>§f - вернуть игроку возможность писать в чат
 TAB_HEADER: |
   
-  §c§lSCraft
+  §6§lSiliciumCraft
   
   §fОнлайн-магазин:
   §e{store_domain}
