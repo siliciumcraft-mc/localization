@@ -11,61 +11,62 @@ SCOREBOARD:
         Общий онлайн: §a{servers_online_root}
         §7
         §e{si_domain}
-PROFILE_MAIN_GUI_NAME: 'Профиль'
-PROFILE_ITEM_NAME: '§eПрофиль игрока {player_prefix}{player_name}'
+PROFILE:
+    MAIN_GUI_NAME:  'Профиль'
+    ITEM_NAME: '§eПрофиль игрока {player_prefix}{player_name}'
 
-PROFILE_MAIN_ITEM_PLAYER: |
-  §bОбщая информация
+    ITEM_PLAYER: |
+      §bОбщая информация
   
-  §7Статус: {rank}{rank_active_until}  # TODO если (group == tempGroup && tempGroupExpiresAt != null)
-  
-  §7Золото: §6{coins}
-  §7Кристаллы: §a{gems}
+      §7Статус: {rank}{rank_active_until}  # TODO если (group == tempGroup && tempGroupExpiresAt != null)
       
-  §7Скин: §f{skin}
+      §7Золото: §6{coins}
+      §7Кристаллы: §a{gems}
       
-  §7Проведено времени на сервере:
-  §e{time_played}  # TODO
-RANK_ACTIVE_UNTIL: |
-
-  §7Активен до: §e{active_until}  # TODO если (group == tempGroup && tempGroupExpiresAt != null)
-PROFILE_MAIN_ITEM_LEVEL: |
-  §bУровень
-
-  §7Играя на сервере, вы получаете
-  §7игровой опыт, который необходим
-  §7для поднятия вашего уровня
-  §7и получения особых наград.
+      §7Скин: §f{skin}
       
-  §7Уровень: §d{level} {level_progress_bar} §6{progress_percentage}
+      §7Проведено времени на сервере:
+      §e{time_played}  # TODO
+    ITEM_LEVEL: |
+      §bУровень
       
-  §7До следующего уровня: §a{next_lvl_exp} XP
+      §7Играя на сервере, вы получаете
+      §7игровой опыт, который необходим
+      §7для поднятия вашего уровня
+      §7и получения особых наград.
+      
+      §7Уровень: §d{level} {level_progress_bar} §6{progress_percentage}
+      
+      §7До следующего уровня: §a{next_lvl_exp} XP
       
 #  §e▸ Открыть меню наград
 
-PROFILE_MAIN_ITEM_LANGUAGE: |
-  §aВыбор языка
+    ITEM_LANGUAGE: |
+      §aВыбор языка
+      
+      §7Наш проект поддерживает несколько языков
+      
+      §cВнимание! Некоторые элементы на
+      §cсервере могут быть переведены не
+      §cполностью или не переведены вовсе
+      
+      §e▸ Открыть меню языков
+    ITEM_SETTINGS: |
+      §aПерсональные настройки
+      
+      §7Настройка игровых параметров
+      
+      §e▸ Открыть меню настроек
+    PROFILE_MAIN_ITEM_DONATE: |
+      §bПривилегии
+      
+      §7Подробная информация о возможностях
+      §7привилегий и их покупки
+      
+      §e▸ Открыть меню привилегий
+RANK_ACTIVE_UNTIL: |
 
-  §7Наш проект поддерживает несколько языков
-  
-  §cВнимание! Некоторые элементы на
-  §cсервере могут быть переведены не
-  §cполностью или не переведены вовсе
-
-  §e▸ Открыть меню языков
-PROFILE_MAIN_ITEM_SETTINGS: |
-  §aПерсональные настройки
-
-  §7Настройка игровых параметров
-
-  §e▸ Открыть меню настроек
-PROFILE_MAIN_ITEM_DONATE: |
-  §bПривилегии
-
-  §7Подробная информация о возможностях
-  §7привилегий и их покупки
-
-  §e▸ Открыть меню привилегий
+  §7Активен до: §e{active_until}  # TODO если (group == tempGroup && tempGroupExpiresAt != null)
 COMPASS: '§aГлавное меню'
 BED_WARS: |
   §bBedWars
