@@ -7,10 +7,6 @@ ERROR:
   PLAYER_NOT_FOUND: '§cДанный игрок никогда не играл на нашем сервере'
   PLAYER_OFFLINE: '§cИгрок не в сети'
 
-PING_MESSAGE: 'Ваш пинг: §e{ping}'
-PLAYTIME_MESSAGE: 'Вы провели на сервере §e{played_time}'
-DONATE_CHAT: '§6§lДонат-Чат §7(/dc) §8» {player_prefix}{player_name} §8» §f{message}'
-
 NO_REASON: '§cне указана'  # TODO
 NO_EXPIRATION: '§cникогда'  # TODO
 
