@@ -1,11 +1,11 @@
 SCOREBOARD:
-    TITLE: '§6§lSiliciumCraft'
+    TITLE: '§6§lSCraft'
     LINES: |
         §1
         Ваш статус: {si_rank}
         §r
-        Золота: §e{si_coins}
-        Кристаллов: §2{si_gems}
+        Золото: §6{si_coins}
+        Кристаллы: §2{si_gems}
         §e
         Уровень: §b{si_level}
         §9
@@ -20,8 +20,8 @@ PROFILE_MAIN_ITEM_PLAYER: |
   
   §7Статус: {rank}{rank_active_until}  # TODO если (group == tempGroup && tempGroupExpiresAt != null)
   
-  §7Золота: §e{coins}
-  §7Кристаллов: §a{gems}
+  §7Золото: §6{coins}
+  §7Кристаллы: §a{gems}
       
   §7Скин: §f{skin}
       
