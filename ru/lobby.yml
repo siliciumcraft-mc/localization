@@ -6,10 +6,9 @@ SCOREBOARD:
         §r
         Золото: §6{si_coins}
         Кристаллы: §2{si_gems}
-        §e
-        Уровень: §b{si_level}
+        Уровень: §d{si_level}
         §9
-        Общий онлайн: §e{servers_online_root}
+        Общий онлайн: §a{servers_online_root}
         §7
         §e{si_domain}
 PROFILE_MAIN_GUI_NAME: 'Профиль'
