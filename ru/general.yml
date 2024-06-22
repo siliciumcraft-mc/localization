@@ -14,7 +14,7 @@ ERROR:
   PLAYER_NOT_FOUND: §cДанный игрок никогда не играл на нашем сервере
   PLAYER_OFFLINE: §cИгрок не в сети
   NOT_ENOUGH_GEMS: §cНедостаточно кристаллов
-  NOT_ENOUGH_COINS: §cНедостаточно монет
+  NOT_ENOUGH_COINS: §cНедостаточно золота
   NOT_ENOUGH_FREE_INVENTORY_SLOTS: §cНедостаточно свободных слотов в инвентаре
   INVENTORY_IS_FULL: §cОшибка, ваш инвентарь заполнен
   POSITIVE_INTEGER_ONLY: §cОшибка, нужно указывать только положительное целое число
