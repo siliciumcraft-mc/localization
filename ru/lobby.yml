@@ -8,7 +8,7 @@ SCOREBOARD:
         Кристаллы: §2{si_gems}
         Уровень: §d{si_level}
         §9
-        Общий онлайн: §a{servers_online_root}
+        Общий онлайн: §a{servers_online_root/}
         §7
         §e{si_domain}
 PROFILE:
