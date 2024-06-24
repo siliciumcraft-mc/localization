@@ -33,8 +33,8 @@ SERVER_TO: '{server_prefix} Вы подключены к серверу §a{serv
 # Скины
 SKIN:  # TODO
   PREFIX: '§6§lСкин §r§8|'
-  UPDATED: {skin_prefix} §fВаш скин обновлен, перезайдите на сервер
-  RESET: {skin_prefix} §fВаш скин был сброшен
+  UPDATED: '{skin_prefix} §fВаш скин обновлен, перезайдите на сервер'
+  RESET: '{skin_prefix} §fВаш скин был сброшен'
   COMMAND_HELP: |
     §eПодкоманды для /skin:
      §7/skin <ник>§f - установить скин игрока
