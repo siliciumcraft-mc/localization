@@ -98,6 +98,7 @@ KICK:
 # Лучший игрок сервера
 BEST_PLAYER:
   HEADER_LINE: '§aСамый лучший игрок сервера:'
+  NO_BEST_PLAYER: '§8Отсутствует, но это можете быть вы!'
   FOOTER_LINE: '§7Нажмите, чтобы сменить!'
   AUCTION_WINDOW_TITLE: 'Самый лучший игрок'
   BID_INFO_LORE: |
