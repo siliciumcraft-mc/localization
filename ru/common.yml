@@ -4,13 +4,3 @@ ERROR:
    NOT_ENOUGH_FREE_INVENTORY_SLOTS: '§cНедостаточно свободных слотов в инвентаре'
 
 PRE_CHAT_FORMAT: '{player_prefix}{player_name} §8» §7{message}'
-
-PLAYER_OFFLINE: '§cИгрок оффлайн'
-
-COMMAND_NOT_FOUND: '§cЭтой команды не существует O_o'
-
-PAGINATION:
-  PREVIOUS_PAGE: '§aПредыдущая страница'
-  PREVIOUS_PAGE_HELP: '§7Нажмите для перехода на {previous_page} страницу'
-  NEXT_PAGE: '§aСледующая страница'
-  NEXT_PAGE_HELP: '§7Нажмите для перехода на {next_page} страницу'
