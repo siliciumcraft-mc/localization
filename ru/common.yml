@@ -2,5 +2,3 @@ ERROR:
    NOT_ENOUGH_GEMS: '§cНедостаточно кристаллов'
    NOT_ENOUGH_COINS: '§cНедостаточно золота'
    NOT_ENOUGH_FREE_INVENTORY_SLOTS: '§cНедостаточно свободных слотов в инвентаре'
-
-PRE_CHAT_FORMAT: '{player_prefix}{player_name} §8» §7{message}'
