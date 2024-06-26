@@ -181,7 +181,11 @@ NO_REASON: §cне указана  # TODO
 NO_EXPIRATION: §cникогда  # TODO
 CHAT_COOL-DOWN: '§cЧастота отправки сообщений ограничена. Подождите {time} секунд(ы)'
 CHAT_MUTE: '§cВ связи с ограничениями, мы информируем вас, что доступность для отправки сообщений в чат будет ограничена до {date_time}'
-
+PRE_CHAT_FORMAT: '{player_prefix}{player_name} §8» §7{message}'
+CONFIRMATION_WINDOW_TITLE: 'Вы уверены?'
+CONFIRM_ACTION: '§aПодтвердить'
+DECLINE_ACTION: '§cОтменить'
+NOT_ENOUGH_GEMS: '§cНедостаточно кристаллов!'
 
 # Пати
 PARTY:
@@ -239,8 +243,12 @@ PARTY:
      §7/p kick <ник игрока>§f - исключить игрока из пати
      §7/p leave§f - покинуть группу
      §7/p disband§f - распустить группу
-PRE_CHAT_FORMAT: '{player_prefix}{player_name} §8» §7{message}'
-CONFIRMATION_WINDOW_TITLE: 'Вы уверены?'
-CONFIRM_ACTION: '§aПодтвердить'
-DECLINE_ACTION: '§cОтменить'
-NOT_ENOUGH_GEMS: '§cНедостаточно кристаллов!'
+
+# Автосообщения
+AUTO_MESSAGES:
+  - "<red> Что вершит судьбу человечества в этом мире?"
+  - "<yellow> See You Space Cowboy..."
+  - "<hover:show_text:'<red>test'>TEST"
+
+
+
