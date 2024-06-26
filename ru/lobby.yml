@@ -18,7 +18,7 @@ PROFILE:
     ITEM_PLAYER: |
       §bОбщая информация
   
-      §7Статус: {rank}{rank_active_until}  # TODO если (group == tempGroup && tempGroupExpiresAt != null)
+      §7Статус: '{rank}{rank_active_until}'  # TODO если (group == tempGroup && tempGroupExpiresAt != null)
       
       §7Золото: §6{coins}
       §7Кристаллы: §a{gems}
