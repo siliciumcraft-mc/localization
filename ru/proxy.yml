@@ -67,3 +67,7 @@ AUTO_MESSAGES:
     §cЧто вершит судьбу человечества в этом мире?
   - |-
     §7See You Space Cowboy...
+  - |-
+    <hover:show_text:'<red>test'>TEST
+
+
