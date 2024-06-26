@@ -1,11 +1,12 @@
 SCOREBOARD:
-    TITLE: '§6§lSiliciumCraft'
+    TITLE: '§6§lSILICIUMCRAFT'
     LINES: |
         §1
         Ваш статус: {si_rank}
         §r
         Золото: §6{si_coins}
         Кристаллы: §2{si_gems}
+        §2
         Уровень: §d{si_level}
         §9
         Общий онлайн: §a{servers_online_root/}
