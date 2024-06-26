@@ -63,10 +63,8 @@ PARTY:
 #     §7/p reject <ник игрока>§f - отклонить запрос игрока
 
 AUTO_MESSAGES:
-  - |-
-    §cЧто вершит судьбу человечества в этом мире?
-  - |-
-    §7See You Space Cowboy...
+  - "<red> Что вершит судьбу человечества в этом мире?"
+  - "<yellow> See You Space Cowboy..."
   - "<hover:show_text:'<red>test'>TEST"
 
 
