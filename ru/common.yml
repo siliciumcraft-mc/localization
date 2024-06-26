@@ -3,8 +3,6 @@ ERROR:
    NOT_ENOUGH_COINS: '§cНедостаточно золота'
    NOT_ENOUGH_FREE_INVENTORY_SLOTS: '§cНедостаточно свободных слотов в инвентаре'
 
-CHAT_COOL-DOWN: '§cЧастота отправки сообщений ограничена. Подождите {time} секунд(ы)'
-CHAT_MUTE: '§cВ связи с ограничениями, мы информируем вас, что доступность для отправки сообщений в чат будет ограничена до {date_time}'
 PRE_CHAT_FORMAT: '{player_prefix}{player_name} §8» §7{message}'
 
 PLAYER_OFFLINE: '§cИгрок оффлайн'
