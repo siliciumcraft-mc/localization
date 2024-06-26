@@ -3,20 +3,7 @@ SUCCESS: '§aУспешно'
 ERROR:
   DEFAULT: '§cПроизошла ошибка'
   INTERNAL_ERROR: '§cПроизошла внутренняя ошибка сервера. Пожалуйста, доложите об этом администрации.'
-  NO_PERMISSION: '§cУ вас недостаточно прав! ;('
   PLAYER_NOT_FOUND: '§cДанный игрок никогда не играл на нашем сервере'
-  PLAYER_OFFLINE: '§cИгрок не в сети'
-TAB_HEADER: |
-  
-  §6§lSiliciumCraft
-  
-  §fОнлайн-магазин:
-  §e{store_domain}
-
-TAB_FOOTER: |
-  
-  §fВы находитесь на сервере:
-  §e{server}
 
 PARTY:
   PREFIX: '§6§lParty §r§8▸'
@@ -74,15 +61,6 @@ PARTY:
      §7/p disband§f - распустить группу
 #     §7/p accept <ник игрока>§f - присоединиться к группе игрока
 #     §7/p reject <ник игрока>§f - отклонить запрос игрока
-
-PRIVATE_MESSAGES:
-  INCOMING: " §6PM §8| {player_prefix}{player_name} §8→ §6Я §8| §7{message}"
-  OUTGOING: " §6PM §8| §6Я §8→ {player_prefix}{player_name} §8| §7{message}"
-  
-  COMMAND_HELP: |
-    §eПриватные сообщения
-     §7/m <ник игрока> <текст>§f - отправить приватное сообщение игроку
-     §7/r <текст>§f - ответить на последнее входящее сообщение
 
 AUTO_MESSAGES:
   - |-
