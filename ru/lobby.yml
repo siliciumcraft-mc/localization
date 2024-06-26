@@ -15,10 +15,11 @@ PROFILE:
     GUI_TITLE:  'Профиль'
     ITEM_NAME: '§eПрофиль игрока {player_prefix}{player_name}'
 
+    # TODO если (group == tempGroup && tempGroupExpiresAt != null)
     ITEM_PLAYER: |
       §bОбщая информация
   
-      §7Статус: '{rank}{rank_active_until}'  # TODO если (group == tempGroup && tempGroupExpiresAt != null)
+      §7Статус: {rank}{rank_active_until}
       
       §7Золото: §6{coins}
       §7Кристаллы: §a{gems}
