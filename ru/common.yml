@@ -13,17 +13,6 @@ PLAYER_OFFLINE: '§cИгрок оффлайн'
 
 COMMAND_NOT_FOUND: '§cЭтой команды не существует O_o'
 
-SKIN_COMMAND: |
-   §7/skin <ник игрока>§f - установить скин игрока
-SKIN_COMPLETED: '§eСкин обновлен'
-RANKS:
-   default: '§7Игрок'
-   premium: '§6§lPREMIUM'
-   helper: '§2§lHELPER'
-   moder: '§9§lMODER'
-   admin: '§c§lADMIN'
-   owner: '§4§lOWNER'
-
 PAGINATION:
   PREVIOUS_PAGE: '§aПредыдущая страница'
   PREVIOUS_PAGE_HELP: '§7Нажмите для перехода на {previous_page} страницу'
