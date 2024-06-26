@@ -31,7 +31,7 @@ SERVER_TELEPORTATION: '§aВы были телепортированы на се
 SERVER_TO: '{server_prefix} Вы подключены к серверу §a{server_name}'
 
 # Скины
-SKIN:  # TODO
+SKIN:
   PREFIX: '§6§lСкин §r§8|'
   UPDATED: '{skin_prefix} §fВаш скин обновлен, перезайдите на сервер'
   RESET: '{skin_prefix} §fВаш скин был сброшен'
