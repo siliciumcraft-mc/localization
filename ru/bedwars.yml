@@ -246,9 +246,7 @@ GAME_END_WITH_WINNERS: "                  §7Победила команда - {
 GAME_END_DRAW: "                         §7Ничья!"
 
 # Сообщения для {top1killer}, {top2killer}, {top3killer}. Если {name} отсутствует (некого записывать в топ) - вместо {topNkiller} просто пустая строка.
-GAME_END_TOP_1_KILLER: |  # Пустая строка, если name == null или убийств 0
-  
-                   §e#1 {player_prefix}{player_name} §7({player_all_kills})  
+GAME_END_TOP_1_KILLER: "\n\n\n                 §e#2 {player_prefix}{player_name} §7({player_all_kills})"  # Пустая строка, если name == null или убийств 0
 GAME_END_TOP_2_KILLER: "\n                 §6#2 {player_prefix}{player_name} §7({player_all_kills})"  # Пустая строка, если name == null или убийств 0
 GAME_END_TOP_3_KILLER: "\n                 §c#3 {player_prefix}{player_name} §7({player_all_kills})"  # Пустая строка, если name == null или убийств 0
 
