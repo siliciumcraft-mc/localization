@@ -245,8 +245,7 @@ PARTY:
 # Автосообщения
 AUTO_MESSAGES:
   - "<red> Что вершит судьбу человечества в этом мире?"
-  - "<yellow> See You Space Cowboy..."
-  - "<hover:show_text:'<red>test'>TEST"
+  - "<hover:show_text:'<yellow> See You Space Cowboy...'>kek"
 
 
 
