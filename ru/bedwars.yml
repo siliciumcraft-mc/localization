@@ -92,7 +92,7 @@ GOLEM_TEAM: 'Голем команды: {team_color}{team_name}'
 # Лобби ожидания
 PLAYER_JOINED_WAITING: '{prefix} {player_prefix}{player_name} §fподключился к игре §a{players_count}/{max_players}'
 PLAYER_QUIT_WAITING: '{prefix} {player_prefix}{player_name} §fпокинул игру §c{players_count}/{max_players}'
-GAME_START_IN: '{prefix} §rИгра начнется через §a§l{time}§r сек.'
+GAME_START_IN: '{prefix} §rИгра начнется через §a{time}§r сек.'
 
 # Арена
 PLAYER_JOINED: '{prefix} {player_prefix}{player_name} §fподключился к игре'
@@ -102,7 +102,7 @@ CANT_PLACE_BLOCK: '{prefix} §cВы не можете ставить блоки 
 # Сообщение сразу после начала игры
 GAME_START_MESSAGE: |-
   §8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-                              §6§lBEDWARS                           
+                          §6§lBEDWARS                   
                             
   §e     Защити свою кровать и сломай кровати противников.
   §e       Покупай предметы и улучшения для своей команды
@@ -192,7 +192,7 @@ RESPAWN_TITLE: §aВы возрождены!
 # Сообщение в чате при уничтожении кровати
 BED_DESTROY_CHAT: |2
 
-  {prefix} §7Кровать команды {team_color}{team_name} §7разрушена игроком {player_color}{player_name}§7!
+  {prefix} §7Кровать команды {team_color}{team_name}§f разрушена игроком {player_color}{player_name}§7!
 
 # Сообщения на экране при разрушении кровати
 BED_DESTROY_TITLE: |
@@ -235,9 +235,7 @@ GAME_END_MESSAGE: |-
   §8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
                             
                             §6§lBEDWARS
-  {gameResult}
-                            
-  {top1killer}{top2killer}{top3killer}
+  {gameResult}{top1killer}{top2killer}{top3killer}
                             
   §8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
   
@@ -248,9 +246,9 @@ GAME_END_WITH_WINNERS: "             §7Победила команда - {team_
 GAME_END_DRAW: "                       §7Ничья!"
 
 # Сообщения для {top1killer}, {top2killer}, {top3killer}. Если {name} отсутствует (некого записывать в топ) - вместо {topNkiller} просто пустая строка.
-GAME_END_TOP_1_KILLER: "\n               §e#1 {player_prefix}{player_name} §7({player_all_kills})"  # Пустая строка, если name == null
-GAME_END_TOP_2_KILLER: "\n               §6#2 {player_prefix}{player_name} §7({player_all_kills})"  # Пустая строка, если name == null
-GAME_END_TOP_3_KILLER: "\n               §c#3 {player_prefix}{player_name} §7({player_all_kills})"  # Пустая строка, если name == null
+GAME_END_TOP_1_KILLER: "\n\n               §e#1 {player_prefix}{player_name} §7({player_all_kills})"  # Пустая строка, если name == null или убийств 0
+GAME_END_TOP_2_KILLER: "\n               §6#2 {player_prefix}{player_name} §7({player_all_kills})"  # Пустая строка, если name == null или убийств 0
+GAME_END_TOP_3_KILLER: "\n               §c#3 {player_prefix}{player_name} §7({player_all_kills})"  # Пустая строка, если name == null или убийств 0
 
 # Пустые строки, если места не заняты
 # GAME_END_TOP_1_KILLER: >+
