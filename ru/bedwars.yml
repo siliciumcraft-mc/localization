@@ -45,7 +45,7 @@ SCOREBOARD:
     §fИгроков: §e{players_count}§f/§e{max_players}
     §6
     §fСтарт через §e{time_before_game_starts}§f сек.
-    §4
+    §f
     §fКарта: §e{map_name}
     §fСервер: §e{server_name}
     §1
