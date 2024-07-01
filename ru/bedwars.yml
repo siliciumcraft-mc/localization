@@ -260,3 +260,5 @@ GAME_END_TOP_3_KILLER: "\n                 §c#3 {player_prefix}{player_name} §
 # GAME_END_TOP_1_KILLER: >+
 #
 #                  §c#3 §7- {player_prefix}{player_name} §7({player_kills})  
+
+FORWARDING_TO_LOBBY: '§cВы будете перенаправлены в лобби через 10 секунд'
