@@ -34,7 +34,6 @@ SCOREBOARD:
     §fЖдём игроков...
     §f
     §fКарта: §e{map_name}
-    §fСервер: §e{server_name}
     §3
     §e{domain}
     
@@ -47,7 +46,6 @@ SCOREBOARD:
     §fСтарт через §e{time_before_game_starts}§f сек.
     §f
     §fКарта: §e{map_name}
-    §fСервер: §e{server_name}
     §1
     §e{domain}
     
