@@ -1,5 +1,5 @@
 SCOREBOARD:
-    TITLE: '§e§lSILICIUMCRAFT'
+    TITLE: '§6§lSILICIUMCRAFT'
     LINES: |
         §1
         Ваш статус: {si_rank}
@@ -16,11 +16,10 @@ PROFILE:
     GUI_TITLE:  'Профиль'
     ITEM_NAME: '§eПрофиль игрока {player_prefix}{player_name}'
 
-    # TODO если (group == tempGroup && tempGroupExpiresAt != null)
     ITEM_PLAYER: |
       §bОбщая информация
   
-      §7Статус: {rank}{rank_active_until}
+      §7Статус: {rank}{rank_active_until}  # TODO RANK_ACTIVE_UNTIL если (group == tempGroup && tempGroupExpiresAt != null) в противном случае пустая строка
       
       §7Золото: §6{coins}
       §7Кристаллы: §a{gems}
@@ -29,6 +28,9 @@ PROFILE:
       
       §7Проведено времени на сервере:
       §e{time_played}  # TODO
+    RANK_ACTIVE_UNTIL: |
+    
+      §7Активен до: §e{active_until}  # TODO если (group == tempGroup && tempGroupExpiresAt != null)
     ITEM_LEVEL: |
       §bУровень
       
@@ -73,9 +75,6 @@ PROFILE:
             §7Отключить возможность читать
             §7сообщения в чат донатеров
             §eНажмите, чтобы {pridicate}
-RANK_ACTIVE_UNTIL: |
-
-  §7Активен до: §e{active_until}  # TODO если (group == tempGroup && tempGroupExpiresAt != null)
 NAVIGATE:
     COMPASS: '§aГлавное меню'
     BED_WARS: |
