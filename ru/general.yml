@@ -248,7 +248,7 @@ AUTO_MESSAGES:
   - "<hover:show_text:'<yellow> See You Space Cowboy...'>kek"
 
 DONATE:
-  PREMIUM:
+  premium:
     first: |
       §bПривилегия §6PREMIUM
 
