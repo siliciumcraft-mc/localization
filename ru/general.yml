@@ -249,16 +249,16 @@ AUTO_MESSAGES:
 
 DONATE:
   premium:
-    first: |
+    first: |-
       §bПривилегия §6PREMIUM
 
       §7Стоимость: §6N Рублей
 
       §еОткрыть меню возможностей
-    share: |
+    share: |-
       lol
-    bedwars: |
+    bedwars: |-
       kek
-    anarchy: |
+    anarchy: |-
       kek
 
