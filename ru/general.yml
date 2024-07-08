@@ -247,18 +247,3 @@ AUTO_MESSAGES:
   - "<red> Что вершит судьбу человечества в этом мире?"
   - "<hover:show_text:'<yellow> See You Space Cowboy...'>kek"
 
-DONATE:
-  premium:
-    first: |-
-      §bПривилегия §6PREMIUM
-
-      §7Стоимость: §6N Рублей
-
-      §еОткрыть меню возможностей
-    share: |-
-      lol
-    bedwars: |-
-      kek
-    anarchy: |-
-      kek
-
