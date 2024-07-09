@@ -6,7 +6,6 @@ SCOREBOARD:
         §r
         Золото: §6{si_coins}
         Кристаллы: §2{si_gems}
-        §2
         Уровень: §d{si_level}
         §9
         Общий онлайн: §a{bungee_total}
