@@ -18,7 +18,7 @@ PROFILE:
     ITEM_PLAYER: |
       §bОбщая информация
   
-      §7Статус: {rank}{rank_active_until}  # TODO RANK_ACTIVE_UNTIL если (group == tempGroup && tempGroupExpiresAt != null) в противном случае пустая строка
+      §7Статус: {rank}{rank_active_until}
       
       §7Золото: §6{coins}
       §7Кристаллы: §a{gems}
@@ -29,7 +29,7 @@ PROFILE:
       §e{time_played}  # TODO
     RANK_ACTIVE_UNTIL: |
     
-      §7Активен до: §e{active_until}  # TODO если (group == tempGroup && tempGroupExpiresAt != null)
+      §7Активен до: §e{active_until}
     ITEM_LEVEL: |
       §bУровень
       
