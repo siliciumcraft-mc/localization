@@ -184,6 +184,8 @@ CONFIRMATION_WINDOW_TITLE: 'Вы уверены?'
 CONFIRM_ACTION: '§aПодтвердить'
 DECLINE_ACTION: '§cОтменить'
 NOT_ENOUGH_GEMS: '§cНедостаточно кристаллов!'
+ENABLE_SETTING: §aвключить
+DISABLE_SETTING: §cвыключить
 
 # Пати
 PARTY:
