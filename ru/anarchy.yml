@@ -6,3 +6,6 @@ RTP:
 CHAT:
   LOCAL: '§8[§9L§8] '
   GLOBAL: '§8[§6G§8] '
+CLEAR:
+  CLEARED: '§6Очистка §8| §fУдалено §a{amount}§f предметов!'
+  WARNING: '§6Очистка §8| §fВесь мусор будет удалён через §a{remaining}§f секунд!'
