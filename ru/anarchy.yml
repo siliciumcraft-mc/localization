@@ -1,5 +1,8 @@
 PREFIX: '§6Анархия §8|'
 
-TELEPORT: # TODO rename to RTP
+RTP:
   BEFORE: '§6Анархия §8| §fПоиск локации...'
   AFTER: '§6Анархия §8| §fВы были телепортированы на X: §6{x} §fY: §6{y}§f Z: §6{z}'
+CHAT:
+  LOCAL: '§7[§9L]'
+  GLOBAL: '§7[§6G]'
