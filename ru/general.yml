@@ -24,7 +24,7 @@ ERROR:
 # Серверные сообщения 
 BALANCE: '{server_prefix} §fНа вашем аккаунте §a{balance} §f{currency}'  # TODO
 PING_MESSAGE: '{server_prefix} Ваш пинг §a{ping} §fms'
-ONLINE_MESSAGE: '{server_prefix} На сервере §a{ping} §fигрока(ов)'
+ONLINE_MESSAGE: '{server_prefix} На сервере §a{players} §fигрока(ов)'
 PLAYTIME_MESSAGE: '{server_prefix} Вы провели на сервере §a{played_time}'
 YOU_HAVE_BEEN_SENT: '{server_prefix} {player_prefix}{player_name} §fтелепортировал вас на сервер §a{server_name}'
 ALREADY_ON_SERVER: '{server_prefix} §cВы уже находитесь на этом сервере!'
