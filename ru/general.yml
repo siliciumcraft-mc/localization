@@ -42,7 +42,7 @@ SKIN:
 # Чат донатеров
 DONATE_CHAT:  # TODO
   COMMAND_SYNTAX: /dc <сообщение>
-  MESSAGE: §6§lЧат донатеров §7(/dc) §8» {player_prefix}{player_name}§8 » §f{message}
+  MESSAGE: §6§lДонат-Чат §r§7(/dc) §8» {player_prefix}{player_name}§8 » §f{message}
   YOU_DISABLED_DONATECHAT: §cВы отключили чат донатеров. Чтобы писать туда, включите его в настройках.
   # TODO cooldown на сообщения 30 секунд
 
@@ -210,7 +210,7 @@ PARTY:
   CANT_INVITE_OFFLINE: '{party_prefix} §fИгрок с таким ником не в сети'
 
   SET_LEADER: '{party_prefix} §fВы передали права лидера группы игроку {player_prefix}{player_name}'
-  CHAT: '§d§lЧат группы §8| {player_prefix}{player_name} §8» §7{message}'
+  CHAT: '§d§lЧат группы §r§7(/pc) §8» {player_prefix}{player_name} §8» §7{message}'
 
   OUTGOING_INVITE: '{party_prefix} §fВы отправили приглашение игроку {player_prefix}{player_name}'
   INCOMING_INVITE: |
