@@ -214,7 +214,7 @@ PARTY:
 
   OUTGOING_INVITE: '{party_prefix} §fВы отправили приглашение игроку {player_prefix}{player_name}'
   INCOMING_INVITE: |
-    {party_prefix} {player_prefix}{player_name} §fПригласил вас в пати
+    {party_prefix} {player_prefix}{player_name} §fпригласил вас в группу
   
   INCOMING_INVITE_ACCEPT_BUTTON: '§a[ПРИНЯТЬ] '
   INCOMING_INVITE_REJECT_BUTTON: ' §c[ОТКЛОНИТЬ]'
