@@ -27,9 +27,7 @@ PROFILE:
       
       §7Проведено времени на сервере:
       §e{time_played}
-    RANK_ACTIVE_UNTIL: |
-    
-      §7Активен до: §e{active_until}
+    RANK_ACTIVE_UNTIL: "\n§7Активен до: §e{active_until}"
     ITEM_LEVEL: |
       §bУровень
       
