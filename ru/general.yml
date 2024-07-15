@@ -7,7 +7,7 @@ ERROR:
   DEFAULT: §cПроизошла ошибка
   NO_PERMISSION: §cНедостаточно прав :(
   COMMAND_NOT_FOUND: §cЭтой команды не существует O_o  # TODO
-  COMMAND_SYNTAX: §cОшибка, пишите {command_syntax}  # TODO
+  COMMAND_SYNTAX: §cОшибка, пишите {command_syntax}
   COMMAND_NOT_AVAILABLE_IN_GAME: §cДанная команда недоступна во время игры
   COMMAND_AVAILABLE_ONLY_IN_GAME: §cДанная команда доступна только во время игры
   
@@ -41,7 +41,7 @@ SKIN:
      §7/skin <ник>§f - установить скин игрока
      §7/skin reset§f - сбросить скин
 # Чат донатеров
-DONATE_CHAT:  # TODO
+DONATE_CHAT:
   COMMAND_SYNTAX: /dc <сообщение>
   MESSAGE: §6§lДонат-Чат §r§7(/dc) §8» {player_prefix}{player_name}§8 » §f{message}
   YOU_DISABLED_DONATECHAT: §cВы отключили чат донатеров. Чтобы писать туда, включите его в настройках.
@@ -69,8 +69,8 @@ BAN:
     §fПричина: §c{reason}
     §fВремя окончания блокировки: §c{duration}
     
-  BAN_COMMAND_SYNTAX: /ban <ник> [30d24h60m15s] [причина]  # TODO
-  UNBAN_COMMAND_SYNTAX: /unban <ник>  # TODO
+  BAN_COMMAND_SYNTAX: /ban <ник> [30d24h60m15s] [причина]
+  UNBAN_COMMAND_SYNTAX: /unban <ник>
 
 # Мут
 MUTE:
@@ -81,8 +81,8 @@ MUTE:
     §7Причина: §c{reason}
     §7Время снятия ограничения: §c{duration}
     
-  BAN_COMMAND_SYNTAX: /mute <ник> [30d24h60m15s] [причина]  # TODO
-  UNBAN_COMMAND_SYNTAX: /unmute <ник>  # TODO
+  BAN_COMMAND_SYNTAX: /mute <ник> [30d24h60m15s] [причина]
+  UNBAN_COMMAND_SYNTAX: /unmute <ник>
 
 # Кик
 KICK:
@@ -145,7 +145,7 @@ TAB_FOOTER: |
   §e{server}
 
 # Личные сообщения
-PRIVATE_MESSAGES:  # TODO 
+PRIVATE_MESSAGES:
   INCOMING: "§6PM §8| §6{player_name}§8 → §6Я §8| §f{message}"  # {player_prefix}?
   OUTGOING: "§6PM §8| §6Я§8 → §6{player_name} §8| §f{message}"
 
@@ -178,7 +178,7 @@ BACK_LORE: §7Нажмите, чтобы вернуться назад
 # Прочее
 SUCCESS: §aУспешно
 AFK: §cНе стой на месте!
-FW: §aСалют!  # TODO
+FW: §aСалют!
 LOADING: §cЗагрузка...
 NO_REASON: §cне указана  # TODO
 NO_EXPIRATION: §cникогда  # TODO
