@@ -255,6 +255,10 @@ AUTO_MESSAGES:
   - "<hover:show_text:'<yellow> See You Space Cowboy...'>kek"
 
 DONATE:
+  payment: |-
+    Варианты оплаты
+  misc: |-
+    Доп информация
   premium:
     first: |-
       §bПривилегия §6PREMIUM
