@@ -257,7 +257,7 @@ AUTO_MESSAGES:
 DONATE:
   payment: |-
     Варианты оплаты
-  misc: |-
+  more: |-
     Доп информация
   premium:
     first: |-
