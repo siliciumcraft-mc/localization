@@ -265,11 +265,10 @@ AUTO_MESSAGES:
   - |
   
     <hover:show_text:"Нажмите сюда">
-    <click:OPEN_URL:t/me>
+    <click:OPEN_URL:https://t.me/>
     Возникли какие-то <green>проблемы</green> или <green>вопросы?</green>
     Обратитесь в нашу техническую поддержку
     <light_purple>t.me</light_purple> и <red>Вам обязательно помогут
-    
 DONATE:
   TITLE: Premium-статус
   payment: |-
