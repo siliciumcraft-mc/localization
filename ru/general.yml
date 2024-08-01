@@ -252,27 +252,34 @@ PARTY:
 # Автосообщения
 AUTO_MESSAGES:
   - |-
-     <red>⚠ Внимание <white>Хотите сменить скин?
-     Для всех игроков доступна
-     команда <red><click:SUGGEST_COMMAND:/skin ><hover:show_text:"Нажмите сюда">/skin <ник игрока со скином>
+    
+    <red>⚠ Внимание <white>Хотите сменить скин?
+    Для всех игроков доступна
+    команда <red><click:SUGGEST_COMMAND:/skin ><hover:show_text:"Нажмите сюда">/skin <ник игрока со скином>
+     
   - |-
+    
     На сервере есть много разных <yellow>возможностей</yellow>
     и <light_purple>бонусов</light_purple> доступ к которым имеют только донаты
     информация о донате <red><click:run_command:/donate><hover:show_text:"Нажмите сюда, чтобы открыть меню">/donate
+    
   - |-
-    <click:OPEN_URL:"https://t.me/">
-    <hover:show_text:"Нажмите сюда для перехода по ссылке">
+    <click:OPEN_URL:"https://t.me/"><hover:show_text:"Нажмите сюда для перехода по ссылке">
     Возникли какие-то <green>проблемы</green> или <green>вопросы?</green>
     Обратитесь в нашу техническую поддержку
     <light_purple>t.me</light_purple> и <red>Вам обязательно помогут
+    
   - |-
+    
     Увидели <yellow>читера</yellow> в своей игре? Подайте жалобу!
     Наши модераторы рассмотрят ее в кратчайшие сроки
     Используйте команду <red><click:SUGGEST_COMMAND:/report ><hover:show_text:"Нажмите сюда">/report <ник нарушителя>
   - |-
+    
     Хотите поиграть <green>с друзьями</green> в мини-игры?
     Используйте <red><click:SUGGEST_COMMAND:/party ><hover:show_text:"Нажмите сюда">/party <reset>и <aqua>играйте удобнее!</aqua>
     Вы будете всегда в <light_purple>одной арене</light_purple> и <light_purple>команде</light_purple>
+    
 DONATE:
   TITLE: Premium-статус
   payment: |-
