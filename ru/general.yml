@@ -257,8 +257,11 @@ AUTO_MESSAGES:
      Для всех игроков доступна
      команда <red><click:SUGGEST_COMMAND:/skin >/skin <ник игрока со скином></click>
     
-  - "<red> Что вершит судьбу человечества в этом мире?"
-  - "<hover:show_text:'<yellow> See You Space Cowboy...'>kek"
+  - |
+    
+    На сервере есть много разных <yellow>возможностей</yellow>
+    и <light_purple>бонусов</light_purple> доступ к которым имеют только донаты
+    информация о донате <red><click:run_command:donate>/donate
 
 DONATE:
   TITLE: Premium-статус
