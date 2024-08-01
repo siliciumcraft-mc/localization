@@ -251,6 +251,7 @@ PARTY:
 
 # Автосообщения
 AUTO_MESSAGES:
+  - "<red>Внимание <white>Хотите сменить скин?<newline>Для всех игроков доступна<newline>команда /skin <ник игрока со скином><newline>"
   - "<red> Что вершит судьбу человечества в этом мире?"
   - "<hover:show_text:'<yellow> See You Space Cowboy...'>kek"
 
