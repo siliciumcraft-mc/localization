@@ -253,7 +253,7 @@ PARTY:
 AUTO_MESSAGES:
   - |
      
-     <red>⚠️ Внимание <white>Хотите сменить скин?
+     <red>⚠ Внимание <white>Хотите сменить скин?
      Для всех игроков доступна
      команда <red><click:run_command:/skin >/skin <ник игрока со скином></click>
     
