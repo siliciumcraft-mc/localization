@@ -252,6 +252,7 @@ PARTY:
 # Автосообщения
 AUTO_MESSAGES:
   - |
+    
     <red>⚠ Внимание <white>Хотите сменить скин?
     Для всех игроков доступна
     команда <red><click:SUGGEST_COMMAND:/skin ><hover:show_text:"Нажмите сюда">/skin <ник игрока со скином>
