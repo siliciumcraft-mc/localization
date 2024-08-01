@@ -252,9 +252,10 @@ PARTY:
 # Автосообщения
 AUTO_MESSAGES:
   - |
-    <red>Внимание <white>Хотите сменить скин?<newline>
-    Для всех игроков доступна<newline>
-    команда <red><click:run_command:skin >/skin <ник игрока со скином><newline>
+    <red>Внимание <white>Хотите сменить скин?
+    Для всех игроков доступна
+    команда <red><click:run_command:/skin >/skin <ник игрока со скином></click>
+    
   - "<red> Что вершит судьбу человечества в этом мире?"
   - "<hover:show_text:'<yellow> See You Space Cowboy...'>kek"
 
