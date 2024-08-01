@@ -255,7 +255,7 @@ AUTO_MESSAGES:
      
      <red>⚠ Внимание <white>Хотите сменить скин?
      Для всех игроков доступна
-     команда <red><click:insert:/skin >/skin <ник игрока со скином></click>
+     команда <red><click:insertion:/skin >/skin <ник игрока со скином>>
     
   - "<red> Что вершит судьбу человечества в этом мире?"
   - "<hover:show_text:'<yellow> See You Space Cowboy...'>kek"
