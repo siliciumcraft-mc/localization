@@ -261,7 +261,7 @@ AUTO_MESSAGES:
     
     На сервере есть много разных <yellow>возможностей</yellow>
     и <light_purple>бонусов</light_purple> доступ к которым имеют только донаты
-    информация о донате <red><click:run_command:donate>/donate
+    информация о донате <red><click:run_command:/donate>/donate
 
 DONATE:
   TITLE: Premium-статус
