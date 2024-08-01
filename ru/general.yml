@@ -278,7 +278,11 @@ AUTO_MESSAGES:
     Хотите поиграть <green>с друзьями</green> в мини-игры?
     Используйте <red><click:SUGGEST_COMMAND:/party ><hover:show_text:"Нажмите сюда">/party <reset>и <aqua>играйте удобнее!</aqua>
     Вы будете всегда в <light_purple>одной арене</light_purple> и <light_purple>команде</light_purple>
+  - |
     
+    <gold><bold>PREMIUM</bold></gold> - лучшая привилегия сервера,
+    сочетает в себе максимальное количество
+    <yellow>возможностей</yellow> и <light_purple>бонусов</light_purple> для комфортной игры
 DONATE:
   TITLE: Premium-статус
   payment: |-
