@@ -9,3 +9,7 @@ CHAT:
 CLEAR:
   CLEARED: '§6Очистка §8| §fУдалено §a{amount}§f предметов!'
   WARNING: '§6Очистка §8| §fВесь мусор будет удалён через §a{remaining}§f секунд!'
+RELOG:
+  bossbar-time: '§cPVP §fзакончится через §c§l{time}§f секунд.'
+  player-leave: '{prefix} §fИгрок §a{player_prefix}{player_name} §fпокинул сервер в §a§lPVP §fи был §aубит'
+  cmd-blocked: '{prefix] §fКоманды не §cработают §f во время §c§lPVP'
