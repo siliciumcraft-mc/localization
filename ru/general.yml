@@ -191,6 +191,7 @@ DECLINE_ACTION: '§cОтменить'
 NOT_ENOUGH_GEMS: '§cНедостаточно кристаллов!'
 ENABLE_SETTING: §aВключить
 DISABLE_SETTING: §cВыключить
+SETTING_ITEM_LORE: Lore
 
 # Пати
 PARTY:
