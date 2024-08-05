@@ -12,4 +12,4 @@ CLEAR:
 RELOG:
   BOSSBAR: '§cPVP §fзакончится через §c§l{time}§f секунд'
   PLAYER_LEAVE: '{prefix} §fИгрок §a{player_prefix}{player_name} §fпокинул сервер в §a§lPVP §fи был §aубит'
-  COMMAND_BLOCKED: '{prefix] §fКоманды не §cработают §f во время §c§lPVP'
+  COMMAND_BLOCKED: '{prefix} §fКоманды не §cработают §f во время §c§lPVP'
