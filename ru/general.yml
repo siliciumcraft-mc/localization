@@ -261,12 +261,12 @@ AUTO_MESSAGES:
     <click:run_command:/donate><hover:show_text:"Нажмите сюда, чтобы открыть меню">
     <dark_gray> |<white> На сервере есть много разных <yellow>возможностей</yellow>
     <dark_gray> |<white> и <light_purple>бонусов</light_purple>, доступ к которым имеют только обладатели
-    <dark_gray> |<white> статуса {premium_localized_name}. Подробнее - <red>/premium </hover></click>
+    <dark_gray> |<white> статуса <gold><bold>PREMIUM</gold></bold>. Подробнее - <red>/premium </hover></click>
   - |
     <click:OPEN_URL:"{support_url}"><hover:show_text:"Нажмите сюда для перехода по ссылке">
     <dark_gray> |<white> Возникли какие-то <green>проблемы</green> или <green>вопросы?</green>
     <dark_gray> |<white> Обратитесь в нашу техническую поддержку
-    <dark_gray> |<white> <light_purple>{support_url_without_protocol}</light_purple> и <red>Вам обязательно помогут </hover></click>
+    <dark_gray> |<white> <light_purple>{support_url_without_protocol}</light_purple> и <red>вам обязательно помогут </hover></click>
   # - |
   #
   #   <dark_gray> |<white> Увидели <yellow>читера</yellow> в своей игре? Подайте жалобу!
@@ -275,7 +275,7 @@ AUTO_MESSAGES:
   - |
     <click:SUGGEST_COMMAND:/party ><hover:show_text:"Нажмите сюда">
     <dark_gray> |<white> Хотите поиграть <green>с друзьями</green> в мини-игры?
-    <dark_gray> |<white> Используйте <red>/party <reset>и <aqua>играйте удобнее!</aqua>
+    <dark_gray> |<white> Используйте <red>/party</red> и <aqua>играйте удобнее!</aqua>
     <dark_gray> |<white> Вы будете всегда в <light_purple>одной арене</light_purple> и <light_purple>команде</light_purple> </hover></click>
   - |
     <click:run_command:/premium><hover:show_text:"Нажмите сюда, чтобы открыть меню">
