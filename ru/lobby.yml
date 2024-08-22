@@ -1,5 +1,5 @@
 SCOREBOARD:
-    TITLE: '§6§lSILICIUMCRAFT'
+    TITLE: '§6§lSiliciumCraft'
     LINES: |
         §1
         Ваш статус: {si_rank}
@@ -69,8 +69,8 @@ PROFILE:
         GUI_TITLE: 'Личные настройки'
         DONATE_CHAT: |
             §eЧат донатеров
-            §7Позволяет включить или выключить
-            §7чат для Premium-игроков (/dc)
+            §8Позволяет включить или выключить
+            §8чат для Premium-игроков (/dc)
         # §eНажмите, чтобы {switch_state}
 NAVIGATE:
     COMPASS: '§aГлавное меню'
