@@ -191,7 +191,7 @@ DECLINE_ACTION: '§cОтменить'
 NOT_ENOUGH_GEMS: '§cНедостаточно кристаллов!'
 ENABLE_SETTING: §aВключить
 DISABLE_SETTING: §cВыключить
-SETTING_ITEM_LORE: Lore
+SETTING_ITEM_LORE: §8Нажмите, чтобы изменить
 
 # Пати
 PARTY:
@@ -263,10 +263,10 @@ AUTO_MESSAGES:
     <dark_gray> |<white> и <light_purple>бонусов</light_purple>, доступ к которым имеют только обладатели
     <dark_gray> |<white> статуса <gold><bold>{premium_localized_name}</bold></gold>. Подробнее - <red>/premium </hover></click>
   - |
-    <click:OPEN_URL:"{support_url}"><hover:show_text:"Нажмите сюда для перехода по ссылке">
+    <click:OPEN_URL:"https://{support_url}"><hover:show_text:"Нажмите сюда для перехода по ссылке">
     <dark_gray> |<white> Возникли какие-то <green>проблемы</green> или <green>вопросы?</green>
     <dark_gray> |<white> Обратитесь в нашу техническую поддержку
-    <dark_gray> |<white> <light_purple>{support_url_without_protocol}</light_purple> и <red>вам обязательно помогут </hover></click>
+    <dark_gray> |<white> <light_purple>{support_url}</light_purple> и <red>вам обязательно помогут </hover></click>
   # - |
   #
   #   <dark_gray> |<white> Увидели <yellow>читера</yellow> в своей игре? Подайте жалобу!
