@@ -6,6 +6,7 @@ ANARCHY_PREFIX: '§6Anarchy §8|§f'
 ERROR:
   DEFAULT: §cПроизошла ошибка
   NO_PERMISSION: §cНедостаточно прав :(
+  NO_PERMISSION_BUY_PREMIUM: §cДанная команда доступна только с подпиской {premium_localized_name}. Подробнее - /premium.
   COMMAND_NOT_FOUND: §cЭтой команды не существует O_o  # TODO
   COMMAND_SYNTAX: §cОшибка, пишите {command_syntax}
   COMMAND_NOT_AVAILABLE_IN_GAME: §cДанная команда недоступна во время игры
