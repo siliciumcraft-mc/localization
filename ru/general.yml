@@ -222,7 +222,7 @@ PARTY:
   INCOMING_INVITE: |
     {party_prefix} {player_prefix}{player_name} §fпригласил вас в группу
   
-  INCOMING_INVITE_ACCEPT_BUTTON: ' §r§8▸ §aНажмите сюда, §fчтобы принять приглашение'
+  INCOMING_INVITE_ACCEPT_BUTTON: ' §a§lНажмите сюда§r§f, чтобы принять приглашение'
   INCOMING_INVITE_REJECT_BUTTON: ''  # ' §c[ОТКЛОНИТЬ]'
   
   INCOMING_INVITE_EXPIRED: '{party_prefix} §cПриглашение в группу от игрока {player_prefix}{player_name}§c истекло'
