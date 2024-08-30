@@ -9,7 +9,7 @@ ERROR:
   NO_PERMISSION_BUY_PREMIUM: |-
     §cДанная команда доступна только с подпиской {premium_localized_name}.
     §cПодробнее - /premium.
-  COMMAND_NOT_FOUND: §cЭтой команды не существует O_o  # TODO
+  COMMAND_NOT_FOUND: §cЭтой команды не существует O_o
   COMMAND_SYNTAX: §cОшибка, пишите {command_syntax}
   COMMAND_NOT_AVAILABLE_IN_GAME: §cДанная команда недоступна во время игры
   COMMAND_AVAILABLE_ONLY_IN_GAME: §cДанная команда доступна только во время игры
