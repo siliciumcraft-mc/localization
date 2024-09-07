@@ -274,7 +274,7 @@ AUTO_MESSAGES:
     <click:run_command:/donate><hover:show_text:"Нажмите, чтобы узнать подробнее">
     <dark_gray> |<white> На сервере есть много разных <yellow>возможностей</yellow>
     <dark_gray> |<white> и <light_purple>бонусов</light_purple>, доступ к которым имеют только обладатели
-    <dark_gray> |<white> статуса <gold><bold>PREMIUM</bold></gold>. Подробнее - <red>/premium </hover></click>
+    <dark_gray> |<white> статуса <gold><bold>{premium_localized_name}</bold></gold>. Подробнее - <red>/premium </hover></click>
   - |
     <click:OPEN_URL:"https://{support_url}"><hover:show_text:"Нажмите сюда для перехода по ссылке">
     <dark_gray> |<white> Возникли какие-то <green>проблемы</green> или <green>вопросы?</green>
@@ -292,7 +292,7 @@ AUTO_MESSAGES:
     <dark_gray> |<white> Вы будете всегда в <light_purple>одной арене</light_purple> и <light_purple>команде</light_purple> </hover></click>
   - |
     <click:run_command:/premium><hover:show_text:"Нажмите, чтобы узнать подробнее">
-    <dark_gray> |<white> Приобретая <gold><bold>PREMIUM</bold></gold>, вы получаете
+    <dark_gray> |<white> Приобретая <gold><bold>{premium_localized_name}</bold></gold>, вы получаете
     <dark_gray> |<white> уникальный статус и огромное количество
     <dark_gray> |<white> <yellow>возможностей</yellow> и <light_purple>бонусов</light_purple> для комфортной игры </hover></click>
 DONATE:
