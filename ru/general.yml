@@ -84,8 +84,8 @@ MUTE:
     §7Причина: §c{reason}
     §7Время снятия ограничения: §c{duration}
     
-  BAN_COMMAND_SYNTAX: /mute <ник> [30d24h60m15s] [причина]
-  UNBAN_COMMAND_SYNTAX: /unmute <ник>
+  MUTE_COMMAND_SYNTAX: /mute <ник> [30d24h60m15s] [причина]
+  UNMUTE_COMMAND_SYNTAX: /unmute <ник>
 
 # Кик
 KICK:
