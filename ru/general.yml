@@ -24,6 +24,11 @@ ERROR:
   COOLDOWN: §cПодождите {time} секунд(ы) перед следующим использованием  # TODO
   SERVER_IS_NOT_ONLINE: §cСервер не найден!
 
+  OUTDATED_CLIENT: §cДанный сервер доступен на версии игры {version} или выше
+  ARENA_FULL: §cАрена переполнена
+  GAME_ALREADY_STARTED: §cИгра уже началась
+  ARENA_FULL_FOR_PARTY: §cНа арене не хватает места для всей вашей группы, попробуйте ещё раз чуть позже
+
 # Серверные сообщения 
 BALANCE: '{server_prefix} §fНа вашем аккаунте §a{balance} §f{currency}'  # TODO
 PING_MESSAGE: '{server_prefix} Ваш пинг §a{ping} §fмс'
