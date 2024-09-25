@@ -301,7 +301,7 @@ AUTO_MESSAGES:
     <click:SUGGEST_COMMAND:/party ><hover:show_text:"Нажмите сюда">
     <dark_gray> |<white> Хотите поиграть <green>с друзьями</green> в мини-игры?
     <dark_gray> |<white> Используйте <red>/party</red> и <aqua>играйте удобнее!</aqua>
-    <dark_gray> |<white> Будучи в группе, вы с друзьями всегда будете на <light_purple>одной арене</light_purple></hover></click>
+    <dark_gray> |<white> Так вы всегда будете на <light_purple>одной арене</light_purple></hover></click>
   - |
     <click:run_command:/premium><hover:show_text:"Нажмите, чтобы узнать подробнее">
     <dark_gray> |<white> Приобретая <gold><bold>PREMIUM</bold></gold>, вы получаете
