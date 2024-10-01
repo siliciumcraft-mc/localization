@@ -27,6 +27,7 @@ ERROR:
   SERVER_FULL: §cСервер переполнен
   SERVER_IS_RELOADING: §cСервер перезагружается...
   OUTDATED_CLIENT: §cДанный сервер доступен на версии игры {version} или выше
+  OUTDATED_SERVER: §cСервер все еще на версии {version}
   ARENA_FULL: §cАрена переполнена
   GAME_ALREADY_STARTED: §cИгра уже началась
   ARENA_FULL_FOR_PARTY: §cНа арене не хватает места для всей вашей группы, попробуйте ещё раз чуть позже
