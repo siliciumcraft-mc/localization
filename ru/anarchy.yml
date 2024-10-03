@@ -3,6 +3,7 @@ PREFIX: '§6Анархия §8|'
 RTP:
   BEFORE: '{prefix} §fПоиск локации...'
   AFTER: '{prefix} §fВы были телепортированы на X: §6{x} §fY: §6{y}§f Z: §6{z}'
+  COOLDOWN: '{prefix} §fЗадержка перед использованием: {delay}'
 CHAT:
   LOCAL: '§8[§9L§8] '
   GLOBAL: '§8[§6G§8] '
