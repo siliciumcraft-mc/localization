@@ -30,7 +30,8 @@ ERROR:
   OUTDATED_SERVER: §cСервер все еще на версии {version}
   ARENA_FULL: §cАрена переполнена
   GAME_ALREADY_STARTED: §cИгра уже началась
-  ARENA_FULL_FOR_PARTY: §cНа арене не хватает места для всей вашей группы, попробуйте ещё раз чуть позже
+  ARENA_FULL_FOR_PARTY: §cНа арене не хватает места для всей группы, попробуйте ещё раз чуть позже
+  ALREADY_ON_SERVER: §cВы уже находитесь на этом сервере!
 
 # Серверные сообщения 
 BALANCE: '{server_prefix} §fНа вашем аккаунте §a{balance} §f{currency}'  # TODO
@@ -38,8 +39,7 @@ PING_MESSAGE: '{server_prefix} Ваш пинг §a{ping} §fмс'
 ONLINE_MESSAGE: '{server_prefix} На сервере §a{online} §fигрока(ов)'
 PLAYTIME_MESSAGE: '{server_prefix} Вы провели на сервере §a{played_time}'
 YOU_HAVE_BEEN_SENT: '{server_prefix} {player_prefix}{player_name} §fтелепортировал вас на сервер §a{server_name}'
-ALREADY_ON_SERVER: '{server_prefix} §cВы уже находитесь на этом сервере!'
-SERVER_TELEPORTATION: '§aВы были телепортированы на сервер §a{server_name}'
+SERVER_TELEPORTATION: '{server_prefix} §aВы были телепортированы на сервер §a{server_name}'
 SERVER_TO: '{server_prefix} Вы подключены к серверу §a{server_name}'
 
 # Скины
