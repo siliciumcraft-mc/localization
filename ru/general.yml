@@ -7,7 +7,7 @@ ERROR:
   DEFAULT: §cПроизошла ошибка
   NO_PERMISSION: §cНедостаточно прав :(
   NO_PERMISSION_BUY_PREMIUM: |-
-    §cДанная команда доступна только с подпиской {premium_localized_name}.
+    §cДанная команда доступна только с подпиской {premium_localized_name}§c.
     §cПодробнее - /premium.
   COMMAND_NOT_FOUND: §cЭтой команды не существует O_o
   COMMAND_SYNTAX: §cОшибка, пишите {command_syntax}
