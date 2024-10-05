@@ -27,7 +27,7 @@ ERROR:
   SERVER_FULL: §cСервер переполнен
   SERVER_IS_RELOADING: §cСервер перезагружается...
   OUTDATED_CLIENT: §cДанный сервер доступен на версии игры {version} или выше
-  OUTDATED_SERVER: §cСервер все еще на версии {version}
+  OUTDATED_SERVER: §cСервер всё еще на версии {version}
   ARENA_FULL: §cАрена переполнена
   GAME_ALREADY_STARTED: §cИгра уже началась
   ARENA_FULL_FOR_PARTY: §cНа арене не хватает места для всей группы, попробуйте ещё раз чуть позже
@@ -241,9 +241,12 @@ PARTY:
 
   OUTGOING_INVITE: '{party_prefix} §fВы отправили приглашение игроку {player_prefix}{player_name}'
   INCOMING_INVITE: |
+  
     {party_prefix} {player_prefix}{player_name} §fпригласил вас в группу
   
-  INCOMING_INVITE_ACCEPT_BUTTON: ' §a§lНажмите сюда§r§f, чтобы принять приглашение'
+  INCOMING_INVITE_ACCEPT_BUTTON: |
+    {party_prefix} §aНАЖМИТЕ СЮДА§f, чтобы принять приглашение'
+    
   INCOMING_INVITE_REJECT_BUTTON: ''  # ' §c[ОТКЛОНИТЬ]'
   
   INCOMING_INVITE_EXPIRED: '{party_prefix} §cПриглашение в группу от игрока {player_prefix}{player_name}§c истекло'
