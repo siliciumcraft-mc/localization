@@ -216,10 +216,16 @@ MAX_LEVEL_UPGRADE: '{prefix} §cМаксимальный уровень прок
 TRAP_QUEUE_OVERFLOW: '{prefix} §cОчередь ловушек переполнена!'
 
 UPGRADES:
-  armor: '§eУкреплённая броня'
+  armor: '§eУкреплённая броня' # todo;
   sharpness: '§bЗаострённые мечи'
   fastminer: '§eБыстрый шахтёр'
   healpool:  '§bПоле регенерации'
+SPECTATOR:
+  TARGET: |
+    §7Здоровье: {health}%
+    
+    §eПКМ - наблюдать за игроком
+    §eЛКМ - телепортироваться к игроку
 
 CAUGHT_TRAP: '{prefix} §cЛовушка сработала, на вашем острове враг!'
 
