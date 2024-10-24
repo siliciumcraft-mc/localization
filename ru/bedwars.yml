@@ -221,6 +221,10 @@ UPGRADES:
   fastminer: '§eБыстрый шахтёр'
   healpool:  '§bПоле регенерации'
 SPECTATOR:
+  COMPASS: '§aНаблюдение за игроками §7[ПКМ]'
+  EYE_OF_ENDER: '§aНачать новую игру'
+  SPEED_SETTING: '§aНастройка спектатора §7[ПКМ]'
+  TO_LOBBY: '§aВернуться в лобби'
   TARGET: |
     §7Здоровье: {health}%
     
