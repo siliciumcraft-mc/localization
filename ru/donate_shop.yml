@@ -1,4 +1,4 @@
-TITLE: Предметы
+TITLE: §7Предметы
 ITEM_LORE: |
   §7Получить следующие предметы:
   {items}
@@ -7,3 +7,8 @@ ITEM_LORE: |
 
   §e▸ Нажмите, чтобы купить
 ITEM: '  §8• §7{name} §8x{amount}{additional_info}'
+ITEM_TITLE: '§r§aПредметы'
+
+NEXT_TITLE: '§aСледующая страница'
+NEXT_TITLE: '§aПредыдущая страница'
+PAGE_LORE: '§7Нажмите, для перехода на {page} страницу'
