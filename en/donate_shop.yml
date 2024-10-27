@@ -6,7 +6,7 @@ ITEM_LORE: |
   §7Price: {price}
 
   §e▸ Click to buy
-ITEM: ' §8• §7{name} §8x{amount}    §8{additional_info}'
+ITEM: ' §8• §7{name} §8x{amount}   §8{additional_info}'
 
 ITEM_TITLE: '§r§aBundle'
 
