@@ -13,3 +13,9 @@ ITEM_TITLE: '§r§aBundle'
 NEXT_TITLE: '§aNext page'
 PREVIOUS_TITLE: '§aPrevious page'
 PAGE_LORE: '§7Click to go to page {page}'
+NO_MONEY: |
+  
+  &6Server &8| &fError! You do not have enough &6gold &ffor the purchase!
+  Gold purchases are only available on the website
+              &5store.scraft.gg &7(click)
+  
