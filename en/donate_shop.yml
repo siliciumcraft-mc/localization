@@ -1,0 +1,15 @@
+TITLE: §7Items
+ITEM_LORE: |
+  §7Obtain the following items:
+  {items}
+
+  §7Price: {price}
+
+  §e▸ Click to buy
+ITEM: ' §8• §7{name} §8x{amount}    §8{additional_info}'
+
+ITEM_TITLE: '§r§aBundle'
+
+NEXT_TITLE: '§aNext page'
+PREVIOUS_TITLE: '§aPrevious page'
+PAGE_LORE: '§7Click to go to page {page}'
