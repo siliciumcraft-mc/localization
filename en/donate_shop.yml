@@ -13,6 +13,7 @@ ITEM_TITLE: '§r§aBundle'
 NEXT_TITLE: '§aNext page'
 PREVIOUS_TITLE: '§aPrevious page'
 PAGE_LORE: '§7Click to go to page {page}'
+EXTRA_COLOR_CODE: "&8" #hex supported
 NO_MONEY: |
   
   &6Server &8| &fError! You do not have enough &6gold &ffor the purchase!
