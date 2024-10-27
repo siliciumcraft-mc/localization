@@ -13,6 +13,7 @@ ITEM_TITLE: '§r§aПредметы'
 NEXT_TITLE: '§aСледующая страница'
 PREVIOUS_TITLE: '§aПредыдущая страница'
 PAGE_LORE: '§7Нажмите, для перехода на {page} страницу'
+EXTRA_COLOR_CODE: "&8" #hex supported
 NO_MONEY: |
   
   &6Сервер &8| &fОшибка! У вас недостаточно &6золота &fдля покупки!
