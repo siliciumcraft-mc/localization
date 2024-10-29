@@ -3,20 +3,21 @@ ITEM_LORE: |
   §7Получить следующие предметы:
   {items}
 
-  §7Цена: {price}
+  §7Цена: &2{price} {currency}
 
   §e▸ Нажмите, чтобы купить
 ITEM: ' §8• §7{name} §8x{amount}   §8{additional_info}'
+CURRENCY: 'кристалл'
 
 ITEM_TITLE: '§r§aПредметы'
 
 NEXT_TITLE: '§aСледующая страница'
 PREVIOUS_TITLE: '§aПредыдущая страница'
 PAGE_LORE: '§7Нажмите, для перехода на {page} страницу'
-EXTRA_COLOR_CODE: "&8" #hex supported
+EXTRA_COLOR_CODE: "&8" #hex supported (format &#62639b)
 NO_MONEY: |
   
-  &6Сервер &8| &fОшибка! У вас недостаточно &6золота &fдля покупки!
+  &6Сервер &8| &fОшибка! У вас недостаточно &2кристаллов &fдля покупки!
   Покупка золота осуществляется только на сайте
               &5{domain} &7(жми)
   
