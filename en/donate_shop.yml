@@ -3,20 +3,21 @@ ITEM_LORE: |
   §7Obtain the following items:
   {items}
 
-  §7Price: {price}
+  §7Price: &2{price} {currency}
 
   §e▸ Click to buy
 ITEM: ' §8• §7{name} §8x{amount}   §8{additional_info}'
 
 ITEM_TITLE: '§r§aBundle'
+CURRENCY: 'crystal'
 
 NEXT_TITLE: '§aNext page'
 PREVIOUS_TITLE: '§aPrevious page'
 PAGE_LORE: '§7Click to go to page {page}'
-EXTRA_COLOR_CODE: "&8" #hex supported
+EXTRA_COLOR_CODE: "&8" #hex supported (format &#62639b)
 NO_MONEY: |
   
-  &6Server &8| &fError! You do not have enough &6gold &ffor the purchase!
-  Gold purchases are only available on the website
+  &6Server &8| &fError! You do not have enough &2crystals &ffor the purchase!
+  Crystals purchases are only available on the website
               &5{domain} &7(click)
   
