@@ -1,5 +1,5 @@
 SCOREBOARD:
-    TITLE: '§6§lSiliciumCraft'
+    TITLE: '§c§lRedMC'
     LINES: |
         §1
         Ваш статус: {si_rank}
