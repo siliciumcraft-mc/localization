@@ -4,7 +4,7 @@ SCOREBOARD:
         §1
         Ваш статус: {si_rank}
         §r
-        Золото: §6{si_coins}
+        Монетки: §6{si_coins}
         Кристаллы: §2{si_gems}
         Уровень: §d{si_level}
         §9
@@ -20,7 +20,7 @@ PROFILE:
   
       §7Статус: {rank}{rank_active_until}
       
-      §7Золото: §6{coins}
+      §7Монетки: §6{coins}
       §7Кристаллы: §a{gems}
       
       §7Скин: §f{skin}
