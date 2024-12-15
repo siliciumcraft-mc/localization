@@ -297,6 +297,11 @@ AUTO_MESSAGES:
     <dark_gray> |<white> Возникли какие-то <green>проблемы</green> или <green>вопросы?</green>
     <dark_gray> |<white> Обратитесь в нашу техническую поддержку
     <dark_gray> |<white> <light_purple>{support_url}</light_purple> и <red>вам обязательно помогут </hover></click>
+  - |
+    <click:OPEN_URL:"https://t.me/redmc_gg"><hover:show_text:"Нажмите сюда для перехода по ссылке">
+    <dark_gray> |<white> Подписывайтесь на наш <dark_aqua>Telegram канал</dark_aqua>,
+    <dark_gray> |<white> чтобы всегда быть в курсе всех <yellow>новостей</yellow>,
+    <dark_gray> |<white> <light_purple>акций</light_purple> и <green>розыгрышей</green> на сервере!
   # - |
   #
   #   <dark_gray> |<white> Увидели <yellow>читера</yellow> в своей игре? Подайте жалобу!
