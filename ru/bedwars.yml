@@ -12,7 +12,7 @@ SCOREBOARD:
     §1
     Ваш статус: {si_rank}
     §r
-    Золото: §6{si_coins}
+    Монетки: §6{si_coins}
     Кристаллы: §2{si_gems}
     §9
     Убийств: §e{bw_kills}
@@ -207,7 +207,7 @@ STORE_BUY_OK: '{prefix} §7Вы купили §a{item_name} {item_amount}x'
 NOT_ENOUGH_RESOURCES: '{prefix} §cНедостаточно ресурсов'
 INVENTORY_OVERFLOW: '{prefix} §cИнвентарь переполнен'
 
-GAME_REWARD: '§fВы получили §6{coins}§f золота и §b{exp}§f опыта'
+GAME_REWARD: '§fВы получили §6{coins}§f монет и §b{exp}§f опыта'
 
 # Улучшения (если у улучшения есть уровни или если их нет)
 TEAM_UPGRADE_LEVEL: '{prefix} §fИгрок {player_prefix}{player_name} §fпрокачал улучшение §b{upgrade_name} §fдо уровня {upgrade_level}!'
