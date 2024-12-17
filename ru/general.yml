@@ -302,16 +302,16 @@ AUTO_MESSAGES:
   - |
     <click:run_command:/donate><hover:show_text:"Нажмите, чтобы узнать подробнее">
     <dark_gray> |<white> На сервере есть много разных <yellow>возможностей</yellow>
-    <dark_gray> |<white> и <light_purple>бонусов</light_purple>, доступ к которым имеют только обладатели
+    <dark_gray> |<white> и <light_purple>бонусов</light_purple>, доступ к которым имеют обладатели
     <dark_gray> |<white> статуса <gold><bold>PREMIUM</bold></gold>. Подробнее - <red>/premium </hover></click>
   - |
     <click:OPEN_URL:"https://{support_url}"><hover:show_text:"Нажмите сюда для перехода по ссылке">
     <dark_gray> |<white> Возникли какие-то <green>проблемы</green> или <green>вопросы?</green>
     <dark_gray> |<white> Обратитесь в нашу техническую поддержку
-    <dark_gray> |<white> <light_purple>{support_url}</light_purple> и <red>вам обязательно помогут </hover></click>
+    <dark_gray> |<white> <red>RedMC Support</red> и вам обязательно помогут! </hover></click>
   - |
     <click:OPEN_URL:"https://t.me/redmc_gg"><hover:show_text:"Нажмите сюда для перехода по ссылке">
-    <dark_gray> |<white> Подписывайтесь на наш <dark_aqua>Telegram канал</dark_aqua>,
+    <dark_gray> |<white> Подписывайтесь на наш <dark_aqua>Telegram</dark_aqua> канал,
     <dark_gray> |<white> чтобы всегда быть в курсе всех <yellow>новостей</yellow>,
     <dark_gray> |<white> актуальных <light_purple>акций</light_purple> и <green>розыгрышей</green> на сервере!
   # - |
