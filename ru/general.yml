@@ -249,6 +249,7 @@ PARTY:
   CANT_INVITE_OFFLINE: '{party_prefix} §fИгрок с таким ником не в сети'
 
   SET_LEADER: '{party_prefix} §fВы передали права лидера группы игроку {player_prefix}{player_name}'
+  BECAME_LEADER: '{party_prefix} §fВы стали новым лидером группы'
   CHAT: '§d§lЧат группы §r§7(/pc) §8» {player_prefix}{player_name} §8» §7{message}'
 
   OUTGOING_INVITE: '{party_prefix} §fВы отправили приглашение игроку {player_prefix}{player_name}'
