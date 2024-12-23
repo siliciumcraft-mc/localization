@@ -32,7 +32,7 @@ ERROR:
   GAME_ALREADY_STARTED: §cИгра уже началась
   ARENA_FULL_FOR_PARTY: §cНа арене не хватает места для всей группы, попробуйте ещё раз чуть позже
   ALREADY_ON_SERVER: §cВы уже находитесь на этом сервере!
-  REJOIN_FAILED: §cНедавно Вы нигде не играли или на предыдущем сервере закончилась игра
+  REJOIN_FAILED: §cВы нигде не играли или игра уже была завершена
 
 # Серверные сообщения 
 BALANCE: '{server_prefix} §fНа вашем аккаунте §a{balance} §f{currency}'  # TODO
