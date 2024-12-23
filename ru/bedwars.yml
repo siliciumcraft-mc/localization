@@ -145,28 +145,23 @@ DAMAGE_CAUSE_SUCIDE: '{prefix} {player_color}{player_name}§f решил пок�
 
 DAMAGE_CAUSE_EXPLOSION: '{prefix} {player_color}{player_name}§f взорвался'
 DAMAGE_CAUSE_EXPLOSION_TO: |-
-  {prefix} {player_color}{player_name}§f был взорван 
-  игроком {killer_color}{killer_name} {is_final}
+  {prefix} {player_color}{player_name}§f был взорван игроком {killer_color}{killer_name} {is_final}
 
 DAMAGE_CAUSE_CACTUS: '{prefix} {player_color}{player_name}§f исколот до смерти'
 DAMAGE_CAUSE_CACTUS_TO: |-
-  {prefix} {player_color}{player_name}§f наткнулся на кактус, 
-  спасаясь от {killer_color}{killer_name} {is_final}
+  {prefix} {player_color}{player_name}§f наткнулся на кактус, спасаясь от {killer_color}{killer_name} {is_final}
 
 DAMAGE_CAUSE_SWIM: '{prefix} {player_color}{player_name}§f утонул'
 DAMAGE_CAUSE_SWIM_TO: |-
-  {prefix} {player_color}{player_name}§f утонул, 
-  спасаясь от {killer_color}{killer_name} {is_final}
+  {prefix} {player_color}{player_name}§f утонул, спасаясь от {killer_color}{killer_name} {is_final}
 
 DAMAGE_CAUSE_DROP: '{prefix} {player_color}{player_name}§f разбился насмерть'
 DAMAGE_CAUSE_DROP_TO: |-
-  {prefix} {player_color}{player_name}§f был скинут 
-  игроком {killer_color}{killer_name} {is_final}
+  {prefix} {player_color}{player_name}§f был скинут игроком {killer_color}{killer_name} {is_final}
 
 DAMAGE_CAUSE_BURN: '{prefix} {player_color}{player_name}§f сгорел заживо'
 DAMAGE_CAUSE_BURN_TO: |-
-  {prefix} {player_color}{player_name}§f был сожжён дотла, 
-  пока боролся с {killer_color}{killer_name} {is_final}
+  {prefix} {player_color}{player_name}§f был сожжён дотла, пока боролся с {killer_color}{killer_name} {is_final}
 
 DAMAGE_CAUSE_SWIM2: '{prefix} {player_color}{player_name}§f решил поплавать в лаве'
 DAMAGE_CAUSE_SWIM2_TO: |-
@@ -175,23 +170,19 @@ DAMAGE_CAUSE_SWIM2_TO: |-
 
 DAMAGE_CAUSE_MAGIC: '{prefix} {player_color}{player_name}§f был убит с помощью магии'
 DAMAGE_CAUSE_MAGIC_TO: |-
-  {prefix} {player_color}{player_name}§f был убит с помощью магии 
-  игрока {killer_color}{killer_name} {is_final}
+  {prefix} {player_color}{player_name}§f был убит с помощью магии игрока {killer_color}{killer_name} {is_final}
 
 DAMAGE_CAUSE_BOW: '{prefix} {player_color}{player_name}§f застрелен'
 DAMAGE_CAUSE_BOW_TO: |-
-  {prefix} {player_color}{player_name}§f застрелен 
-  игроком {killer_color}{killer_name} {is_final}
+  {prefix} {player_color}{player_name}§f застрелен игроком {killer_color}{killer_name} {is_final}
 
 DAMAGE_CAUSE_OUT: '{prefix} {player_color}{player_name}§f выпал из мира'
 DAMAGE_CAUSE_OUT_TO: |-
-  {prefix} {player_color}{player_name}§f выпал из мира, 
-  пока боролся с {killer_color}{killer_name} {is_final}
+  {prefix} {player_color}{player_name}§f выпал из мира, пока боролся с {killer_color}{killer_name} {is_final}
 
 DAMAGE_CAUSE_KILLED: '{prefix} {player_color}{player_name}§f решил покинуть наш мир'
 DAMAGE_CAUSE_KILLED_TO: |-
-  {prefix} {player_color}{player_name}§f был убит 
-  игроком {killer_color}{killer_name} {is_final}
+  {prefix} {player_color}{player_name}§f был убит игроком {killer_color}{killer_name} {is_final}
 
 # Выйти из режима наблюдателя
 EXIT_OBSERVER_MODE: '§7Нажмите §e§lSHIFT§r§7, чтобы выйти из режима наблюдателя'
@@ -210,7 +201,7 @@ RESPAWN_TITLE: §aВы возрождены!
 # Сообщение в чате при уничтожении кровати
 BED_DESTROY_CHAT: |2
 
-  {prefix} §fКровать команды {team_color}{team_name}§f разрушена игроком {player_color}{player_name}!
+  {prefix} §fКровать команды {team_color}{team_name}§f разрушена игроком {player_color}{player_name}§f!
 
 # Сообщения на экране при разрушении кровати
 BED_DESTROY_TITLE: |
