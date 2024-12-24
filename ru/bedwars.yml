@@ -233,7 +233,7 @@ UPGRADES:
   healpool:  '§bПоле регенерации'
 SPECTATOR:
   COMPASS: '§aНаблюдение за игроками §7[ПКМ]'
-  EYE_OF_ENDER: '§aНачать новую игру'
+  NEXT_GAME: '§aНачать новую игру'
   SPEED_SETTING: '§aНастройка спектатора §7[ПКМ]'
   TO_LOBBY: '§aВернуться в лобби'
   TARGET: |
