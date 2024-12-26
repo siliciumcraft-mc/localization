@@ -42,7 +42,7 @@ PLAYTIME_MESSAGE: '{server_prefix} Вы провели на сервере §a{p
 YOU_HAVE_BEEN_SENT: '{server_prefix} {player_prefix}{player_name} §fтелепортировал вас на сервер §a{server_name}'
 SERVER_TELEPORTATION: '{server_prefix} §aВы были телепортированы на сервер §a{server_name}'
 SERVER_TO: '{server_prefix} Вы подключены к серверу §a{server_name}'
-REJOIN_NOTIFY: '{server_prefix} Вы можете перезайти в игру на сервере §a{server_name}. §fДля этого используйте §6/rejoin'
+REJOIN_NOTIFY: '{server_prefix} Вы можете вернуться в игру на сервере §a{server_name}. §fДля этого используйте §6/rejoin§f.'
 
 # Скины
 SKIN:
