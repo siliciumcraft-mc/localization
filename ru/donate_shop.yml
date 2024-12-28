@@ -9,7 +9,7 @@ ITEM_LORE: |
 ITEM: ' §8• §7{name} §8x{amount}   §8{additional_info}'
 CURRENCY: 'кристалл'
 
-ITEM_TITLE: '§r§aПредметы'
+ITEM_TITLE: '§r§2Предметы'
 
 NEXT_TITLE: '§aСледующая страница'
 PREVIOUS_TITLE: '§aПредыдущая страница'
