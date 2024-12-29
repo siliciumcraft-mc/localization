@@ -1,0 +1,16 @@
+PREFIX: '§6Анархия §8|'
+
+RTP:
+  BEFORE: '{prefix} §fПоиск локации...'
+  AFTER: '{prefix} §fВы были телепортированы на X: §6{x} §fY: §6{y}§f Z: §6{z}'
+  COOLDOWN: '{prefix} §cПодождите {delay} перед следующим использованием'
+CHAT:
+  LOCAL: '§8[§9L§8] '
+  GLOBAL: '§8[§6G§8] '
+CLEAR:
+  CLEARED: '§6Очистка §8| §fУдалено §a{amount}§f предметов!'
+  WARNING: '§6Очистка §8| §fВесь мусор будет удалён через §a{remaining}§f секунд!'
+RELOG:
+  BOSSBAR: '§cPVP §fзакончится через §c§l{time}§f секунд'
+  PLAYER_LEAVE: '{prefix} §fИгрок §a{player_prefix}{player_name} §fпокинул сервер в §a§lPVP §fи был §aубит'
+  COMMAND_BLOCKED: '{prefix} §fКоманды §cне работают §fво время §c§lPVP'

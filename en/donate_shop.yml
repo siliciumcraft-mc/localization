@@ -21,3 +21,13 @@ NO_MONEY: |
   Crystals purchases are only available on the website
               &5{domain} &7(click)
   
+INVENTORY_FULL: '§cНевозможно купить предмет – инвентарь переполнен'
+
+INFO_ITEM_TITLE: '§r§bИнформация'
+INFO_ITEM_LORE: |
+  §7В этом магазине вы можете приобрести
+  §7игровые предметы за внутреннюю валюту
+  §7сервера – §2кристаллы§7.
+
+  §7Покупка кристаллов осуществляется только
+  §7на сайте – §e{store_domain}§7.
