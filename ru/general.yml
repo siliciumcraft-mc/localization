@@ -162,12 +162,12 @@ TAB_HEADER: |
   §c§lRedMC.gg
   
   §fОнлайн-магазин:
-  §e{store_domain}
+  §4{store_domain}
 
 TAB_FOOTER: |
   
   §fВы находитесь на сервере:
-  §e{server}
+  §4{server}
 
 # Личные сообщения
 PRIVATE_MESSAGES:
