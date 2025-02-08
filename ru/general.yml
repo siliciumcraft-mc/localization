@@ -315,7 +315,7 @@ AUTO_MESSAGES:
     <click:OPEN_URL:"https://{support_url}"><hover:show_text:"Нажмите сюда для перехода по ссылке">
     <dark_gray> |<white> Возникли какие-то <green>проблемы</green> или <green>вопросы?</green>
     <dark_gray> |<white> Обратитесь в нашу <red>техническую поддержку</red>
-    <dark_gray> |<white> в <aqua>Telegram</aqua> и вам обязательно помогут! (кликабельно)</hover></click>
+    <dark_gray> |<white> и вам обязательно помогут! (кликабельно)</hover></click>
   - |
     <click:OPEN_URL:"https://t.me/redmc_gg"><hover:show_text:"Нажмите сюда для перехода по ссылке">
     <dark_gray> |<white> Подписывайтесь на наш <aqua>Telegram</aqua> канал,
