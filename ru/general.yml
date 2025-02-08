@@ -297,6 +297,7 @@ PARTY:
 # Автосообщения
 AUTO_MESSAGES:
   - |
+  
     <dark_gray> |<white> Хотите провести время не только с <red>удовольствием</red>,
     <dark_gray> |<white> но еще и с <green>пользой</green>? Участвуйте в турнирах
     <dark_gray> |<white> по <gold>BedWars</gold> и зарабатывайте на своём <light_purple>скилле</light_purple>!
@@ -313,11 +314,11 @@ AUTO_MESSAGES:
   - |
     <click:OPEN_URL:"https://{support_url}"><hover:show_text:"Нажмите сюда для перехода по ссылке">
     <dark_gray> |<white> Возникли какие-то <green>проблемы</green> или <green>вопросы?</green>
-    <dark_gray> |<white> Обратитесь в нашу техническую поддержку
-    <dark_gray> |<white> <red>RedMC Support</red> и вам обязательно помогут! </hover></click>
+    <dark_gray> |<white> Обратитесь в нашу <red>техническую поддержку</red>
+    <dark_gray> |<white> в <aqua>Telegram</aqua> и вам обязательно помогут! (кликабельно)</hover></click>
   - |
     <click:OPEN_URL:"https://t.me/redmc_gg"><hover:show_text:"Нажмите сюда для перехода по ссылке">
-    <dark_gray> |<white> Подписывайтесь на наш <dark_aqua>Telegram</dark_aqua> канал,
+    <dark_gray> |<white> Подписывайтесь на наш <aqua>Telegram</aqua> канал,
     <dark_gray> |<white> чтобы всегда быть в курсе всех <yellow>новостей</yellow>,
     <dark_gray> |<white> актуальных <light_purple>акций</light_purple> и <green>розыгрышей</green> на сервере!
   # - |
