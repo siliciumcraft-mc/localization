@@ -297,6 +297,10 @@ PARTY:
 # Автосообщения
 AUTO_MESSAGES:
   - |
+    <dark_gray> |<white> Хотите провести время не только с <red>удовольствием</red>,
+    <dark_gray> |<white> но еще и с <green>пользой</green>? Участвуйте в турнирах
+    <dark_gray> |<white> по <gold>BedWars</gold> и зарабатывайте на своём <light_purple>скилле</light_purple>!
+  - |
     <click:SUGGEST_COMMAND:/skin ><hover:show_text:"Нажмите сюда">
     <dark_gray> |<white> <red>⚠ Внимание <white>Хотите сменить скин?
     <dark_gray> |<white> Для всех игроков доступна
