@@ -23,7 +23,6 @@ ERROR:
   POSITIVE_INTEGER_ONLY: §cОшибка, нужно указывать только положительное целое число
   COOLDOWN: §cПодождите {time} секунд(ы) перед следующим использованием  # TODO
   SERVER_IS_NOT_ONLINE: §cСервер не найден!
-
   SERVER_FULL: §cСервер переполнен
   SERVER_IS_RELOADING: §cСервер перезагружается...
   OUTDATED_CLIENT: §cДанный сервер доступен на версии игры {version} или выше
