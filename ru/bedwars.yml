@@ -133,12 +133,12 @@ PLAYER_HEAD_BAR:
 SHOP_UPGRADES_TITLE: '§b§lКОМАНДНЫЕ УЛУЧШЕНИЯ'
 SHOP_ITEMS_TITLE: '§a§lМАГАЗИН ПРЕДМЕТОВ'
 SHOP_INFO:
-  MAX_LEVEL: '§cМаксимальный уровень'
+  MAX_LEVEL: '§cВы достигли максимального уровня!'
   COST:
     LABEL: '§fСтоимость: {rates}'
-    RATES: '{price}x {currency}'
+    RATES: '{price} × {currency}'
   PURCHASE:
-    AVAILABLE: '§aНажмите, чтобы купить'
+    AVAILABLE: '§aКликните, чтобы купить!'
     UNAVAILABLE: '§cСейчас вы не можете купить'
 
 # {player_color} - Killed player's team color
