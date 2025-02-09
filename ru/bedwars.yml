@@ -132,6 +132,14 @@ PLAYER_HEAD_BAR:
 # Заголовки магазинов
 SHOP_UPGRADES_TITLE: '§b§lКОМАНДНЫЕ УЛУЧШЕНИЯ'
 SHOP_ITEMS_TITLE: '§a§lМАГАЗИН ПРЕДМЕТОВ'
+SHOP_LORE:
+  MAX_LEVEL: '§cМаксимальный уровень'
+  COST:
+    LABEL: '§fСтоимость: {rates}'
+    RATES: '{price}x {currency}'
+  PURCHASE:
+    AVAILABLE: '§aНажмите, чтобы купить'
+    UNAVAILABLE: '§cСейчас вы не можете купить'
 
 # {player_color} - Killed player's team color
 # {deathPrefix} - Killed player's prefix
