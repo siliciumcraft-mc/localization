@@ -136,7 +136,7 @@ SHOP_INFO:
   MAX_LEVEL: '§cВы достигли максимального уровня!'
   COST:
     LABEL: '§fСтоимость: {rates}'
-    RATES: '{price} × {currency}'
+    RATES: '{price}x {currency}'
   PURCHASE:
     AVAILABLE: '§aКликните, чтобы купить!'
     UNAVAILABLE: '§cСейчас вы не можете купить'
