@@ -132,7 +132,7 @@ PLAYER_HEAD_BAR:
 # Заголовки магазинов
 SHOP_UPGRADES_TITLE: '§b§lКОМАНДНЫЕ УЛУЧШЕНИЯ'
 SHOP_ITEMS_TITLE: '§a§lМАГАЗИН ПРЕДМЕТОВ'
-SHOP_LORE:
+SHOP_INFO:
   MAX_LEVEL: '§cМаксимальный уровень'
   COST:
     LABEL: '§fСтоимость: {rates}'
