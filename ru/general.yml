@@ -340,6 +340,14 @@ AUTO_MESSAGES:
     <dark_gray> |<white> Приобретая <red><bold>PREMIUM</bold></red>, вы получаете
     <dark_gray> |<white> уникальный статус и огромное количество
     <dark_gray> |<white> <yellow>возможностей</yellow> и <light_purple>бонусов</light_purple> для комфортной игры </hover></click>
+
+CONNECT:
+  TELEGRAM:
+    SUCCESS: |
+      <click:OPEN_URL:"{connect_link}"><hover:show_text:"Нажмите сюда для перехода по ссылке"><dark_gray> |<white> Для привязки <aqua>Telegram</aqua> аккаунта, <gold>нажмите на это сообщение</gold>
+      <dark_gray> |<white> и <green>перейдите по ссылке</green> в специального бота</hover></click>
+    ERROR: "§cПроизошла ошибка :( Возможно, данный профиль уже привязан к другому аккаунту."
+    
 DONATE:
   TITLE: Статус Premium
   PAYMENT: |
