@@ -329,7 +329,7 @@ AUTO_MESSAGES:
     <click:SUGGEST_COMMAND:/connect telegram><hover:show_text:"Нажмите сюда">
     <dark_gray> |<white> Привяжите ваш <aqua>Telegram</aqua> аккаунт к профилю
     <dark_gray> |<white> на сервере, чтобы иметь возможность принимать участие
-    <dark_gray> |<white> в <gold>турнирах</gold>, а также получить бонус <dark_green>10 кристаллов!</dark_green></hover></click>
+    <dark_gray> |<white> в <gold>турнирах</gold>, а также получить бонус <dark_green>10 кристаллов</dark_green>!</hover></click>
   #- |
   #  <click:SUGGEST_COMMAND:/party ><hover:show_text:"Нажмите сюда">
   #  <dark_gray> |<white> Хотите поиграть <green>с друзьями</green> в мини-игры?
